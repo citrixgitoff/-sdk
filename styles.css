@@ -79,10 +79,15 @@
   background-color: #eee;
   text-align: center;
   font-family: 'citrixsans-regular', sans-serif;
+  height: 200px;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+  position: fixed;
 }
 
 .footer .text-muted {
   margin: 0;
-  padding: 20px;
+  padding: 100px;
   color: #555;
 }
