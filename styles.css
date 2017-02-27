@@ -78,18 +78,14 @@
 }
 
 .footer {
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  left: 0;
   background-color: #eee;
   text-align: center;
   font-family: 'citrixsans-regular', sans-serif;
   height: 100px;
+  line-height: 100px;
 }
 
 .footer .text-muted {
   margin: 0;
-  padding: 50px;
   color: #555;
 }
