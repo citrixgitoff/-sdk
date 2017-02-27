@@ -63,6 +63,9 @@
   width: 980px;
 }
 
+.body {
+  margin-bottom: 30px;
+}
 .products-item-links {
   padding-left: 0px;
   margin: 20px 0;
@@ -79,15 +82,15 @@
   background-color: #eee;
   text-align: center;
   font-family: 'citrixsans-regular', sans-serif;
-  height: 200px;
+  height: 150px;
   bottom: 0px;
   right: 0px;
   left: 0px;
-  position: absolute;
+  position: fixed;
 }
 
 .footer .text-muted {
   margin: 0;
-  padding: 100px;
+  padding: 75px;
   color: #555;
 }
