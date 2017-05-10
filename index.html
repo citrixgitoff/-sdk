@@ -2,7 +2,7 @@
 <html>
 <head>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-  <link rel="stylesheet" href="./styles.css" type="text/css">
+  <link rel="stylesheet" href="{{ pathto('_static/styles.css', 1) }}" type="text/css">
   <title>Citrix Developer Documentation</title>
 </head>
 <body>
@@ -11,14 +11,14 @@
     <div class="container">
       <div class="navbar-header">
         <a class="navbar-brand" href="https://citrix.github.io" target="_blank">
-          <img class="navbar-brand-img" src="./Citrix_Logo_Black.png">
+          <img class="navbar-brand-img" src="{{ pathto('_static/Citrix_Logo_Black.png', 1) }}">
         </a>
       </div>
       <ul class="nav navbar-nav navbar-right">
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="navbar-nav-right-icon glyphicon glyphicon-globe"></span><span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="https://ajitchelat.github.io/sdk/zh-cn/">简体中文</a></li>
+            <li><a href="{{ pathto('zh-cn/', 1) }}">简体中文</a></li>
             <li role="separator" class="divider"></li>
             <li><a><strong>Related sites:</strong></a></li>
             <li><a href="https://docs.citrix.com">docs.citrix.com</a></li>
