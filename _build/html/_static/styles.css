@@ -1,0 +1,91 @@
+.navbar {
+  margin-bottom: 0;
+}
+
+.navbar-brand {
+  display: inline-block;
+  height: auto;
+}
+
+.navbar-brand-img {
+  height: 34px;
+}
+
+.navbar-nav>li>a {
+  line-height: 34px;
+}
+
+.navbar-nav-right-icon {
+  font-size: 2.5rem;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+.jumbotron {
+  background-color: rgb(47, 79, 79);
+  background-size: cover;
+}
+
+.jumbotron-title {
+  text-align: center;
+  color: #fff !important;
+  font-size: 3rem !important;
+  font-family: 'citrixsans-regular', sans-serif;
+}
+
+.products-title {
+  text-align: center;
+  color: gray;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  letter-spacing: 0.1rem;
+  font-family: 'citrixsans-regular', sans-serif;
+}
+
+.products-item {
+  margin-top: 20px;
+}
+
+.products-item-title {
+  background: darkslategray;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  border-radius: 4px;
+  font-weight: normal;
+  font-size: 1.5rem;
+  font-family: 'citrixsans-regular', sans-serif;
+}
+
+
+.products-container {
+  width: 980px;
+}
+
+.body {
+  margin-bottom: 30px;
+}
+.products-item-links {
+  padding-left: 0px;
+  margin: 20px 0;
+  text-align: center;
+  font-family: 'citrixsans-regular', sans-serif;
+}
+
+.products-item-links > li {
+  margin: 5px 0;
+  list-style-type: none;
+}
+
+.footer {
+  background-color: #eee;
+  text-align: center;
+  font-family: 'citrixsans-regular', sans-serif;
+  height: 100px;
+  line-height: 100px;
+}
+
+.footer .text-muted {
+  margin: 0;
+  color: #555;
+}
