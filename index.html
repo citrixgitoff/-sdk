@@ -1,167 +1,397 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta charset="UTF-8">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-<link rel="stylesheet" href="{{ pathto('_static/styles.css', 1) }}" type="text/css">
-<title>Citrix Developer Documentation</title>
-</head>
-<body>
-<!-- Header navbar -->
-<nav class="navbar navbar-default">
-  <div class="container">
-    <div class="navbar-header">
-      <a class="navbar-brand" href="https://www.citrix.com" target="_blank">
-        <img class="navbar-brand-img" src="{{ pathto('_static/Citrix_Logo_Black.png', 1) }}">
-      </a>
-    </div>
-    <ul class="nav navbar-nav navbar-right">
-      <li class="dropdown">
-        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="navbar-nav-right-icon glyphicon glyphicon-globe"></span><span class="caret"></span></a>
-        <ul class="dropdown-menu">
-          <li><a href="{{ pathto('zh-cn/', 1) }}">简体中文</a></li>
-          <li role="separator" class="divider"></li>
-          <li><a><strong>Related sites:</strong></a></li>
-          <li><a href="https://docs.citrix.com" target="_blank">Citrix Product Documentation</a></li>
-          <li><a href="https://developer.citrix.com" target="_blank">Citrix Developer</a></li>
-        </ul>
-      </li>
-    </ul>
-  </div>
-</nav><!-- /Header navbar ends -->
 
-<!-- Jumbotron starts here -->
-<div class="jumbotron">
-  <h1 class="jumbotron-title">Developer Documentation</h1>
-</div><!-- /Jumbotron ends here -->
-<div class="container">
-<!-- Products starts here -->
-<div class="products row">
-  <h3 class="products-title">Products</h3>
-  <div class="products-container container">
-    <div class="row">
-    <div class="col-md-12">
-      <div class="products-item col-md-4">
-        <h4 class="products-item-title">XenApp and XenDesktop</h4>
-        <ul class="products-item-links">
-          <li>
-            <a href="https://developer-docs.citrix.com/projects/delivery-controller-sdk/en/latest/" target="_blank">Delivery Controller SDK</a>
-          </li>
-          <li>
-            <a href="https://developer-docs.citrix.com/projects/monitor-service-odata-api/en/latest/" target="_blank">Monitor Service OData API</a>
-          </li>
-        </ul>
-      </div>
-      <div class="products-item col-md-4">
-        <h4 class="products-item-title">Citrix Receiver</h4>
-        <ul class="products-item-links">
-          <li>
-            <a href="https://developer-docs.citrix.com/projects/receiver-html5-sdk/en/latest/" target="_blank">Citrix Receiver for HTML5 SDK</a>
-          </li>
-          <li>
-            <a href="https://developer-docs.citrix.com/projects/receiver-for-android-virtual-channel-sdk/en/latest/" target="_blank">Citrix Virtual Channel SDK for Android</a>
-          </li>
-          <li>
-            <a href="https://developer-docs.citrix.com/projects/receiver-for-windows-virtual-channel-sdk/en/latest/" target="_blank">Citrix Virtual Channel SDK for Windows</a>
-          </li>
-          <li>
-            <a href="https://developer-docs.citrix.com/projects/fast-connect-api-for-receiver-for-windows/en/latest/" target="_blank">Fast Connect 3 Credential Insertion API for Citrix Receiver for Windows</a>
-          </li>
-          <li>
-            <a href="https://developer-docs.citrix.com/projects/receiver-for-linux-virtual-channel-sdk/en/latest/" target="_blank">Citrix Virtual Channel SDK for Linux</a>
-          </li>
-          <li>
-            <a href="https://developer-docs.citrix.com/projects/receiver-for-linux-command-reference/en/latest/" target="_blank">Citrix Receiver for Linux Command Reference</a>
-          </li>
-          <li>
-            <a href="https://developer-docs.citrix.com/projects/hdx-sdk-for-receiver-for-chrome/en/latest/" target="_blank">HDX SDK for Citrix Receiver for Chrome</a>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <link rel="stylesheet" href="{{ pathto('_static/styles.css', 1) }}" type="text/css">
+
+    <title>Citrix Developer Documentation</title>
+  </head>
+
+  <body>
+    <!-- Header navbar -->
+
+    <nav class="navbar navbar-default">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+           <a class="navbar-brand" href="https://www.citrix.com" target="_blank">
+            <span><img class="navbar-brand-img" src="{{ pathto('_static/Citrix_Logo_Black.png', 1) }}"><span class="inline-logo-title"> | Developer Documentation</span></span>
+          </a>
+          </div>
+          <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="navbar-nav-right-icon glyphicon glyphicon-globe"></span><span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="{{ pathto('zh-cn/', 1) }}">简体中文</a></li>
+
+            </ul>
           </li>
         </ul>
-      </div>
-      <div class="products-item col-md-4">
-        <h4 class="products-item-title">XenServer</h4>
-        <ul class="products-item-links">
-          <li>
-            <a href="https://developer-docs.citrix.com/projects/xenserver-sdk/en/latest/" target="_blank">XenServer SDK</a>
-          </li>
-          <li>
-            <a href="https://developer-docs.citrix.com/projects/xenserver-management-api/en/latest/" target="_blank">XenServer Management API</a>
-          </li>
-        </ul>
-      </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-12">
-      <div class="products-item col-md-4">
-        <h4 class="products-item-title">Provisioning Services</h4>
-        <ul class="products-item-links">
-          <li>
-            <a href="https://developer-docs.citrix.com/projects/provisioning-services-sdk/en/latest/" target="_blank">Provisioning Services SOAP Server Programmer's Guide</a>
-          </li>
-          <li>
-            <a href="https://developer-docs.citrix.com/projects/provisioning-services-powershell-object-programming-guide/en/latest/" target="_blank">Provisioning Services PowerShell with Object Programmer's Guide</a>
-          </li>
-        </ul>
-      </div>
-      <div class="products-item col-md-4">
-        <h4 class="products-item-title">AppDNA</h4>
-        <ul class="products-item-links">
-          <li>
-            <a href="https://developer-docs.citrix.com/projects/appdna-sdk/en/latest/" target="_blank">AppDNA SDK</a>
-          </li>
-        </ul>
-      </div>
-      <div class="products-item col-md-4">
-        <h4 class="products-item-title">ShareFile</h4>
-        <ul class="products-item-links">
-          <li>
-            <a href="https://api.sharefile.com" target="_blank">ShareFile API Documentation</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-md-12">
-      <div class="products-item col-md-4">
-        <h4 class="products-item-title">Citrix Cloud</h4>
-        <ul class="products-item-links">
-          <li>
-            <a href="https://developer.cloud.com/index.html" target="_blank">Citrix Cloud APIs</a>
-          </li>
+          </div><!--/.nav-collapse -->
+        </div><!--/.container-fluid -->
+      </nav>
+  <!--  <nav class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="https://www.citrix.com" target="_blank">
+            <span><img class="navbar-brand-img" src="Citrix_Logo_Black.png"><span class="inline-logo-title"> | Developer Documentation</span></span>
+          </a>
         </div>
-      <div class="products-item col-md-4">
-        <h4 class="products-item-title">StoreFront</h4>
-        <ul class="products-item-links">
-          <li>
-            <a href="https://developer-docs.citrix.com/projects/storefront-sdk/en/latest/" target="_blank">StoreFront SDK</a>
+        <ul class="nav navbar-nav navbar-right">
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="navbar-nav-right-icon glyphicon glyphicon-globe"></span><span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="{{ pathto('zh-cn/', 1) }}">简体中文</a></li>
+
+            </ul>
           </li>
         </ul>
       </div>
-      <div class="products-item col-md-4">
-        <h4 class="products-item-title">NetScaler</h4>
-        <ul class="products-item-links">
-          <li>
-            <a href="https://developer-docs.citrix.com/projects/netscaler-snmp-oid-reference/en/12.0/" target="_blank">NetScaler SNMP OID Reference</a>
-          </li>
-          <li>
-            <a href="https://developer-docs.citrix.com/projects/netscaler-syslog-message-reference/en/12.0/" target="_blank">NetScaler Syslog Message Reference</a>
-          </li>
-        </ul>
+    </nav>-->
+    <!-- /Header navbar ends -->
+
+    <!-- Jumbotron starts here -->
+    <div class="jumbotron">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-2 hidden-xs hidden-sm"><i class="fa fa-newspaper-o fa-5x" style="color: #fff"></i>
+          </div>
+          <div class="col-md-10">
+            <p style="color: #fff;font-size: 18px;position: relative;top: 5px">Citrix provides a full range of technical documentation for our products - old and new. This site contains command references, API references, SDK documentation and libraries of example programs for our developer community.</p>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-</div><!-- /Products ends here -->
-</div>
-</div>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-<footer class="footer">
-<p class="text-muted">
-  <strong>Related sites: </strong>
-    <a href="https://docs.citrix.com" target="_blank">docs.citrix.com </a> / <a href="https://developer.citrix.com" target="_blank">developer.citrix.com </a>
-</p>
-</footer>
-</body>
+    <!-- /Jumbotron ends here -->
+    <div class="container" style="margin-top: 20px;margin-bottom: 20px">
+      <div class="row push-down-desktop-mode">
+        <div class="col-md-4 col-sm-4 col-xs-12 products-container">
+          <div class="col-md-3 col-sm-3 col-xs-3 thumbnail-product-circle">
+              <img src="{{ pathto('_static/AppDNA.png', 1) }}" alt="pencil" class="img-circle" style="height: 70px;">
+          </div>
+          <div class="col-md-9 col-sm-9 col-xs-9" style="float: left">
+            <h3>AppDNA</h3>
+            <ul>
+              <li><a href="https://developer-docs.citrix.com/projects/appdna-sdk/en/latest/" target="_blank">AppDNA SDK</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-4 col-xs-12 products-container">
+        <div class="col-md-3 col-sm-3 col-xs-3 thumbnail-product-circle">
+              <img src="{{ pathto('_static/CitrixCloud.png', 1) }}" alt="pencil" class="img-circle" style="height: 70px;">
+          </div>
+          <div class="col-md-9 col-sm-9 col-xs-9" style="float: left">
+          <h3>Citrix Cloud</h3>
+          <ul>
+            <li><a href="https://developer.cloud.com/index.html" target="_blank">Citrix Cloud APIs</a></li>
+          </ul>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-4 col-xs-12 products-container">
+        <div class="col-md-3 col-sm-3 col-xs-3 thumbnail-product-circle">
+              <img src="{{ pathto('_static/receiver-icons-package.png', 1) }}" alt="pencil" class="img-circle" style="height: 70px;">
+          </div>
+          <div class="col-md-9 col-sm-9 col-xs-9 " style="float: left">
+        <h3>Citrix Receiver for Android</h3>
+        <ul>
+          <li><a href="https://developer-docs.citrix.com/projects/receiver-for-android-virtual-channel-sdk/en/latest/" target="_blank">Citrix Virtual Channel SDK for Android</a></li>
+        </ul>
+        </div>
+      </div>
+    </div>
+    <div class="row push-down-desktop-mode">
+      <div class="col-md-4 col-sm-4 col-xs-12 products-container">
+      <div class="col-md-3 col-sm-3 col-xs-3 thumbnail-product-circle">
+            <img src="{{ pathto('_static/receiver-icons-package.png', 1) }}" alt="pencil" class="img-circle" style="height: 70px;">
+        </div>
+        <div class="col-md-9 col-sm-9 col-xs-9" style="float: left">
+        <h3>Citrix Receiver for Chrome</h3>
+        <ul>
+          <li><a href="https://developer-docs.citrix.com/projects/hdx-sdk-for-receiver-for-chrome/en/latest/" target="_blank">HDX SDK for Citrix Receiver for Chrome</a></li>
+        </ul>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-4 col-xs-12 products-container">
+      <div class="col-md-3 col-sm-3 col-xs-3 thumbnail-product-circle">
+            <img src="{{ pathto('_static/receiver-icons-package.png', 1) }}" alt="pencil" class="img-circle" style="height: 70px;">
+        </div>
+        <div class="col-md-9 col-sm-9 col-xs-9" style="float: left">
+        <h3>Citrix Receiver for HTML5</h3>
+        <ul>
+          <li><a href="https://developer-docs.citrix.com/projects/receiver-html5-sdk/en/latest/" target="_blank">Citrix Receiver for HTML5 SDK</a></li>
+        </ul>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-4 col-xs-12 products-container">
+      <div class="col-md-3 col-sm-3 col-xs-3 thumbnail-product-circle">
+            <img src="{{ pathto('_static/receiver-icons-package.png', 1) }}" alt="pencil" class="img-circle" style="height: 70px;">
+        </div>
+        <div class="col-md-9 col-sm-9 col-xs-9" style="float: left">
+        <h3>Citrix Receiver for Linux</h3>
+        <ul>
+          <li><a href="https://developer-docs.citrix.com/projects/receiver-for-linux-virtual-channel-sdk/en/latest/" target="_blank">Citrix Virtual Channel SDK for Linux</a></li>
+          <li><a href="https://developer-docs.citrix.com/projects/receiver-for-linux-command-reference/en/latest/" target="_blank">Citrix Receiver for Linux Command Reference</a></li>
+        </ul>
+        </div>
+      </div>
+    </div>
+    <div class="row push-down-desktop-mode">
+      <div class="col-md-4 col-sm-4 col-xs-12 products-container">
+      <div class="col-md-3 col-sm-3 col-xs-3 thumbnail-product-circle">
+            <img src="{{ pathto('_static/receiver-icons-package.png', 1) }}" alt="pencil" class="img-circle" style="height: 70px;">
+        </div>
+        <div class="col-md-9 col-sm-9 col-xs-9" style="float: left">
+        <h3>Citrix Receiver for Windows</h3>
+        <ul>
+          <li><a href="https://developer-docs.citrix.com/projects/receiver-for-windows-virtual-channel-sdk/en/latest/" target="_blank">Citrix Virtual Channel SDK for Windows</a></li>
+          <li><a href="https://developer-docs.citrix.com/projects/fast-connect-api-for-receiver-for-windows/en/latest/" target="_blank">Fast Connect 3 Credential Insertion API for Citrix Receiver for Windows</a></li>
+        </ul>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-4 col-xs-12 products-container">
+      <div class="col-md-3 col-sm-3 col-xs-3 thumbnail-product-circle">
+            <img src="{{ pathto('_static/NetScaler.png', 1) }}" alt="pencil" class="img-circle" style="height: 70px;">
+        </div>
+        <div class="col-md-9 col-sm-9 col-xs-9" style="float: left">
+        <h3>NetScaler</h3>
+        <ul>
+          <li><a href="https://developer-docs.citrix.com/projects/netscaler-snmp-oid-reference/en/12.0/" target="_blank">NetScaler SNMP OID Reference</a></li>
+          <li><a href="https://developer-docs.citrix.com/projects/netscaler-syslog-message-reference/en/12.0/" target="_blank">NetScaler Syslog Message Reference</a></li>
+        </ul>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-4 col-xs-12 products-container">
+      <div class="col-md-3 col-sm-3 col-xs-3 thumbnail-product-circle">
+            <img src="{{ pathto('_static/thumbnail-logo.png', 1) }}" alt="pencil" class="img-circle" style="height: 70px;">
+        </div>
+        <div class="col-md-9 col-sm-9 col-xs-9" style="float: left">
+        <h3>Provisioning Services</h3>
+        <ul>
+          <li><a href="https://developer-docs.citrix.com/projects/provisioning-services-sdk/en/latest/" target="_blank">Provisioning Services SOAP Server Programmer's Guide</a></li>
+          <li><a href="https://developer-docs.citrix.com/projects/provisioning-services-powershell-object-programming-guide/en/latest/" target="_blank">Provisioning Services PowerShell with Object Programmer's Guide</a></li>
+        </ul>
+        </div>
+      </div>
+    </div>
+    <div class="row push-down-desktop-mode">
+      <div class="col-md-4 col-sm-4 col-xs-12 products-container">
+      <div class="col-md-3 col-sm-3 col-xs-3 thumbnail-product-circle">
+            <img src="{{ pathto('_static/ShareFile-icon.png', 1) }}" alt="pencil" class="img-circle" style="height: 70px;">
+        </div>
+        <div class="col-md-9 col-sm-9 col-xs-9" style="float: left">
+        <h3>ShareFile</h3>
+        <ul>
+          <li><a href="https://api.sharefile.com" target="_blank">Sharefile API Documentation</a></li>
+        </ul>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-4 col-xs-12 products-container">
+      <div class="col-md-3 col-sm-3 col-xs-3 thumbnail-product-circle">
+            <img src="{{ pathto('_static/StoreFront.png', 1) }}" alt="pencil" class="img-circle" style="height: 70px;">
+        </div>
+        <div class="col-md-9 col-sm-9 col-xs-9" style="float: left">
+        <h3>StoreFront</h3>
+        <ul>
+          <li><a href="https://developer-docs.citrix.com/projects/storefront-sdk/en/latest/" target="_blank">StoreFront SDK</a></li>
+        </ul>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-4 col-xs-12 products-container">
+      <div class="col-md-3 col-sm-3 col-xs-3 thumbnail-product-circle">
+            <img src="{{ pathto('_static/XenServer.png', 1) }}" alt="pencil" class="img-circle" style="height: 70px;">
+        </div>
+        <div class="col-md-9 col-sm-9 col-xs-9" style="float: left">
+        <h3>XenServer</h3>
+        <ul>
+          <li><a href="https://developer-docs.citrix.com/projects/xenserver-sdk/en/latest/" target="_blank">XenServer SDK</a></li>
+          <li><a href="https://developer-docs.citrix.com/projects/xenserver-management-api/en/latest/" target="_blank">XenServer Management API</a></li>
+        </ul>
+        </div>
+      </div>
+    </div>
+    <div class="row push-down-desktop-mode">
+      <div class="col-md-4 col-sm-4 col-xs-12 products-container">
+      <div class="col-md-3 col-sm-3 col-xs-3 thumbnail-product-circle">
+            <img src="{{ pathto('_static/XAXD.svg', 1) }}" alt="pencil" class="img-circle" style="height: 70px;">
+        </div>
+        <div class="col-md-9 col-sm-9 col-xs-9" style="float: left">
+        <h3>XenApp and XenDesktop</h3>
+        <ul>
+          <li><a href="https://developer-docs.citrix.com/projects/delivery-controller-sdk/en/latest/" target="_blank">Delivery Controller SDK</a></li>
+          <li><a href="https://developer-docs.citrix.com/projects/monitor-service-odata-api/en/latest/" target="_blank">Monitor Service OData API</a></li>
+        </ul>
+        </div>
+      </div>
+    </div>
+      <div class="col-md-4 col-sm-4 col-xs-12 products-container">
+
+      </div>
+    </div>
+      <!-- Products starts here -->
+      <!-- <div class="products row">
+
+    <div class="products-container container">
+      <div class="row">
+      <div class="col-md-12">
+        <div class="products-item col-md-4">
+          <h4 class="products-item-title">XenApp and XenDesktop</h4>
+          <ul class="products-item-links">
+            <li>
+              <a href="https://developer-docs.citrix.com/projects/delivery-controller-sdk/en/latest/">Delivery Controller SDK</a>
+            </li>
+            <li>
+              <a href="https://developer-docs.citrix.com/projects/monitor-service-odata-api/en/latest/">Monitor Service OData API</a>
+            </li>
+          </ul>
+        </div>
+        <div class="products-item col-md-4">
+          <h4 class="products-item-title">Citrix Receiver</h4>
+          <ul class="products-item-links">
+            <li>
+              <a href="https://developer-docs.citrix.com/projects/receiver-html5-sdk/en/latest/">Citrix Receiver for HTML5 SDK</a>
+            </li>
+            <li>
+              <a href="https://developer-docs.citrix.com/projects/receiver-for-android-virtual-channel-sdk/en/latest/">Citrix Virtual Channel SDK for Android</a>
+            </li>
+            <li>
+              <a href="https://developer-docs.citrix.com/projects/receiver-for-windows-virtual-channel-sdk/en/latest/">Citrix Virtual Channel SDK for Windows</a>
+            </li>
+            <li>
+              <a href="https://developer-docs.citrix.com/projects/fast-connect-api-for-receiver-for-windows/en/latest/">Fast Connect 3 Credential Insertion API for Citrix Receiver for Windows</a>
+            </li>
+            <li>
+              <a href="https://developer-docs.citrix.com/projects/receiver-for-linux-virtual-channel-sdk/en/latest/">Citrix Virtual Channel SDK for Linux</a>
+            </li>
+            <li>
+              <a href="https://developer-docs.citrix.com/projects/receiver-for-linux-command-reference/en/latest/">Citrix Receiver for Linux Command Reference</a>
+            </li>
+            <li>
+              <a href="https://developer-docs.citrix.com/projects/hdx-sdk-for-receiver-for-chrome/en/latest/">HDX SDK for Citrix Receiver for Chrome</a>
+            </li>
+          </ul>
+        </div>
+        <div class="products-item col-md-4">
+          <h4 class="products-item-title">XenServer</h4>
+          <ul class="products-item-links">
+            <li>
+              <a href="https://developer-docs.citrix.com/projects/xenserver-sdk/en/latest/">XenServer SDK</a>
+            </li>
+            <li>
+              <a href="https://developer-docs.citrix.com/projects/xenserver-management-api/en/latest/">XenServer Management API</a>
+            </li>
+          </ul>
+        </div>
+        </div>
+      </div>
+        <div class="products-item col-md-4">
+          <h4 class="products-item-title">Provisioning Services</h4>
+          <ul class="products-item-links">
+            <li>
+              <a href="https://developer-docs.citrix.com/projects/provisioning-services-sdk/en/latest/">Provisioning Services SOAP Server Programmer's Guide</a>
+            </li>
+            <li>
+              <a href="https://developer-docs.citrix.com/projects/provisioning-services-powershell-object-programming-guide/en/latest/">Provisioning Services PowerShell with Object Programmer's Guide</a>
+            </li>
+          </ul>
+        </div>
+        <div class="products-item col-md-4">
+          <h4 class="products-item-title">AppDNA</h4>
+          <ul class="products-item-links">
+            <li>
+              <a href="https://developer-docs.citrix.com/projects/appdna-sdk/en/latest/">AppDNA SDK</a>
+            </li>
+          </ul>
+        </div>
+        <div class="products-item col-md-4">
+          <h4 class="products-item-title">ShareFile</h4>
+          <ul class="products-item-links">
+            <li>
+              <a href="https://api.ShareFile.com">ShareFile API Documentation</a>
+            </li>
+          </ul>
+        </div>
+        <div class="products-item col-md-4">
+          <h4 class="products-item-title">Citrix Cloud</h4>
+          <ul class="products-item-links">
+            <li>
+              <a href="https://developer.cloud.com/index.html">Citrix Cloud APIs</a>
+            </li>
+          </div>
+        <div class="products-item col-md-4">
+          <h4 class="products-item-title">StoreFront</h4>
+          <ul class="products-item-links">
+            <li>
+              <a href="https://developer-docs.citrix.com/projects/storefront-sdk/en/latest/">StoreFront SDK</a>
+            </li>
+          </ul>
+        </div>
+  </div>-->
+      <!-- /Products ends here -->
+    </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+     <footer class="footer sticky-footer">
+      <div class="container" style="margin-top: 10px">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" style="margin-bottom: 15px">
+            <div class="col-md-12">
+              <p style="float: left;"> Related Sites</p>
+              <br>
+            </div>
+            <div class="col-md-12" style="margin-left: -40px">
+              <ul class="inline-style">
+                <li><a href="http://docs.citrix.com/" target="_blank">Citrix Product Documentation</a></li>
+                <li><a href="https://www.citrix.com/community/citrix-developer/?_ga=2.235462337.1515201298.1493764061-1140001981.1460126806" target="_blank">Citrix Developer</a></li>
+                <li><a href="https://www.citrix.com/login?url=http%3A%2F%2Fdiscussions.citrix.com%2Fforum%2F10-citrix-developer-network-cdn-forums%2F" target="_blank">Citrix Developer Exchange</a></li>
+                <li><a href="https://www.citrix.com/blogs/?_ga=2.218841244.48035810.1496656693-1340791300.1496656693" target="_blank">Blogs</a></li>
+                <li><a href="https://www.citrix.com/community/?_ga=2.235462337.1515201298.1493764061-1140001981.1460126806" target="_blank">Citrix Community</a></li>
+                <li><a href="https://www.citrix.com/support/?_ga=2.235462337.1515201298.1493764061-1140001981.1460126806" target="_blank">Support</a></li>
+                <li><a href="http://training.citrix.com/?_ga=2.235462337.1515201298.1493764061-1140001981.1460126806" target="_blank">Citrix Education</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" style="margin-bottom: 15px">
+            <div class="col-md-12">
+              <p style="float: left;"> Follow Us</p>
+              <br>
+            </div>
+            <div class="col-md-12" style="margin-left: -40px">
+              <ul class="inline-style icons">
+                <li><a href="https://twitter.com/citrixdeveloper" target="_blank"><i class="fa fa-twitter-square"></i></a></li>
+                <li><a href="https://www.linkedin.com/company/citrix" target="_blank"><i class="fa fa-linkedin-square"></i></a></li>
+                <li><a href="https://www.facebook.com/Citrix/" target="_blank"><i class="fa fa-facebook-square"></i></a></li>
+                <li><a href="https://plus.google.com/u/0/111146476547184575062" target="_blank"><i class="fa fa-google-plus-square" aria-hidden="true"></i></a></li>
+                <li><a href="https://instagram.com/citrix/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                <li><a href="https://www.youtube.com/channel/UCiOupk9QF6jdk3EDKTHDykA" target="_blank"><i class="fa fa-youtube-square"></i></a></li>
+              </ul>
+            </div>
+            <br>
+
+            <div class="col-md-12"  style="margin-left: -40px">
+
+              <ul class="inline-style">
+                <li><span>© 1999-2017 Citrix Systems, Inc. All rights reserved  |   </span><a href="https://www.citrix.com/about/legal/legal-notice/?_ga=2.147541426.48035810.1496656693-1340791300.1496656693">Privacy and Terms</a></li>
+
+            </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </footer>
+    <script src="https://use.fontawesome.com/0de2855273.js"></script>
+  </body>
+
 </html>

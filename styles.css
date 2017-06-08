@@ -1,3 +1,42 @@
+@import url("//s3.amazonaws.com/citrix-cdn/can.cdn/marketing/assets/fonts/citrix-fonts.css?v=dta-home-page-redesign-4");
+
+/* go on with normal style definitions */
+html, body, div, span, applet, object, iframe,
+p, blockquote, pre,
+a, abbr, acronym, address, big, cite,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video ,input[type="text"]{
+    font-family: 'citrixsans-regular';
+}
+
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+
+.footer {
+  position: absolute;
+  bottom: -150px;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 100px;
+  background-color: #f5f5f5;
+}
+
 .navbar {
   margin-bottom: 0;
 }
@@ -22,7 +61,7 @@
 }
 
 .jumbotron {
-  background-color: rgb(47, 79, 79);
+  background-color: rgb(35, 170, 226);
   background-size: cover;
 }
 
@@ -30,7 +69,6 @@
   text-align: center;
   color: #fff !important;
   font-size: 3rem !important;
-  font-family: 'citrixsans-regular', sans-serif;
 }
 
 .products-title {
@@ -39,7 +77,6 @@
   text-transform: uppercase;
   font-size: 1.5rem;
   letter-spacing: 0.1rem;
-  font-family: 'citrixsans-regular', sans-serif;
 }
 
 .products-item {
@@ -54,22 +91,34 @@
   border-radius: 4px;
   font-weight: normal;
   font-size: 1.5rem;
-  font-family: 'citrixsans-regular', sans-serif;
 }
 
+.products-container h3 {
+  color: #656464;
+  font-size: 21px;
+}
 
-.products-container {
-  width: 980px;
+.products-container ul li,
+.products-container ul li a {
+  color: rgb(35, 170, 226);
+  font-size: 13px;
+}
+
+.products-container ul li {
+  margin-bottom: 10px;
+  position: relative;
+  margin-left: -40px;
+  list-style-type: none
 }
 
 .body {
   margin-bottom: 30px;
 }
+
 .products-item-links {
   padding-left: 0px;
   margin: 20px 0;
   text-align: center;
-  font-family: 'citrixsans-regular', sans-serif;
 }
 
 .products-item-links > li {
@@ -80,12 +129,99 @@
 .footer {
   background-color: #eee;
   text-align: center;
-  font-family: 'citrixsans-regular', sans-serif;
-  height: 100px;
-  line-height: 100px;
+  height: 200px;
+  line-height: 30px;
 }
 
 .footer .text-muted {
   margin: 0;
   color: #555;
+}
+
+.inline-logo-title {
+  font-size: 20px;
+  position: relative;
+  top: 2px
+}
+
+.push-down-desktop-mode {
+  margin-bottom: 20px
+}
+
+.thumbnail-product-circle {
+  float: left;
+  position: relative;
+  top: 15px;
+}
+
+.inline-style ul {
+  float: left;
+}
+
+.inline-style li {
+  list-style-type: none !important;
+  float: left;
+  margin-right: 10px;
+  position: relative;
+}
+
+.inline-style li a {
+  font-size: 13px
+}
+
+.icons li a i {
+  font-size: 25px
+}
+
+@media screen and (min-device-width: 360px) {
+ /* .push-down-desktop-mode {
+    margin-bottom: 0px !important
+  }*/
+}
+
+
+/* Portrait */
+
+@media screen and (min-device-width: 400px) and (orientation: portrait) {
+ /* .push-down-desktop-mode {
+    margin-bottom: 0px !important
+  }*/
+}
+
+
+/* Landscape */
+
+@media screen and (device-width: 400px) and (orientation: landscape) {
+
+}
+
+@media (max-width: 400px) {
+  .footer {
+    height: 300px !important;
+    margin-top: 100px !important
+  }
+  .inline-logo-title {
+    font-size: 13px !important;
+    position: relative;
+    top: 0px;
+  }
+  .navbar-brand-img {
+    height: 20px
+  }
+  .footer {
+    height: auto !important;
+    bottom:-250px;
+  }
+  .jumbotron p {
+    font-size: 15px !important
+  }
+   .push-down-desktop-mode {
+    margin-bottom: 0px !important
+  }
+}
+
+@media (max-width: 1024px) {
+  .push-down-desktop-mode {
+    margin-bottom: 0px !important
+  }
 }
