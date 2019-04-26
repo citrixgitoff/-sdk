@@ -145,7 +145,8 @@ body {
 }
 
 .push-down-desktop-mode {
-  margin-bottom: 20px
+  margin-bottom: 20px;
+  margin-top: 35px;
 }
 
 .thumbnail-product-circle {
