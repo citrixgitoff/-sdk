@@ -3,7 +3,7 @@
 extensions = []
 
 project = u'SDK'
-copyright = u'2017, Citrix'
+copyright = u'2019, Citrix'
 author = u'Citrix'
 version = u'1.0'
 release = u'1.0'
@@ -20,5 +20,13 @@ todo_include_todos = False
 
 html_additional_pages = {
     'index': 'index.html',
-    'zh-cn/index': 'zh-cn/index.html',
+    'citrix-cloud/index': 'citrix-cloud/index.html',
+    'citrix-endpoint-management/index': 'citrix-endpoint-management/index.html',
+    'citrix-hypervisor/index': 'citrix-hypervisor/index.html',
+    'citrix-provisioning/index': 'citrix-provisioning/index.html',
+    'citrix-virtual-apps-desktops/index': 'citrix-virtual-apps-desktops/index.html',
+    'citrix-workspace/index': 'citrix-workspace/index.html',
+    'citrix-networking/index': 'citrix-networking/index.html',
+    'storefront/index': 'storefront/index.html',
+    'citrix-workspace/index': 'citrix-workspace/index.html'
 }
