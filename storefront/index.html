@@ -11,16 +11,27 @@
 
     <title>Citrix Developer Documentation</title>
     <meta name="google-site-verification" content="1Wh0frgAsMk_9bvhlqikSVpVii-UUGbdQsKWe4WqTrQ" />
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-59929653-12"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'UA-59929653-12');
-</script>
+    <!-- RTD Extra Head -->
 
+    <!-- 
+Always link to the latest version, as canonical.
+http://docs.readthedocs.org/en/latest/canonical.html
+-->
+    <link rel="canonical" href="https://developer-docs.citrix.com/" />
+
+    <link rel="stylesheet" href="https://media.readthedocs.com/css/readthedocs-doc-embed.css" type="text/css" />
+
+    <script type="text/javascript" src="_static/readthedocs-data.js"></script>
+
+    <!-- Add page-specific data, which must exist in the page js, not global -->
+    <script type="text/javascript">
+        READTHEDOCS_DATA['page'] = 'index'
+    </script>
+
+    <script type="text/javascript" src="https://media.readthedocs.com/javascript/readthedocs-analytics.js"></script>
+
+    <!-- end RTD <extrahead> -->
 </head>
 
 <body>
@@ -29,8 +40,8 @@
     <nav class="navbar navbar-default">
         <div class="container">
             <div class="navbar-header">
-                <a class="navbar-brand" href="https://www.citrix.com/en-in/community/citrix-developer/" target="_blank">
-            <span><img class="navbar-brand-img" src="_static/Citrix_Logo_White.png"><span class="inline-logo-title"> | Developer Documentation</span></span>
+                <a class="navbar-brand" href="/">
+            <span><img class="navbar-brand-img" src="/_static/Citrix_Logo_White.png"><span class="inline-logo-title"> | Developer Documentation</span></span>
           </a>
             </div>
         </div>
@@ -39,130 +50,39 @@
     <!-- Jumbotron starts here -->
     <div class="banner-master">
         <div class="banner">
-            <img class="hero" src="_static/Artboard.png" alt="Citrix Developer Documentation" style="width:100%;">
-            <div class="centered">Citrix provides a full range of technical documentation for our products. This site contains command
-                references, API references, SDK documentation and libraries of example programs for our developer community.
+            <img class="hero" src="/_static/Artboard.png" alt="Citrix Developer Documentation" style="width:100%;">
+            <div class="centered"><h1>StoreFront</h1>
             </div>
         </div>
     </div>
     <!-- /Jumbotron ends here -->
-    <div class="container" style="margin-top: 20px;margin-bottom: 20px">
+    <div class="container" style="margin-top: -40px;margin-bottom: 20px; padding-bottom: 100px;">
         <div class="row">
-            <a class="prod-container" href="citrix-workspace/index.html" target="_blank">
-                <div class="col-sm-6">
-                    <div class="card text-center box-shadow">
-                        <div class="card-body">
-                            <h3 class="card-title">Citrix Workspace app</h3>
-                            
-                        </div>
-                    </div>
-                </div>
-            </a>
-            <a href="citrix-networking/index.html" target="_blank">
-                <div class="col-sm-6">
-                    <div class="card text-center box-shadow">
-                        <div class="card-body">
-                            <h3 class="card-title">Citrix Networking</h3>
-                            
-                        </div>
-                    </div>
-                </div>
-            </a>
-        </div>
-    </div>
-    <div class="container" style="margin-top: 20px;margin-bottom: 20px">
-        <div class="row">
-            <a href="https://developer-docs.citrix.com/projects/appdna-sdk/en/latest/" target="_blank">
+            <a class="prod-container" href="https://developer-docs.citrix.com/projects/storefront-authentication-sdk/en/latest/" target="_blank">
                 <div class="col-sm-4">
                     <div class="card text-center box-shadow">
                         <div class="card-body">
-                            <h3 class="card-title">AppDNA</h3>
+                            <h3 class="card-title">StoreFront Authentication SDK</h3>
                             
                         </div>
                     </div>
                 </div>
             </a>
-            <a href="citrix-cloud/index.html" target="_blank">
+            <a href="https://developer-docs.citrix.com/projects/storefront-powershell-sdk/en/latest/" target="_blank">
                 <div class="col-sm-4">
                     <div class="card text-center box-shadow">
                         <div class="card-body">
-                            <h3 class="card-title">Citrix Cloud</h3>
+                            <h3 class="card-title">StoreFront PowerShell SDK</h3>
                             
                         </div>
                     </div>
                 </div>
-            </a>
-            <a href="citrix-endpoint-management/index.html" target="_blank">
+			</a>
+			<a href="https://developer-docs.citrix.com/projects/storefront-services-api/en/latest/" target="_blank">
                 <div class="col-sm-4">
                     <div class="card text-center box-shadow">
                         <div class="card-body">
-                            <h3 class="card-title">Citrix Endpoint Management</h3>
-                            
-                        </div>
-                    </div>
-                </div>
-            </a>
-        </div>
-        <div class="row">
-                <a href="citrix-hypervisor/index.html" target="_blank">
-                    <div class="col-sm-4">
-                        <div class="card text-center box-shadow">
-                            <div class="card-body">
-                                <h3 class="card-title">Citrix Hypervisor</h3>
-                                
-                            </div>
-                        </div>
-                    </div>
-                </a>
-                <a href="citrix-provisioning/index.html" target="_blank">
-                    <div class="col-sm-4">
-                        <div class="card text-center box-shadow">
-                            <div class="card-body">
-                                <h3 class="card-title">Citrix Provisioning</h3>
-                                
-                            </div>
-                        </div>
-                    </div>
-                </a>
-                <a href="https://api.sharefile.com/" target="_blank">
-                    <div class="col-sm-4">
-                        <div class="card text-center box-shadow">
-                            <div class="card-body">
-                                <h3 class="card-title">ShareFile</h3>
-                                
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            
-            
-        </div>
-        <div class="row">
-                <a href="storefront/index.html" target="_blank">
-                    <div class="col-sm-4">
-                        <div class="card text-center box-shadow">
-                            <div class="card-body">
-                                <h3 class="card-title">StoreFront</h3>
-                                
-                            </div>
-                        </div>
-                    </div>
-                </a>
-                <a href="citrix-virtual-apps-desktops/index.html" target="_blank">
-                    <div class="col-sm-4">
-                        <div class="card text-center box-shadow">
-                            <div class="card-body">
-                                <h3 class="card-title">Citrix Virtual Apps and Desktops</h3>
-                                
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            <a href="https://developer-docs.citrix.com/projects/workspace-environment-management-sdk/en/latest/" target="_blank">
-                <div class="col-sm-4">
-                    <div class="card text-center box-shadow">
-                        <div class="card-body">
-                            <h3 class="card-title">Workspace Environment Management</h3>
+                            <h3 class="card-title">StoreFront Services API</h3>
                             
                         </div>
                     </div>

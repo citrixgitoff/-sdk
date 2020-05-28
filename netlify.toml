@@ -1,0 +1,807 @@
+[[headers]]
+  for = "/*"       #This defines which paths this specific [[headers]] block will cover.
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-XSS-Protection = "1; mode=block"
+    Content-Security-Policy = "frame-ancestors https://developer-docs.citrix.com"
+
+  ####################
+  ## Proxy Redirect ##
+  ####################
+
+# Citrix Workspace App
+
+[[redirects]]
+  from = "/projects/workspace-app-for-android-virtual-channel-sdk/en/latest/*"
+  to = "https://workspace-android-vcsdk-latest.netlify.com/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/projects/workspace-app-for-chrome-hdx-sdk/en/latest/*"
+  to = "https://workspace-chrome-hdx-sdk-latest.netlify.com/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/projects/workspace-app-for-chrome-virtual-channel-sdk/en/latest/*"
+  to = "https://workspace-chrome-vcsdk-latest.netlify.com/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/projects/workspace-app-for-html5-sdk/en/latest/*"
+  to = "https://workspace-html5-hdx-sdk-latest.netlify.com/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/projects/workspace-app-for-linux-vcsdk-readme/en/latest/*"
+  to = "https://workspace-linux-vcsdk-readme.netlify.com/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/projects/workspace-app-for-linux-oem-guide/en/latest/*"
+  to = "https://workspace-linux-oem-guide-latest.netlify.com/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/projects/workspace-app-for-linux-virtual-channel-sdk/en/latest/*"
+  to = "https://workspace-linux-virtual-channel-sdk-latest.netlify.com/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/projects/workspace-app-for-linux-command-reference/en/latest/*"
+  to = "https://workspace-linux-command-reference-latest.netlify.com/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/projects/workspace-app-for-linux-certificate-identity-declaration-sdk/en/latest/*"
+  to = "https://workspace-linux-certificate-identity-declaration-sdk-latest.netlify.com/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/projects/workspace-app-for-linux-platform-optimization-sdk/en/latest/*"
+  to = "https://workspace-linux-platform-optimization-sdk-latest.netlify.com/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/projects/workspace-app-for-linux-fast-connect-credential-insertion-api/en/latest/*"
+  to = "https://workspace-linux-fast-connect-credential-insertion-api-latest.netlify.com/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/projects/workspace-app-for-linux-authentication-manager-configuration/en/latest/*"
+  to = "https://workspace-linux-authentication-manager-configuration-latest.netlify.com/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/projects/workspace-app-for-linux-storebrowse-classic-password-insertion/en/latest/*"
+  to = "https://workspace-linux-storebrowse-password-insertion-latest.netlify.com/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/projects/workspace-app-for-linux-domain-pass-through/en/latest/*"
+  to = "https://workspace-linux-domain-pass-through-latest.netlify.com/:splat"
+  status = 200
+
+# Citrix Workspace app for Windows
+
+[[redirects]]
+  from = "/projects/workspace-app-for-windows-virtual-channel-sdk/en/latest/*"
+  to = "https://workspace-windows-vcsdk-latest.netlify.com/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/projects/workspace-app-for-windows-fast-connect-api/en/latest/*"
+  to = "https://workspace-windows-fast-connect-api-latest.netlify.com/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/projects/workspace-app-for-windows-ccm-sdk/en/latest/*"
+  to = "https://workspace-windows-ccm-sdk-latest.netlify.com/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/projects/workspace-app-for-windows-certificate-identity-declaration-sdk/en/latest/*"
+  to = "https://workspace-windows-certificate-identity-declaration-sdk-latest.netlify.com/:splat"
+  status = 200
+
+# Citrix Networking
+
+# Citrix ADC Nitro API
+
+[[redirects]]
+  from = "/projects/citrix-adc-nitro-api-reference/en/latest/*"
+  to = "https://adc-nitro-api-latest.netlify.com/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/projects/citrix-adc-nitro-api-reference/en/12.1/*"
+  to = "https://adc-nitro-api-12-1.netlify.com/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/projects/netscaler-nitro-api/en/latest/*"
+  to = "https://adc-nitro-api-latest.netlify.com/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/projects/netscaler-nitro-api/en/12.0/*"
+  to = "https://adc-nitro-api-12-0.netlify.com/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/projects/netscaler-nitro-api/en/11.1/*"
+  to = "https://adc-nitro-api-11-1.netlify.com/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/projects/netscaler-nitro-api/en/11.0/*"
+  to = "https://adc-nitro-api-11-0.netlify.com/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/projects/netscaler-nitro-api/en/10.5/*"
+  to = "https://adc-nitro-api-10-5.netlify.com/:splat"
+  status = 200
+
+# Citrix ADC SNMP OID Reference
+
+[[redirects]]
+  from = "/projects/citrix-adc-snmp-oid-reference/en/latest/*"
+  to = "https://adc-snmp-oid-latest.netlify.com/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/projects/citrix-adc-snmp-oid-reference/en/12.1/*"
+  to = "https://adc-snmp-oid-12-1.netlify.com/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/projects/netscaler-snmp-oid-reference/en/latest/*"
+  to = "https://adc-snmp-oid-latest.netlify.com/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/projects/netscaler-snmp-oid-reference/en/12.0/*"
+  to = "https://adc-snmp-oid-12-0.netlify.com/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/projects/netscaler-snmp-oid-reference/en/11.1/*"
+  to = "https://adc-snmp-oid-11-1.netlify.com/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/projects/netscaler-snmp-oid-reference/en/11.0/*"
+  to = "https://adc-snmp-oid-11-0.netlify.com/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/projects/netscaler-snmp-oid-reference/en/10.5/*"
+  to = "https://adc-snmp-oid-10-5.netlify.com/:splat"
+  status = 200
+
+# Citrix ADC Syslog Message Reference
+
+[[redirects]]
+  from = "/projects/citrix-adc-syslog-message-reference/en/latest/*"
+  to = "https://adc-syslog-message-reference-latest.netlify.com/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/projects/citrix-adc-syslog-message-reference/en/12.1/*"
+  to = "https://adc-syslog-message-reference-12-1.netlify.com/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/projects/netscaler-syslog-message-reference/en/latest/*"
+  to = "https://adc-syslog-message-reference-latest.netlify.com/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/projects/netscaler-syslog-message-reference/en/12.0/*"
+  to = "https://adc-syslog-message-reference-12-0.netlify.com/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/projects/netscaler-syslog-message-reference/en/11.1/*"
+  to = "https://adc-syslog-message-reference-11-1.netlify.com/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/projects/netscaler-syslog-message-reference/en/11.0/*"
+  to = "https://adc-syslog-message-reference-11-0.netlify.com/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/projects/netscaler-syslog-message-reference/en/10.5/*"
+  to = "https://adc-syslog-message-reference-10-5.netlify.com/:splat"
+  status = 200
+
+# Citrix ADC Command Reference
+
+[[redirects]]
+  from = "/projects/citrix-adc-command-reference/en/latest/*"
+  to = "https://adc-command-reference-latest.netlify.com/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/projects/citrix-adc-command-reference/en/12.1/*"
+  to = "https://adc-command-reference-12-1.netlify.com/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/projects/netscaler-command-reference/en/latest/*"
+  to = "https://adc-command-reference-latest.netlify.com/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/projects/netscaler-command-reference/en/12.0/*"
+  to = "https://adc-command-reference-12-0.netlify.com/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/projects/netscaler-command-reference/en/11.1/*"
+  to = "https://adc-command-reference-11-1.netlify.com/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/projects/netscaler-command-reference/en/11.0/*"
+  to = "https://adc-command-reference-11-0.netlify.com/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/projects/netscaler-command-reference/en/10.5/*"
+  to = "https://adc-command-reference-10-5.netlify.com/:splat"
+  status = 200
+
+# Citrix ADC Advanced Policy Expression Reference
+
+[[redirects]]
+  from = "/projects/citrix-adc-advanced-policy-expression-reference/en/latest/*"
+  to = "https://adc-advanced-policy-expression-reference-latest.netlify.com/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/projects/citrix-adc-advanced-policy-expression-reference/en/12.1/*"
+  to = "https://adc-advanced-policy-expression-reference-12-1.netlify.com/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/projects/netscaler-advanced-policy-expression-reference/en/latest/*"
+  to = "https://adc-advanced-policy-expression-reference-latest.netlify.com/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/projects/netscaler-advanced-policy-expression-reference/en/12.0/*"
+  to = "https://adc-advanced-policy-expression-reference-12-0.netlify.com/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/projects/netscaler-advanced-policy-expression-reference/en/11.1/*"
+  to = "https://adc-advanced-policy-expression-reference-11-1.netlify.com/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/projects/netscaler-advanced-policy-expression-reference/en/11.0/*"
+  to = "https://adc-advanced-policy-expression-reference-11-0.netlify.com/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/projects/netscaler-advanced-policy-expression-reference/en/10.5/*"
+  to = "https://adc-advanced-policy-expression-reference-10-5.netlify.com/:splat"
+  status = 200
+
+# NetScaler SDX Command Reference
+
+[[redirects]]
+  from = "/projects/netscaler-sdx-command-reference/en/latest/*"
+  to = "https://netscaler-sdx-command-reference.netlify.com/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/projects/netscaler-ansible-modules/en/latest/*"
+  to = "https://netscaler-ansible-docs.netlify.com/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/projects/netscaler-mas-nitro-api-reference/en/latest/*"
+  to = "https://citrix-adm-nitro-api-reference-12-1.netlify.com/:splat"
+  status = 200
+
+# Citrix SD-WAN
+
+[[redirects]]
+  from = "/projects/netscaler-sdwan-wanop-api-reference/en/latest/*"
+  to = "https://sd-wan-wanop-api-reference-latest.netlify.com/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/projects/netscaler-sdwan-wanop-api-reference/en/10.1/*"
+  to = "https://sd-wan-wanop-api-reference-10-1.netlify.com/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/projects/netscaler-sdwan-center-nitro-api/en/latest/*"
+  to = "https://netscaler-sdwan-center-nitro-api-reference-latest.netlify.com/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/projects/netscaler-sdwan-center-nitro-api/en/10.0/*"
+  to = "https://netscaler-sdwan-center-nitro-api-reference-10-0.netlify.com/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/projects/netscaler-sdwan-nitro-api-reference/en/latest/*"
+  to = "https://netscaler-sdwan-nitro-api-reference-latest.netlify.com/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/projects/netscaler-sdwan-nitro-api-reference/en/10.0/*"
+  to = "https://netscaler-sdwan-nitro-api-reference-10-0.netlify.com/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/projects/appdna-sdk/en/latest/*"
+  to = "https://appdna-sdk.netlify.com/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/projects/access-monitor-service-data-citrix-cloud/en/latest/*"
+  to = "https://accessing-monitor-service-data-citrix-cloud.netlify.com/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/projects/citrix-mdx-android-sdk/en/latest/*"
+  to = "https://mdx-android-sdk.netlify.com/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/projects/citrix-mdx-ios-sdk/en/latest/*"
+  to = "https://mdx-ios-sdk.netlify.com/:splat"
+  status = 200
+
+# Citrix Hypervisor
+
+[[redirects]]
+  from = "/projects/citrix-hypervisor-sdk/en/latest/*"
+  to = "https://citrix-hypervisor-sdk.netlify.com/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/projects/citrix-hypervisor-management-api/en/latest/*"
+  to = "https://citrix-hypervisor-management-api.netlify.com/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/projects/citrix-hypervisor-management-api/en/8.0/*"
+  to = "https://citrix-hypervisor-management-api-8-0.netlify.com/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/projects/citrix-hypervisor-changed-block-tracking-guide/en/latest/*"
+  to = "https://citrix-hypervisor-changed-block-tracking.netlify.com/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/projects/citrix-hypervisor-ddk/en/latest/*"
+  to = "https://citrix-hypervisor-ddk.netlify.com/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/projects/xencenter-plugin-specification/en/latest/*"
+  to = "https://xencenter-plugin-specification.netlify.com/:splat"
+  status = 200
+
+# WEM
+
+[[redirects]]
+  from = "/projects/workspace-environment-management-sdk/en/latest/*"
+  to = "https://workspace-environment-management-sdk-latest.netlify.com/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/projects/workspace-environment-management-sdk/en/4.7/*"
+  to = "https://workspace-environment-management-sdk-4-7.netlify.com/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/projects/citrix-virtual-apps-desktops-sdk/en/latest/*"
+  to = "https://citrix-virtual-apps-desktops-sdk.netlify.com/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/projects/citrix-virtual-apps-desktops-sdk/en/1811/*"
+  to = "https://citrix-virtual-apps-desktops-sdk-1811.netlify.com/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/projects/citrix-virtual-apps-desktops-sdk/en/1808/*"
+  to = "https://citrix-virtual-apps-desktops-sdk-1808.netlify.com/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/projects/delivery-controller-sdk/en/latest/*"
+  to = "https://ddc-sdk.netlify.com/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/projects/monitor-service-odata-api/en/latest/*"
+  to = "https://monitoring-api.netlify.com/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/projects/monitor-service-odata-api/en/7.16/*"
+  to = "https://monitoring-api.netlify.com/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/projects/monitor-service-odata-api/en/7.15-ltsr/*"
+  to = "https://monitoring-api-7-15.netlify.com/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/projects/federated-authentication-service-powershell-cmdlets/en/latest/*"
+  to = "https://fas-powershell-latest.netlify.com/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/projects/federated-authentication-service-powershell-cmdlets/en/1903/*"
+  to = "https://fas-powershell-1903.netlify.com/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/projects/federated-authentication-service-powershell-cmdlets/en/7.17/*"
+  to = "https://fas-powershell-7-17.netlify.com/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/projects/provisioning-services-sdk/en/latest/*"
+  to = "https://provisioning-services-sdk.netlify.com/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/projects/provisioning-services-sdk/en/1912/*"
+  to = "https://provisioning-services-sdk-1912.netlify.com/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/projects/provisioning-services-sdk/en/1909/*"
+  to = "https://provisioning-services-sdk-1909.netlify.com/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/projects/provisioning-services-sdk/en/1906/*"
+  to = "https://provisioning-services-sdk-1906.netlify.com/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/projects/provisioning-services-sdk/en/1903/*"
+  to = "https://provisioning-services-sdk-1903.netlify.com/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/projects/provisioning-services-sdk/en/7.12/*"
+  to = "https://provisioning-services-sdk-7-12.netlify.com/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/projects/provisioning-services-powershell-object-programming-guide/en/latest/*"
+  to = "https://provisioning-services-powershell-object-programming-guide.netlify.com/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/projects/provisioning-services-powershell-object-programming-guide/en/1912/*"
+  to = "https://provisioning-services-powershell-object-programming-guide-1912.netlify.com/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/projects/provisioning-services-powershell-object-programming-guide/en/1909/*"
+  to = "https://provisioning-services-powershell-object-programming-guide-1909.netlify.com/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/projects/provisioning-services-powershell-object-programming-guide/en/1906/*"
+  to = "https://provisioning-services-powershell-object-programming-guide-1906.netlify.com/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/projects/provisioning-services-powershell-object-programming-guide/en/1903/*"
+  to = "https://provisioning-services-powershell-object-programming-guide-1903.netlify.com/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/projects/provisioning-services-powershell-object-programming-guide/en/7.12/*"
+  to = "https://provisioning-services-powershell-object-programming-guide-7-12.netlify.com/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/projects/provisioning-services-mcli-programmers-guide/en/latest/*"
+  to = "https://pvs-mcli-programmers-guide-latest.netlify.com/:splat"
+  status = 200
+
+# StoreFront
+
+[[redirects]]
+  from = "/projects/storefront-authentication-sdk/en/latest/*"
+  to = "https://storefront-authentication-sdk-latest.netlify.com/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/projects/storefront-services-api/en/latest/*"
+  to = "https://storefront-store-services-api-latest.netlify.com/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/projects/storefront-powershell-sdk/en/latest/*"
+  to = "https://storefront-powershell-sdk-latest.netlify.com/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/projects/storefront-powershell-sdk/en/1909/*"
+  to = "https://storefront-powershell-sdk-1909.netlify.com/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/projects/storefront-powershell-sdk/en/latest/*"
+  to = "https://storefront-powershell-sdk-latest.netlify.com/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/projects/storefront-powershell-sdk/en/1908/*"
+  to = "https://storefront-powershell-sdk-1908.netlify.com/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/projects/storefront-powershell-sdk/en/1906/*"
+  to = "https://storefront-powershell-sdk-1906.netlify.com/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/projects/storefront-powershell-sdk/en/1811/*"
+  to = "https://storefront-powershell-sdk-1811.netlify.com/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/projects/storefront-powershell-sdk/en/3.13/*"
+  to = "https://storefront-powershell-sdk-3-13.netlify.com/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/projects/storefront-powershell-sdk/en/3.12/*"
+  to = "https://storefront-powershell-sdk-3-12.netlify.com/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/projects/storefront-powershell-sdk/en/3.11/*"
+  to = "https://storefront-powershell-sdk-3-11.netlify.com/:splat/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/projects/storefront-powershell-sdk/en/3.9/*"
+  to = "https://storefront-powershell-sdk-3-9.netlify.com/:splat/:splat"
+  status = 200
+
+# Receiver
+
+[[redirects]]
+  from = "/projects/receiver-html5-sdk/en/latest/*"
+  to = "https://receiver-html5-sdk.netlify.com/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/projects/receiver-for-android-virtual-channel-sdk/en/latest/*"
+  to = "https://receiver-for-android-virtual-channel-sdk.netlify.com/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/projects/receiver-for-chrome-virtual-channel-sdk/en/2.6/*"
+  to = "https://receiver-for-chrome-virtual-channel-sdk.netlify.com/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/projects/receiver-for-chrome-virtual-channel-sdk/en/2.5/*"
+  to = "https://receiver-for-chrome-virtual-channel-sdk.netlify.com/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/projects/receiver-for-chrome-virtual-channel-sdk/en/latest/*"
+  to = "https://receiver-for-chrome-virtual-channel-sdk.netlify.com/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/projects/hdx-sdk-for-receiver-for-chrome/en/2.6/*"
+  to = "https://rfchrome-hdx-sdk.netlify.com/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/projects/hdx-sdk-for-receiver-for-chrome/en/2.5.2/*"
+  to = "https://rfchrome-hdx-sdk.netlify.com/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/projects/hdx-sdk-for-receiver-for-chrome/en/2.5.1/*"
+  to = "https://rfchrome-hdx-sdk.netlify.com/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/projects/hdx-sdk-for-receiver-for-chrome/en/2.5/*"
+  to = "https://rfchrome-hdx-sdk.netlify.com/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/projects/hdx-sdk-for-receiver-for-chrome/en/2.4/*"
+  to = "https://rfchrome-hdx-sdk.netlify.com/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/projects/fast-connect-api-for-receiver-for-windows/en/latest/*"
+  to = "https://fast-connect-api-for-receiver-for-windows.netlify.com/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/projects/receiver-for-windows-virtual-channel-sdk/en/latest/*"
+  to = "https://receiver-for-windows-virtual-channel-sdk.netlify.com/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/projects/common-connection-manager-sdk/en/latest/*"
+  to = "https://citrix-connection-manager-sdk.netlify.com/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/projects/storebrowse-for-receiver-for-windows/en/latest/*"
+  to = "https://rfwindows-storebrowse.netlify.com/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/projects/receiver-for-linux-domain-passthrough/en/latest/*"
+  to = "https://rflinux-domain-passthrough.netlify.com/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/projects/receiver-for-linux-oem-reference-guide/en/latest/*"
+  to = "https://rflinux-oem-guide.netlify.com/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/projects/receiver-for-linux-authentication-manager-configuration/en/latest/*"
+  to = "https://receiver-for-linux-authentication-manager-configuration.netlify.com/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/projects/receiver-for-linux-fast-connect-credential-insertion-api/en/latest/*"
+  to = "https://receiver-for-linux-fast-connect-credential-insertion-api.netlify.com/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/projects/receiver-for-linux-command-reference/en/latest/*"
+  to = "https://receiver-for-linux-command-reference.netlify.com/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/projects/receiver-for-linux-command-reference/en/13.9/*"
+  to = "https://receiver-for-linux-command-reference.netlify.com/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/projects/receiver-for-linux-command-reference/en/13.8/*"
+  to = "https://receiver-for-linux-command-reference.netlify.com/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/projects/receiver-for-linux-command-reference/en/13.7/*"
+  to = "https://receiver-for-linux-command-reference.netlify.com/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/projects/receiver-for-linux-command-reference/en/13.6/*"
+  to = "https://receiver-for-linux-command-reference.netlify.com/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/projects/receiver-for-linux-command-reference/en/13.5/*"
+  to = "https://receiver-for-linux-command-reference.netlify.com/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/projects/receiver-for-linux-certificate-identity-declaration-sdk/en/latest/*"
+  to = "https://rflinux-certificate-identity-declaration-sdk.netlify.com/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/projects/receiver-for-linux-certificate-identity-declaration-sdk/en/13.10/*"
+  to = "https://rflinux-certificate-identity-declaration-sdk.netlify.com/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/projects/receiver-for-linux-certificate-identity-declaration-sdk/en/13.9/*"
+  to = "https://rflinux-certificate-identity-declaration-sdk.netlify.com/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/projects/receiver-for-linux-platform-optimization-sdk/en/latest/*"
+  to = "https://rflinux-platform-optimization-sdk.netlify.com/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/projects/receiver-for-linux-platform-optimization-sdk/en/13.10/*"
+  to = "https://rflinux-platform-optimization-sdk.netlify.com/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/projects/receiver-for-linux-platform-optimization-sdk/en/13.9.1/*"
+  to = "https://rflinux-platform-optimization-sdk.netlify.com/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/projects/receiver-for-linux-platform-optimization-sdk/en/13.9/*"
+  to = "https://rflinux-platform-optimization-sdk.netlify.com/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/projects/receiver-for-linux-virtual-channel-sdk/en/latest/*"
+  to = "https://receiver-linux-virtual-channel-sdk.netlify.com/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/projects/receiver-for-linux-virtual-channel-sdk/en/13.10/*"
+  to = "https://receiver-linux-virtual-channel-sdk.netlify.com/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/projects/receiver-for-linux-virtual-channel-sdk/en/13.9.1/*"
+  to = "https://receiver-linux-virtual-channel-sdk.netlify.com/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/projects/receiver-for-linux-virtual-channel-sdk/en/13.9/*"
+  to = "https://receiver-linux-virtual-channel-sdk.netlify.com/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/projects/receiver-for-linux-virtual-channel-sdk/en/13.8/*"
+  to = "https://receiver-linux-virtual-channel-sdk.netlify.com/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/projects/receiver-for-linux-virtual-channel-sdk/en/13.7/*"
+  to = "https://receiver-linux-virtual-channel-sdk.netlify.com/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/projects/receiver-for-linux-virtual-channel-sdk/en/13.6/*"
+  to = "https://receiver-linux-virtual-channel-sdk.netlify.com/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/projects/receiver-for-linux-virtual-channel-sdk/en/13.5/*"
+  to = "https://receiver-linux-virtual-channel-sdk.netlify.com/:splat"
+  status = 200
+
+[[redirects]]
+  from  = "/mobile-sdk-for-windows-apps/en/latest/*"
+  to = "https://windows-mobility-sdk.netlify.com/:splat"
+  status = 200
+
+## CWA android
+
+[[redirects]]
+  from = "/projects/citrix-workspace-app-for-android-oem-reference-guide/en/latest/*"
+  to = "https://cwa-android-oem-guide.netlify.com/:splat"
+  status = 200
+
+# Opensource
+
+[[redirects]]
+  from = "/projects/citrix-k8s-ingress-controller/en/latest/*"
+  to = "https://citrix-k8s-ingress-controller.netlify.com/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/projects/citrix-istio-adaptor/en/latest/*"
+  to = "https://citrix-istio-adaptor.netlify.com/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/projects/citrix-observability-exporter/en/latest/*"
+  to = "https://citrix-observability-exporter.netlify.com//:splat"
+  status = 200
