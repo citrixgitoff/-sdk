@@ -303,8 +303,13 @@
   status = 200
 
 [[redirects]]
-  from = "/projects/netscaler-mas-nitro-api-reference/en/latest/*"
-  to = "https://citrix-adm-nitro-api-reference-12-1.netlify.com/:splat"
+  from = "/projects/citrix-adm-nitro-api-reference/en/latest/*"
+  to = "https://citrix-adm-nitro-api-reference-latest.netlify.app/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/projects/citrix-adm-nitro-api-reference/en/12.1/*"
+  to = "https://citrix-adm-nitro-api-reference-12-1.netlify.app/:splat"
   status = 200
 
 # Citrix SD-WAN
@@ -372,6 +377,11 @@
   status = 200
 
 [[redirects]]
+  from = "/projects/citrix-hypervisor-management-api/en/8.1/*"
+  to = "https://citrix-hypervisor-management-api-8-1.netlify.app/:splat"
+  status = 200
+
+[[redirects]]
   from = "/projects/citrix-hypervisor-management-api/en/8.0/*"
   to = "https://citrix-hypervisor-management-api-8-0.netlify.com/:splat"
   status = 200
@@ -406,6 +416,11 @@
 [[redirects]]
   from = "/projects/citrix-virtual-apps-desktops-sdk/en/latest/*"
   to = "https://citrix-virtual-apps-desktops-sdk.netlify.com/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/projects/citrix-virtual-apps-desktops-sdk/en/1912/*"
+  to = "https://citrix-virtual-apps-desktops-sdk-1912.netlify.app/:splat"
   status = 200
 
 [[redirects]]
@@ -803,5 +818,23 @@
 
 [[redirects]]
   from = "/projects/citrix-observability-exporter/en/latest/*"
-  to = "https://citrix-observability-exporter.netlify.com//:splat"
+  to = "https://citrix-observability-exporter.netlify.com/:splat"
   status = 200
+
+[[redirects]]
+  from = "/devdocs-feedback-devtest/*"
+  to = "https://devdocs-feedback-devtest.netlify.app/:splat"
+  status = 200
+
+
+[[redirects]]
+  from = "/projects/netscaler-mas-nitro-api-reference/en/latest/*"
+  to = "https://developer-docs.citrix.com/projects/citrix-adm-nitro-api-reference/en/latest/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/projects/netscaler-mas-nitro-api-reference/en/12.1/*"
+  to = "https://developer-docs.citrix.com/projects/citrix-adm-nitro-api-reference/en/12.1/:splat"
+  status = 301
+  force = true

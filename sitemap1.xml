@@ -1,0 +1,825 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+<loc>https://developer-docs.citrix.com/projects/workspace-app-for-android-virtual-channel-sdk/en/latest/</loc>
+<PageMap xmlns="http://www.google.com/schemas/sitemap-pagemap/1.0">
+<DataObject type="metatags">
+<Attribute name="ctx_product">Virtual Channel SDK for Citrix Workspace app for Android</Attribute>
+<Attribute name="ctx_product_version">latest</Attribute>
+</DataObject>
+</PageMap>
+</url>
+<url>
+<loc>https://developer-docs.citrix.com/projects/citrix-workspace-app-for-android-oem-reference-guide/en/latest/</loc>
+<PageMap xmlns="http://www.google.com/schemas/sitemap-pagemap/1.0">
+<DataObject type="metatags">
+<Attribute name="ctx_product">Citrix Workspace app for Android OEM Guide</Attribute>
+<Attribute name="ctx_product_version">latest</Attribute>
+</DataObject>
+</PageMap>
+</url>
+<url>
+<loc>https://developer-docs.citrix.com/projects/workspace-app-for-chrome-hdx-sdk/en/latest/</loc>
+<PageMap xmlns="http://www.google.com/schemas/sitemap-pagemap/1.0">
+<DataObject type="metatags">
+<Attribute name="ctx_product">Citrix Workspace app for Chrome HDX SDK</Attribute>
+<Attribute name="ctx_product_version">latest</Attribute>
+</DataObject>
+</PageMap>
+</url>
+<url>
+<loc>https://developer-docs.citrix.com/projects/workspace-app-for-chrome-virtual-channel-sdk/en/latest/</loc>
+<PageMap xmlns="http://www.google.com/schemas/sitemap-pagemap/1.0">
+<DataObject type="metatags">
+<Attribute name="ctx_product">Virtual Channel SDK for Citrix Workspace app for Chrome</Attribute>
+<Attribute name="ctx_product_version">latest</Attribute>
+</DataObject>
+</PageMap>
+</url>
+<url>
+<loc>https://developer-docs.citrix.com/projects/workspace-app-for-html5-sdk/en/latest/</loc>
+<PageMap xmlns="http://www.google.com/schemas/sitemap-pagemap/1.0">
+<DataObject type="metatags">
+<Attribute name="ctx_product">Citrix Workspace app for HTML5 HDX SDK</Attribute>
+<Attribute name="ctx_product_version">latest</Attribute>
+</DataObject>
+</PageMap>
+</url>
+<url>
+<loc>https://developer-docs.citrix.com/projects/workspace-app-for-linux-oem-guide/en/latest/</loc>
+<PageMap xmlns="http://www.google.com/schemas/sitemap-pagemap/1.0">
+<DataObject type="metatags">
+<Attribute name="ctx_product">Linux OEM Reference Guide</Attribute>
+<Attribute name="ctx_product_version">latest</Attribute>
+</DataObject>
+</PageMap>
+</url>
+<url>
+<loc>https://developer-docs.citrix.com/projects/workspace-app-for-linux-virtual-channel-sdk/en/latest/</loc>
+<PageMap xmlns="http://www.google.com/schemas/sitemap-pagemap/1.0">
+<DataObject type="metatags">
+<Attribute name="ctx_product">Citrix Virtual Channel SDK</Attribute>
+<Attribute name="ctx_product_version">latest</Attribute>
+</DataObject>
+</PageMap>
+</url>
+<url>
+<loc>https://developer-docs.citrix.com/projects/workspace-app-for-linux-command-reference/en/latest/</loc>
+<PageMap xmlns="http://www.google.com/schemas/sitemap-pagemap/1.0">
+<DataObject type="metatags">
+<Attribute name="ctx_product">Command Reference</Attribute>
+<Attribute name="ctx_product_version">latest</Attribute>
+</DataObject>
+</PageMap>
+</url>
+<url>
+<loc>https://developer-docs.citrix.com/projects/workspace-app-for-linux-certificate-identity-declaration-sdk/en/latest/</loc>
+<PageMap xmlns="http://www.google.com/schemas/sitemap-pagemap/1.0">
+<DataObject type="metatags">
+<Attribute name="ctx_product">Certificate Identity Declaration SDK</Attribute>
+<Attribute name="ctx_product_version">latest</Attribute>
+</DataObject>
+</PageMap>
+</url>
+<url>
+<loc>https://developer-docs.citrix.com/projects/workspace-app-for-linux-platform-optimization-sdk/en/latest/</loc>
+<PageMap xmlns="http://www.google.com/schemas/sitemap-pagemap/1.0">
+<DataObject type="metatags">
+<Attribute name="ctx_product">Platform Optimization SDK</Attribute>
+<Attribute name="ctx_product_version">latest</Attribute>
+</DataObject>
+</PageMap>
+</url>
+<url>
+<loc>https://developer-docs.citrix.com/projects/workspace-app-for-linux-fast-connect-credential-insertion-api/en/latest/</loc>
+<PageMap xmlns="http://www.google.com/schemas/sitemap-pagemap/1.0">
+<DataObject type="metatags">
+<Attribute name="ctx_product">Fast Connect Credential Insertion API</Attribute>
+<Attribute name="ctx_product_version">latest</Attribute>
+</DataObject>
+</PageMap>
+</url>
+<url>
+<loc>https://developer-docs.citrix.com/projects/workspace-app-for-linux-authentication-manager-configuration/en/latest/</loc>
+<PageMap xmlns="http://www.google.com/schemas/sitemap-pagemap/1.0">
+<DataObject type="metatags">
+<Attribute name="ctx_product">Authentication Manager Configuration for Fast Connect Use Cases</Attribute>
+<Attribute name="ctx_product_version">latest</Attribute>
+</DataObject>
+</PageMap>
+</url>
+<url>
+<loc>https://developer-docs.citrix.com/projects/workspace-app-for-linux-storebrowse-classic-password-insertion/en/latest/</loc>
+<PageMap xmlns="http://www.google.com/schemas/sitemap-pagemap/1.0">
+<DataObject type="metatags">
+<Attribute name="ctx_product">Storebrowse Classic Password Insertion for StoreFront</Attribute>
+<Attribute name="ctx_product_version">latest</Attribute>
+</DataObject>
+</PageMap>
+</url>
+<url>
+<loc>https://developer-docs.citrix.com/projects/workspace-app-for-linux-domain-pass-through/en/latest/</loc>
+<PageMap xmlns="http://www.google.com/schemas/sitemap-pagemap/1.0">
+<DataObject type="metatags">
+<Attribute name="ctx_product">Domain Pass-Through - Citrix Workspace app for Linux</Attribute>
+<Attribute name="ctx_product_version">latest</Attribute>
+</DataObject>
+</PageMap>
+</url>
+<url>
+<loc>https://developer-docs.citrix.com/projects/workspace-app-for-windows-virtual-channel-sdk/en/latest/</loc>
+<PageMap xmlns="http://www.google.com/schemas/sitemap-pagemap/1.0">
+<DataObject type="metatags">
+<Attribute name="ctx_product">Citrix Virtual Channel SDK</Attribute>
+<Attribute name="ctx_product_version">latest</Attribute>
+</DataObject>
+</PageMap>
+</url>
+<url>
+<loc>https://developer-docs.citrix.com/projects/workspace-app-for-windows-fast-connect-api/en/latest/</loc>
+<PageMap xmlns="http://www.google.com/schemas/sitemap-pagemap/1.0">
+<DataObject type="metatags">
+<Attribute name="ctx_product">Fast Connect 3 Credential Insertion API</Attribute>
+<Attribute name="ctx_product_version">latest</Attribute>
+</DataObject>
+</PageMap>
+</url>
+<url>
+<loc>https://developer-docs.citrix.com/projects/workspace-app-for-windows-ccm-sdk/en/latest/</loc>
+<PageMap xmlns="http://www.google.com/schemas/sitemap-pagemap/1.0">
+<DataObject type="metatags">
+<Attribute name="ctx_product">Citrix Common Connection Manager SDK</Attribute>
+<Attribute name="ctx_product_version">latest</Attribute>
+</DataObject>
+</PageMap>
+</url>
+<url>
+<loc>https://developer-docs.citrix.com/projects/appdna-sdk/en/latest/</loc>
+<PageMap xmlns="http://www.google.com/schemas/sitemap-pagemap/1.0">
+<DataObject type="metatags">
+<Attribute name="ctx_product">AppDNA</Attribute>
+<Attribute name="ctx_product_version">latest</Attribute>
+</DataObject>
+</PageMap>
+</url>
+<url>
+<loc>https://developer-docs.citrix.com/projects/access-monitor-service-data-citrix-cloud/en/latest/</loc>
+<PageMap xmlns="http://www.google.com/schemas/sitemap-pagemap/1.0">
+<DataObject type="metatags">
+<Attribute name="ctx_product">Accessing Monitor Service data in Citrix Cloud</Attribute>
+<Attribute name="ctx_product_version">latest</Attribute>
+</DataObject>
+</PageMap>
+</url>
+<url>
+<loc>https://developer-docs.citrix.com/projects/citrix-mdx-android-sdk/en/latest/</loc>
+<PageMap xmlns="http://www.google.com/schemas/sitemap-pagemap/1.0">
+<DataObject type="metatags">
+<Attribute name="ctx_product">Micro VPN SDK for Android</Attribute>
+<Attribute name="ctx_product_version">latest</Attribute>
+</DataObject>
+</PageMap>
+</url>
+<url>
+<loc>https://developer-docs.citrix.com/projects/citrix-mdx-ios-sdk/en/latest/</loc>
+<PageMap xmlns="http://www.google.com/schemas/sitemap-pagemap/1.0">
+<DataObject type="metatags">
+<Attribute name="ctx_product">Micro VPN SDK for iOS</Attribute>
+<Attribute name="ctx_product_version">latest</Attribute>
+</DataObject>
+</PageMap>
+</url>
+<url>
+<loc>https://developer-docs.citrix.com/projects/citrix-hypervisor-sdk/en/latest/</loc>
+<PageMap xmlns="http://www.google.com/schemas/sitemap-pagemap/1.0">
+<DataObject type="metatags">
+<Attribute name="ctx_product">Citrix Hypervisor SDK</Attribute>
+<Attribute name="ctx_product_version">latest</Attribute>
+</DataObject>
+</PageMap>
+</url>
+<url>
+<loc>https://developer-docs.citrix.com/projects/citrix-hypervisor-management-api/en/latest/</loc>
+<PageMap xmlns="http://www.google.com/schemas/sitemap-pagemap/1.0">
+<DataObject type="metatags">
+<Attribute name="ctx_product">Citrix Hypervisor Management API</Attribute>
+<Attribute name="ctx_product_version">latest</Attribute>
+</DataObject>
+</PageMap>
+</url>
+<url>
+<loc>https://developer-docs.citrix.com/projects/citrix-hypervisor-management-api/en/8.1/</loc>
+<PageMap xmlns="http://www.google.com/schemas/sitemap-pagemap/1.0">
+<DataObject type="metatags">
+<Attribute name="ctx_product">Citrix Hypervisor Management API</Attribute>
+<Attribute name="ctx_product_version">8.1</Attribute>
+</DataObject>
+</PageMap>
+</url>
+<url>
+<loc>https://developer-docs.citrix.com/projects/citrix-hypervisor-management-api/en/8.0/</loc>
+<PageMap xmlns="http://www.google.com/schemas/sitemap-pagemap/1.0">
+<DataObject type="metatags">
+<Attribute name="ctx_product">Citrix Hypervisor Management API</Attribute>
+<Attribute name="ctx_product_version">8</Attribute>
+</DataObject>
+</PageMap>
+</url>
+<url>
+<loc>https://developer-docs.citrix.com/projects/citrix-hypervisor-ddk/en/latest/</loc>
+<PageMap xmlns="http://www.google.com/schemas/sitemap-pagemap/1.0">
+<DataObject type="metatags">
+<Attribute name="ctx_product">Citrix Hypervisor Supplemental Packs and the DDK Guide</Attribute>
+<Attribute name="ctx_product_version">latest</Attribute>
+</DataObject>
+</PageMap>
+</url>
+<url>
+<loc>https://developer-docs.citrix.com/projects/xencenter-plugin-specification/en/latest/</loc>
+<PageMap xmlns="http://www.google.com/schemas/sitemap-pagemap/1.0">
+<DataObject type="metatags">
+<Attribute name="ctx_product">XenCenter Plugin Specification</Attribute>
+<Attribute name="ctx_product_version">latest</Attribute>
+</DataObject>
+</PageMap>
+</url>
+<url>
+<loc>https://developer-docs.citrix.com/projects/citrix-hypervisor-changed-block-tracking-guide/en/latest/</loc>
+<PageMap xmlns="http://www.google.com/schemas/sitemap-pagemap/1.0">
+<DataObject type="metatags">
+<Attribute name="ctx_product">Citrix Hypervisor Changed Block Tracking Guide</Attribute>
+<Attribute name="ctx_product_version">latest</Attribute>
+</DataObject>
+</PageMap>
+</url>
+<url>
+<loc>https://developer-docs.citrix.com/projects/provisioning-services-sdk/en/latest/</loc>
+<PageMap xmlns="http://www.google.com/schemas/sitemap-pagemap/1.0">
+<DataObject type="metatags">
+<Attribute name="ctx_product">Provisioning Services SOAP Server Programmer's Guide</Attribute>
+<Attribute name="ctx_product_version">latest</Attribute>
+</DataObject>
+</PageMap>
+</url>
+<url>
+<loc>https://developer-docs.citrix.com/projects/provisioning-services-sdk/en/1912/</loc>
+<PageMap xmlns="http://www.google.com/schemas/sitemap-pagemap/1.0">
+<DataObject type="metatags">
+<Attribute name="ctx_product">Provisioning Services SOAP Server Programmer's Guide</Attribute>
+<Attribute name="ctx_product_version">1912</Attribute>
+</DataObject>
+</PageMap>
+</url>
+<url>
+<loc>https://developer-docs.citrix.com/projects/provisioning-services-sdk/en/1909/</loc>
+<PageMap xmlns="http://www.google.com/schemas/sitemap-pagemap/1.0">
+<DataObject type="metatags">
+<Attribute name="ctx_product">Provisioning Services SOAP Server Programmer's Guide</Attribute>
+<Attribute name="ctx_product_version">1909</Attribute>
+</DataObject>
+</PageMap>
+</url>
+<url>
+<loc>https://developer-docs.citrix.com/projects/provisioning-services-sdk/en/1906/</loc>
+<PageMap xmlns="http://www.google.com/schemas/sitemap-pagemap/1.0">
+<DataObject type="metatags">
+<Attribute name="ctx_product">Provisioning Services SOAP Server Programmer's Guide</Attribute>
+<Attribute name="ctx_product_version">1906</Attribute>
+</DataObject>
+</PageMap>
+</url>
+<url>
+<loc>https://developer-docs.citrix.com/projects/provisioning-services-sdk/en/1903/</loc>
+<PageMap xmlns="http://www.google.com/schemas/sitemap-pagemap/1.0">
+<DataObject type="metatags">
+<Attribute name="ctx_product">Provisioning Services SOAP Server Programmer's Guide</Attribute>
+<Attribute name="ctx_product_version">1903</Attribute>
+</DataObject>
+</PageMap>
+</url>
+<url>
+<loc>https://developer-docs.citrix.com/projects/provisioning-services-powershell-object-programming-guide/en/latest/</loc>
+<PageMap xmlns="http://www.google.com/schemas/sitemap-pagemap/1.0">
+<DataObject type="metatags">
+<Attribute name="ctx_product">Provisioning Services PowerShell with Object Programmer's Guide</Attribute>
+<Attribute name="ctx_product_version">latest</Attribute>
+</DataObject>
+</PageMap>
+</url>
+<url>
+<loc>https://developer-docs.citrix.com/projects/provisioning-services-powershell-object-programming-guide/en/1912/</loc>
+<PageMap xmlns="http://www.google.com/schemas/sitemap-pagemap/1.0">
+<DataObject type="metatags">
+<Attribute name="ctx_product">Provisioning Services PowerShell with Object Programmer's Guide</Attribute>
+<Attribute name="ctx_product_version">1912</Attribute>
+</DataObject>
+</PageMap>
+</url>
+<url>
+<loc>https://developer-docs.citrix.com/projects/provisioning-services-powershell-object-programming-guide/en/1909/</loc>
+<PageMap xmlns="http://www.google.com/schemas/sitemap-pagemap/1.0">
+<DataObject type="metatags">
+<Attribute name="ctx_product">Provisioning Services PowerShell with Object Programmer's Guide</Attribute>
+<Attribute name="ctx_product_version">1909</Attribute>
+</DataObject>
+</PageMap>
+</url>
+<url>
+<loc>https://developer-docs.citrix.com/projects/provisioning-services-powershell-object-programming-guide/en/1906/</loc>
+<PageMap xmlns="http://www.google.com/schemas/sitemap-pagemap/1.0">
+<DataObject type="metatags">
+<Attribute name="ctx_product">Provisioning Services PowerShell with Object Programmer's Guide</Attribute>
+<Attribute name="ctx_product_version">1906</Attribute>
+</DataObject>
+</PageMap>
+</url>
+<url>
+<loc>https://developer-docs.citrix.com/projects/provisioning-services-powershell-object-programming-guide/en/1903/</loc>
+<PageMap xmlns="http://www.google.com/schemas/sitemap-pagemap/1.0">
+<DataObject type="metatags">
+<Attribute name="ctx_product">Provisioning Services PowerShell with Object Programmer's Guide</Attribute>
+<Attribute name="ctx_product_version">1903</Attribute>
+</DataObject>
+</PageMap>
+</url>
+<url>
+<loc>https://developer-docs.citrix.com/projects/provisioning-services-powershell-object-programming-guide/en/7.12/</loc>
+<PageMap xmlns="http://www.google.com/schemas/sitemap-pagemap/1.0">
+<DataObject type="metatags">
+<Attribute name="ctx_product">Provisioning Services PowerShell with Object Programmer's Guide</Attribute>
+<Attribute name="ctx_product_version">7.12</Attribute>
+</DataObject>
+</PageMap>
+</url>
+<url>
+<loc>https://developer-docs.citrix.com/projects/storefront-authentication-sdk/en/latest/</loc>
+<PageMap xmlns="http://www.google.com/schemas/sitemap-pagemap/1.0">
+<DataObject type="metatags">
+<Attribute name="ctx_product">StoreFront Authentication SDK</Attribute>
+<Attribute name="ctx_product_version">latest</Attribute>
+</DataObject>
+</PageMap>
+</url>
+<url>
+<loc>https://developer-docs.citrix.com/projects/storefront-powershell-sdk/en/latest/</loc>
+<PageMap xmlns="http://www.google.com/schemas/sitemap-pagemap/1.0">
+<DataObject type="metatags">
+<Attribute name="ctx_product">StoreFront PowerShell SDK</Attribute>
+<Attribute name="ctx_product_version">latest</Attribute>
+</DataObject>
+</PageMap>
+</url>
+<url>
+<loc>https://developer-docs.citrix.com/projects/storefront-powershell-sdk/en/1909/</loc>
+<PageMap xmlns="http://www.google.com/schemas/sitemap-pagemap/1.0">
+<DataObject type="metatags">
+<Attribute name="ctx_product">StoreFront PowerShell SDK</Attribute>
+<Attribute name="ctx_product_version">1909</Attribute>
+</DataObject>
+</PageMap>
+</url>
+<url>
+<loc>https://developer-docs.citrix.com/projects/storefront-powershell-sdk/en/1908/</loc>
+<PageMap xmlns="http://www.google.com/schemas/sitemap-pagemap/1.0">
+<DataObject type="metatags">
+<Attribute name="ctx_product">StoreFront PowerShell SDK</Attribute>
+<Attribute name="ctx_product_version">1908</Attribute>
+</DataObject>
+</PageMap>
+</url>
+<url>
+<loc>https://developer-docs.citrix.com/projects/storefront-powershell-sdk/en/1906/</loc>
+<PageMap xmlns="http://www.google.com/schemas/sitemap-pagemap/1.0">
+<DataObject type="metatags">
+<Attribute name="ctx_product">StoreFront PowerShell SDK</Attribute>
+<Attribute name="ctx_product_version">1906</Attribute>
+</DataObject>
+</PageMap>
+</url>
+<url>
+<loc>https://developer-docs.citrix.com/projects/storefront-powershell-sdk/en/1811/</loc>
+<PageMap xmlns="http://www.google.com/schemas/sitemap-pagemap/1.0">
+<DataObject type="metatags">
+<Attribute name="ctx_product">StoreFront PowerShell SDK</Attribute>
+<Attribute name="ctx_product_version">1811</Attribute>
+</DataObject>
+</PageMap>
+</url>
+<url>
+<loc>https://developer-docs.citrix.com/projects/storefront-powershell-sdk/en/3.13/</loc>
+<PageMap xmlns="http://www.google.com/schemas/sitemap-pagemap/1.0">
+<DataObject type="metatags">
+<Attribute name="ctx_product">StoreFront PowerShell SDK</Attribute>
+<Attribute name="ctx_product_version">3.13</Attribute>
+</DataObject>
+</PageMap>
+</url>
+<url>
+<loc>https://developer-docs.citrix.com/projects/storefront-powershell-sdk/en/3.12/</loc>
+<PageMap xmlns="http://www.google.com/schemas/sitemap-pagemap/1.0">
+<DataObject type="metatags">
+<Attribute name="ctx_product">StoreFront PowerShell SDK</Attribute>
+<Attribute name="ctx_product_version">3.12</Attribute>
+</DataObject>
+</PageMap>
+</url>
+<url>
+<loc>https://developer-docs.citrix.com/projects/storefront-powershell-sdk/en/3.11/</loc>
+<PageMap xmlns="http://www.google.com/schemas/sitemap-pagemap/1.0">
+<DataObject type="metatags">
+<Attribute name="ctx_product">StoreFront PowerShell SDK</Attribute>
+<Attribute name="ctx_product_version">3.11</Attribute>
+</DataObject>
+</PageMap>
+</url>
+<url>
+<loc>https://developer-docs.citrix.com/projects/storefront-powershell-sdk/en/3.9/</loc>
+<PageMap xmlns="http://www.google.com/schemas/sitemap-pagemap/1.0">
+<DataObject type="metatags">
+<Attribute name="ctx_product">StoreFront PowerShell SDK</Attribute>
+<Attribute name="ctx_product_version">3.9</Attribute>
+</DataObject>
+</PageMap>
+</url>
+<url>
+<loc>https://developer-docs.citrix.com/projects/storefront-services-api/en/latest/</loc>
+<PageMap xmlns="http://www.google.com/schemas/sitemap-pagemap/1.0">
+<DataObject type="metatags">
+<Attribute name="ctx_product">StoreFront Services API</Attribute>
+<Attribute name="ctx_product_version">latest</Attribute>
+</DataObject>
+</PageMap>
+</url>
+<url>
+<loc>https://developer-docs.citrix.com/projects/workspace-environment-management-sdk/en/latest/</loc>
+<PageMap xmlns="http://www.google.com/schemas/sitemap-pagemap/1.0">
+<DataObject type="metatags">
+<Attribute name="ctx_product">Citrix Workspace Environment Management 1912 SDK</Attribute>
+<Attribute name="ctx_product_version">latest</Attribute>
+</DataObject>
+</PageMap>
+</url>
+<url>
+<loc>https://developer-docs.citrix.com/projects/workspace-environment-management-sdk/en/4.7/</loc>
+<PageMap xmlns="http://www.google.com/schemas/sitemap-pagemap/1.0">
+<DataObject type="metatags">
+<Attribute name="ctx_product">Citrix Workspace Environment Management 4.7 SDK</Attribute>
+<Attribute name="ctx_product_version">4.7</Attribute>
+</DataObject>
+</PageMap>
+</url>
+<url>
+<loc>https://developer-docs.citrix.com/projects/citrix-virtual-apps-desktops-sdk/en/latest/</loc>
+<PageMap xmlns="http://www.google.com/schemas/sitemap-pagemap/1.0">
+<DataObject type="metatags">
+<Attribute name="ctx_product">Citrix Virtual Apps and Desktops 2006 SDK</Attribute>
+<Attribute name="ctx_product_version">2006</Attribute>
+</DataObject>
+</PageMap>
+</url>
+<url>
+<loc>https://developer-docs.citrix.com/projects/citrix-virtual-apps-desktops-sdk/en/1912/</loc>
+<PageMap xmlns="http://www.google.com/schemas/sitemap-pagemap/1.0">
+<DataObject type="metatags">
+<Attribute name="ctx_product">Citrix Virtual Apps and Desktops 1912 SDK</Attribute>
+<Attribute name="ctx_product_version">1912</Attribute>
+</DataObject>
+</PageMap>
+</url>
+<url>
+<loc>https://developer-docs.citrix.com/projects/citrix-virtual-apps-desktops-sdk/en/1811/</loc>
+<PageMap xmlns="http://www.google.com/schemas/sitemap-pagemap/1.0">
+<DataObject type="metatags">
+<Attribute name="ctx_product">Citrix Virtual Apps and Desktops 1811 SDK</Attribute>
+<Attribute name="ctx_product_version">1811</Attribute>
+</DataObject>
+</PageMap>
+</url>
+<url>
+<loc>https://developer-docs.citrix.com/projects/citrix-virtual-apps-desktops-sdk/en/1808/</loc>
+<PageMap xmlns="http://www.google.com/schemas/sitemap-pagemap/1.0">
+<DataObject type="metatags">
+<Attribute name="ctx_product">Citrix Virtual Apps and Desktops 1808 SDK</Attribute>
+<Attribute name="ctx_product_version">1808</Attribute>
+</DataObject>
+</PageMap>
+</url>
+<url>
+<loc>https://developer-docs.citrix.com/projects/delivery-controller-sdk/en/latest/</loc>
+<PageMap xmlns="http://www.google.com/schemas/sitemap-pagemap/1.0">
+<DataObject type="metatags">
+<Attribute name="ctx_product">XenApp and XenDesktop 7.18 SDK</Attribute>
+<Attribute name="ctx_product_version">7.18</Attribute>
+</DataObject>
+</PageMap>
+</url>
+<url>
+<loc>https://developer-docs.citrix.com/projects/monitor-service-odata-api/en/latest/</loc>
+<PageMap xmlns="http://www.google.com/schemas/sitemap-pagemap/1.0">
+<DataObject type="metatags">
+<Attribute name="ctx_product">Monitor Service OData API</Attribute>
+<Attribute name="ctx_product_version">latest</Attribute>
+</DataObject>
+</PageMap>
+</url>
+<url>
+<loc>https://developer-docs.citrix.com/projects/monitor-service-odata-api/en/7.15-ltsr/</loc>
+<PageMap xmlns="http://www.google.com/schemas/sitemap-pagemap/1.0">
+<DataObject type="metatags">
+<Attribute name="ctx_product">Monitor Service OData 7.15 LTSR API</Attribute>
+<Attribute name="ctx_product_version">7.15-ltsr</Attribute>
+</DataObject>
+</PageMap>
+</url>
+<url>
+<loc>https://developer-docs.citrix.com/projects/federated-authentication-service-powershell-cmdlets/en/latest/</loc>
+<PageMap xmlns="http://www.google.com/schemas/sitemap-pagemap/1.0">
+<DataObject type="metatags">
+<Attribute name="ctx_product">Citrix Federated Authentication Service 2003 PowerShell cmdlets</Attribute>
+<Attribute name="ctx_product_version">2003</Attribute>
+</DataObject>
+</PageMap>
+</url>
+<url>
+<loc>https://developer-docs.citrix.com/mobile-sdk-for-windows-apps/en/latest/</loc>
+<PageMap xmlns="http://www.google.com/schemas/sitemap-pagemap/1.0">
+<DataObject type="metatags">
+<Attribute name="ctx_product">Citrix Mobile SDK for Windows Apps</Attribute>
+<Attribute name="ctx_product_version">latest</Attribute>
+</DataObject>
+</PageMap>
+</url>
+<url>
+<loc>https://developer-docs.citrix.com/projects/citrix-istio-adaptor/en/latest/</loc>
+<PageMap xmlns="http://www.google.com/schemas/sitemap-pagemap/1.0">
+<DataObject type="metatags">
+<Attribute name="ctx_product">Citrix Istio Adaptor</Attribute>
+</DataObject>
+</PageMap>
+</url>
+<url>
+<loc>https://developer-docs.citrix.com/projects/citrix-observability-exporter/en/latest/</loc>
+<PageMap xmlns="http://www.google.com/schemas/sitemap-pagemap/1.0">
+<DataObject type="metatags">
+<Attribute name="ctx_product">Citrix Observability Exporter</Attribute>
+</DataObject>
+</PageMap>
+</url>
+<url>
+<loc>https://developer-docs.citrix.com/projects/netscaler-ansible-modules/en/latest/</loc>
+<PageMap xmlns="http://www.google.com/schemas/sitemap-pagemap/1.0">
+<DataObject type="metatags">
+<Attribute name="ctx_product">Citrix ADC Ansible Module Documentation</Attribute>
+</DataObject>
+</PageMap>
+</url>
+<url>
+<loc>https://developer-docs.citrix.com/projects/citrix-k8s-ingress-controller/en/latest/</loc>
+<PageMap xmlns="http://www.google.com/schemas/sitemap-pagemap/1.0">
+<DataObject type="metatags">
+<Attribute name="ctx_product">Citrix Ingress Controller for Kubernetes</Attribute>
+</DataObject>
+</PageMap>
+</url>
+<url>
+<loc>https://developer-docs.citrix.com/projects/netscaler-sdwan-nitro-api-reference/en/latest/</loc>
+<PageMap xmlns="http://www.google.com/schemas/sitemap-pagemap/1.0">
+<DataObject type="metatags">
+<Attribute name="ctx_product">Citrix SD-WAN NITRO REST API Reference</Attribute>
+</DataObject>
+</PageMap>
+</url>
+<url>
+<loc>https://developer-docs.citrix.com/projects/netscaler-sdwan-center-nitro-api/en/latest/</loc>
+<PageMap xmlns="http://www.google.com/schemas/sitemap-pagemap/1.0">
+<DataObject type="metatags">
+<Attribute name="ctx_product">Citrix SD-WAN Center NITRO API Reference</Attribute>
+</DataObject>
+</PageMap>
+</url>
+<url>
+<loc>https://developer-docs.citrix.com/projects/netscaler-sdwan-wanop-api-reference/en/latest/</loc>
+<PageMap xmlns="http://www.google.com/schemas/sitemap-pagemap/1.0">
+<DataObject type="metatags">
+<Attribute name="ctx_product">Citrix SD-WAN WANOP API Reference</Attribute>
+<Attribute name="ctx_product_version">11</Attribute>
+</DataObject>
+</PageMap>
+</url>
+<url>
+<loc>https://developer-docs.citrix.com/projects/netscaler-sdwan-wanop-api-reference/en/10.1/</loc>
+<PageMap xmlns="http://www.google.com/schemas/sitemap-pagemap/1.0">
+<DataObject type="metatags">
+<Attribute name="ctx_product">Citrix SD-WAN WANOP API Reference</Attribute>
+<Attribute name="ctx_product_version">10.1</Attribute>
+</DataObject>
+</PageMap>
+</url>
+<url>
+<loc>https://developer-docs.citrix.com/projects/citrix-adc-nitro-api-reference/en/latest/</loc>
+<PageMap xmlns="http://www.google.com/schemas/sitemap-pagemap/1.0">
+<DataObject type="metatags">
+<Attribute name="ctx_product">Citrix ADC Nitro API Reference</Attribute>
+<Attribute name="ctx_product_version">latest</Attribute>
+</DataObject>
+</PageMap>
+</url>
+<url>
+<loc>https://developer-docs.citrix.com/projects/citrix-adc-nitro-api-reference/en/12.1/</loc>
+<PageMap xmlns="http://www.google.com/schemas/sitemap-pagemap/1.0">
+<DataObject type="metatags">
+<Attribute name="ctx_product">Citrix ADC Nitro API Reference</Attribute>
+<Attribute name="ctx_product_version">12.1</Attribute>
+</DataObject>
+</PageMap>
+</url>
+<url>
+<loc>https://developer-docs.citrix.com/projects/citrix-adc-snmp-oid-reference/en/latest/</loc>
+<PageMap xmlns="http://www.google.com/schemas/sitemap-pagemap/1.0">
+<DataObject type="metatags">
+<Attribute name="ctx_product">Citrix ADC SNMP OID Reference</Attribute>
+<Attribute name="ctx_product_version">latest</Attribute>
+</DataObject>
+</PageMap>
+</url>
+<url>
+<loc>https://developer-docs.citrix.com/projects/citrix-adc-snmp-oid-reference/en/12.1/</loc>
+<PageMap xmlns="http://www.google.com/schemas/sitemap-pagemap/1.0">
+<DataObject type="metatags">
+<Attribute name="ctx_product">Citrix ADC SNMP OID Reference</Attribute>
+<Attribute name="ctx_product_version">12.1</Attribute>
+</DataObject>
+</PageMap>
+</url>
+<url>
+<loc>https://developer-docs.citrix.com/projects/citrix-adc-syslog-message-reference/en/latest/</loc>
+<PageMap xmlns="http://www.google.com/schemas/sitemap-pagemap/1.0">
+<DataObject type="metatags">
+<Attribute name="ctx_product">Citrix ADC Syslog Message Reference</Attribute>
+<Attribute name="ctx_product_version">latest</Attribute>
+</DataObject>
+</PageMap>
+</url>
+<url>
+<loc>https://developer-docs.citrix.com/projects/citrix-adc-syslog-message-reference/en/12.1/</loc>
+<PageMap xmlns="http://www.google.com/schemas/sitemap-pagemap/1.0">
+<DataObject type="metatags">
+<Attribute name="ctx_product">Citrix ADC Syslog Message Reference</Attribute>
+<Attribute name="ctx_product_version">12.1</Attribute>
+</DataObject>
+</PageMap>
+</url>
+<url>
+<loc>https://developer-docs.citrix.com/projects/citrix-adc-command-reference/en/latest/</loc>
+<PageMap xmlns="http://www.google.com/schemas/sitemap-pagemap/1.0">
+<DataObject type="metatags">
+<Attribute name="ctx_product">Citrix ADC Command Reference</Attribute>
+<Attribute name="ctx_product_version">latest</Attribute>
+</DataObject>
+</PageMap>
+</url>
+<url>
+<loc>https://developer-docs.citrix.com/projects/citrix-adc-command-reference/en/12.1/</loc>
+<PageMap xmlns="http://www.google.com/schemas/sitemap-pagemap/1.0">
+<DataObject type="metatags">
+<Attribute name="ctx_product">Citrix ADC Command Reference</Attribute>
+<Attribute name="ctx_product_version">12.1</Attribute>
+</DataObject>
+</PageMap>
+</url>
+<url>
+<loc>https://developer-docs.citrix.com/projects/citrix-adc-advanced-policy-expression-reference/en/latest/</loc>
+<PageMap xmlns="http://www.google.com/schemas/sitemap-pagemap/1.0">
+<DataObject type="metatags">
+<Attribute name="ctx_product">Citrix ADC Advanced Policy Expression Reference</Attribute>
+<Attribute name="ctx_product_version">latest</Attribute>
+</DataObject>
+</PageMap>
+</url>
+<url>
+<loc>https://developer-docs.citrix.com/projects/citrix-adc-advanced-policy-expression-reference/en/12.1/</loc>
+<PageMap xmlns="http://www.google.com/schemas/sitemap-pagemap/1.0">
+<DataObject type="metatags">
+<Attribute name="ctx_product">Citrix ADC Advanced Policy Expression Reference</Attribute>
+<Attribute name="ctx_product_version">12.1</Attribute>
+</DataObject>
+</PageMap>
+</url>
+<url>
+<loc>https://developer-docs.citrix.com/projects/netscaler-nitro-api/en/12.0/</loc>
+<PageMap xmlns="http://www.google.com/schemas/sitemap-pagemap/1.0">
+<DataObject type="metatags">
+<Attribute name="ctx_product">Citrix NetScaler Nitro API Reference</Attribute>
+<Attribute name="ctx_product_version">12</Attribute>
+</DataObject>
+</PageMap>
+</url>
+<url>
+<loc>https://developer-docs.citrix.com/projects/netscaler-nitro-api/en/11.1/</loc>
+<PageMap xmlns="http://www.google.com/schemas/sitemap-pagemap/1.0">
+<DataObject type="metatags">
+<Attribute name="ctx_product">Citrix NetScaler Nitro API Reference</Attribute>
+<Attribute name="ctx_product_version">11.1</Attribute>
+</DataObject>
+</PageMap>
+</url>
+<url>
+<loc>https://developer-docs.citrix.com/projects/netscaler-snmp-oid-reference/en/12.0/</loc>
+<PageMap xmlns="http://www.google.com/schemas/sitemap-pagemap/1.0">
+<DataObject type="metatags">
+<Attribute name="ctx_product">Citrix NetScaler SNMP OID Reference</Attribute>
+<Attribute name="ctx_product_version">12</Attribute>
+</DataObject>
+</PageMap>
+</url>
+<url>
+<loc>https://developer-docs.citrix.com/projects/netscaler-snmp-oid-reference/en/11.1/</loc>
+<PageMap xmlns="http://www.google.com/schemas/sitemap-pagemap/1.0">
+<DataObject type="metatags">
+<Attribute name="ctx_product">Citrix NetScaler SNMP OID Reference</Attribute>
+<Attribute name="ctx_product_version">11.1</Attribute>
+</DataObject>
+</PageMap>
+</url>
+<url>
+<loc>https://developer-docs.citrix.com/projects/netscaler-syslog-message-reference/en/12.0/</loc>
+<PageMap xmlns="http://www.google.com/schemas/sitemap-pagemap/1.0">
+<DataObject type="metatags">
+<Attribute name="ctx_product">Citrix NetScaler Syslog Message Reference</Attribute>
+<Attribute name="ctx_product_version">12</Attribute>
+</DataObject>
+</PageMap>
+</url>
+<url>
+<loc>https://developer-docs.citrix.com/projects/netscaler-syslog-message-reference/en/11.1/</loc>
+<PageMap xmlns="http://www.google.com/schemas/sitemap-pagemap/1.0">
+<DataObject type="metatags">
+<Attribute name="ctx_product">Citrix NetScaler Syslog Message Reference</Attribute>
+<Attribute name="ctx_product_version">11.1</Attribute>
+</DataObject>
+</PageMap>
+</url>
+<url>
+<loc>https://developer-docs.citrix.com/projects/netscaler-command-reference/en/12.0/</loc>
+<PageMap xmlns="http://www.google.com/schemas/sitemap-pagemap/1.0">
+<DataObject type="metatags">
+<Attribute name="ctx_product">Citrix NetScaler Command Reference</Attribute>
+<Attribute name="ctx_product_version">12</Attribute>
+</DataObject>
+</PageMap>
+</url>
+<url>
+<loc>https://developer-docs.citrix.com/projects/netscaler-command-reference/en/11.1/</loc>
+<PageMap xmlns="http://www.google.com/schemas/sitemap-pagemap/1.0">
+<DataObject type="metatags">
+<Attribute name="ctx_product">Citrix NetScaler Command Reference</Attribute>
+<Attribute name="ctx_product_version">11.1</Attribute>
+</DataObject>
+</PageMap>
+</url>
+<url>
+<loc>https://developer-docs.citrix.com/projects/netscaler-advanced-policy-expression-reference/en/12.0/</loc>
+<PageMap xmlns="http://www.google.com/schemas/sitemap-pagemap/1.0">
+<DataObject type="metatags">
+<Attribute name="ctx_product">Citrix NetScaler Advanced Policy Expression Reference</Attribute>
+<Attribute name="ctx_product_version">12</Attribute>
+</DataObject>
+</PageMap>
+</url>
+<url>
+<loc>https://developer-docs.citrix.com/projects/netscaler-advanced-policy-expression-reference/en/11.1/</loc>
+<PageMap xmlns="http://www.google.com/schemas/sitemap-pagemap/1.0">
+<DataObject type="metatags">
+<Attribute name="ctx_product">Citrix NetScaler Advanced Policy Expression Reference</Attribute>
+<Attribute name="ctx_product_version">11.1</Attribute>
+</DataObject>
+</PageMap>
+</url>
+<url>
+<loc>https://developer-docs.citrix.com/projects/netscaler-sdx-command-reference/en/latest/</loc>
+<PageMap xmlns="http://www.google.com/schemas/sitemap-pagemap/1.0">
+<DataObject type="metatags">
+<Attribute name="ctx_product">Citrix NetScaler SDX Command Reference</Attribute>
+<Attribute name="ctx_product_version">12</Attribute>
+</DataObject>
+</PageMap>
+</url>
+<url>
+<loc>https://developer-docs.citrix.com/projects/netscaler-mas-nitro-api-reference/en/latest/</loc>
+<PageMap xmlns="http://www.google.com/schemas/sitemap-pagemap/1.0">
+<DataObject type="metatags">
+<Attribute name="ctx_product">Citrix ADM NITRO API Reference</Attribute>
+<Attribute name="ctx_product_version">13</Attribute>
+</DataObject>
+</PageMap>
+</url>
+<url>
+<loc>https://developer-docs.citrix.com/projects/netscaler-mas-nitro-api-reference/en/12.1/</loc>
+<PageMap xmlns="http://www.google.com/schemas/sitemap-pagemap/1.0">
+<DataObject type="metatags">
+<Attribute name="ctx_product">Citrix ADM NITRO API Reference</Attribute>
+<Attribute name="ctx_product_version">12.1</Attribute>
+</DataObject>
+</PageMap>
+</url>
+</urlset>
