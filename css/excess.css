@@ -1,0 +1,254 @@
+a.button6{
+display:inline-block;
+margin-top: 10px;
+margin-left:10px;
+border-radius:0.4em;
+font-size:15px;
+box-sizing: border-box;
+text-decoration:none;
+padding-top:8px;
+padding-bottom:8px;
+padding-left:8px;
+padding-right:8px;
+font-family:'Roboto',sans-serif;
+font-weight:bold;
+color:white;
+background-color:#3369ff;
+box-shadow:inset 0 -0.6em 0 -0.35em rgba(0,0,0,0.17);
+text-align:center;
+position:relative;
+}
+@media screen and (min-width: 960px) {
+	
+	.md-search__output
+	{
+	  display:none;
+	}
+	div#___gcse_0 {
+    display: inline-block;
+    width: 300px;
+}
+
+#gsc-i-id1
+{ 
+ color:black;
+
+}
+.gsc-control-cse {
+    padding: .3px !important;
+}
+ .gsc-input-box
+{
+ color:blue;
+ border-radius:10px;
+ border-width:3px !important;
+ border-color:black !important;
+  padding:4px;
+ 
+}
+.gsc-search-button
+{
+display:none;
+}
+input.gsc-input {
+
+  background: none!important;
+  color: black !important ;
+  background-image: url('./icon/iconsearch4.png') !important;
+  background-repeat: no-repeat !important;
+  background-position: left  !important;
+  padding-left:28px !important;
+}
+
+::-webkit-input-placeholder {            
+   font-weight:bold;
+   font-size:17px !important;
+}
+
+:-ms-input-placeholder {
+  font-weight:bold;
+   font-size:17px !important;
+}
+
+::placeholder {
+  font-weight:bold;
+  font-size:17px !important;
+}
+.gcsc-find-more-on-google-branding
+{
+  display:none !important;
+}
+table .gssb_e
+{
+ position:relative;
+ top:6px;
+}
+.feedback
+{
+ display:none;
+}
+.rating {
+  display: inline-block;
+  margin-top: 1px;
+  margin-bottom:1px;
+  padding-right:1px;
+}
+.rating1 {
+  display: none;
+}
+.like,
+.dislike {
+  display: inline-block;
+  cursor: pointer;
+  margin: 8px;
+}
+
+.like:hover {
+  color: green;
+  transition: all .2s ease-in-out;
+  transform: scale(1.1);
+}
+.dislike:hover{
+  color:red ;
+  transition: all .2s ease-in-out;
+  transform: scale(1.1);
+}
+.active {
+  color: #2EBDD1;
+}
+}
+@media screen and (max-width: 959px) {
+	
+	div#___gcse_0 {
+    display: inline-block;
+    width:100%;
+	margin-top:30px;
+}
+
+#gsc-i-id1
+{ 
+ color:black;
+
+}
+.gsc-control-cse {
+    padding: 5.3px !important;
+}
+ .gsc-input-box
+{
+ color:blue;
+ border-radius:10px;
+ border-width:3px !important;
+ border-color:white !important;
+ padding:3px;
+ 
+}
+.gsc-search-button
+{
+display:none;
+}
+input.gsc-input {
+  background: none !important;
+  color: black !important ;
+  background-image: url('./icon/iconsearch4.png') !important;
+  background-repeat: no-repeat !important;
+  background-position: left  !important;
+  padding-left:28px !important;
+	
+}
+
+::-webkit-input-placeholder {            
+   font-weight:bold;
+   font-size:17px !important;
+
+}
+
+:-ms-input-placeholder {
+  font-weight:bold;
+  font-size:17px !important;
+
+}
+
+::placeholder {
+  font-weight:bold;
+  font-size:17px !important;
+
+}
+.gcsc-find-more-on-google-branding
+{
+  display:none !important;
+}
+table .gssb_e
+{
+ position:relative;
+ top: 6px;
+ left:0px;
+}
+.feedback
+{
+  display:none;
+}
+.rating1 {
+  display: inline-block;
+  margin-top: 1px;
+  margin-bottom:1px;
+  padding-right:1px;
+  text-align: center;
+}
+.rating {
+  display: inline-block;
+  margin-top: 1px;
+  margin-bottom:1px;
+  padding-right:1px;
+  text-align: center;
+}
+.like,
+.dislike {
+  display: inline-block;
+  cursor: pointer;
+  margin: 8px;
+}
+
+.like:hover {
+  color: green;
+  transition: all .2s ease-in-out;
+  transform: scale(1.1);
+}
+.dislike:hover{
+  color:red ;
+  transition: all .2s ease-in-out;
+  transform: scale(1.1);
+}
+.active {
+  color: #2EBDD1;
+}
+}
+a.button6:active{
+top:0.1em;
+color:white;
+background-color:black;
+
+}
+a.button6:hover
+{
+color:white;
+}
+.fa
+{
+ font-size:15px;
+}
+.gssb_a img
+{
+ display:none ;
+}
+
+table .gsc-completion-container
+{
+ background:white !important;
+ border-color:black;
+ border-width:2px;
+ 
+}
+
+
+
+
