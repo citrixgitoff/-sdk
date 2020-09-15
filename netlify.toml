@@ -839,7 +839,7 @@
   status = 301
   force = true
  
- [[redirects]
+ [[redirects]]
   from = "https://developer-docs.citrix.com/citrix-virtual-apps-desktops/index.html"
   to = "https://developer-docs.citrix.com/citrix-workspace/index.html#citrix-virtual-apps-desktops"
   status = 301
