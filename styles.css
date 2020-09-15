@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200;1,300;1,400;1,500;1,600&display=swap');
+
+/* go on with normal style definitions */
+html, body, div, span, applet, object, iframe,
+p, blockquote, pre,
+a, abbr, acronym, address, big, cite,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video ,input[type="text"]{
+    font-family: 'Public Sans', sans-serif;
+}
+
+body{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Public Sans';
+    overflow-x: hidden !important; 
+}
+
+.svg {
+  vertical-align: bottom !important;
+}
+.banner {
+    background-color: #1C9CAD;
+    font-size: 5rem;
+    color: #FFFFFF;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    width: 100%;
+}
+
+
+@media (max-width: 992px){
+    .banner {
+        font-size: 4rem;
+    }
+   }
+@media (max-width: 768px){
+    .banner {
+        font-size: 3rem;
+    }
+   }
+@media (max-width: 576px){
+    .banner {
+        font-size: 2rem;
+        text-align: center;
+    }
+   }
+.header-divider {
+    display: inline-table;
+    width: 0.0625rem;
+    height: 1.875rem;
+    left: 6.2525rem;
+    top: 1.4375rem;
+    background: #FFFFFF;
+    border-radius: 2.5625rem;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.site-title-text {
+    font-size: 2.5rem;
+    color: #B5E3FF;
+}
+.card {
+    position: relative;
+    display: flex;
+    height: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    background-color: #1C9CAD !important;
+    border: 1px solid #1C9CAD;
+    border-radius: .25rem;
+    box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+      transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+    cursor: pointer;  
+}
+
+.card:hover{
+    transform: scale(1.05);
+ box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+
+.card-header {
+    padding: 2.25rem 1.5rem !important;
+    margin-bottom: 0 !important;
+    background-color: #1C9CAD !important;
+    color: white !important;
+    border-bottom: 1px solid #1C9CAD !important;
+    min-height: 5rem !important;
+    text-align: center;
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+.hyperlinks {
+    color: #05758A;
+    cursor: pointer;
+}
+
+.hyperlinks:hover {
+    color: #1C9CAD;
+    text-decoration: underline;
+    text-decoration-color: #1C9CAD;
+    margin-bottom: 10px;
+}
+.page-header {
+    background-color: #1C9CAD;
+    width: auto;
+    position: relative;
+    margin: 0 auto;
+    line-height: 1.4em;
+}
+
+@media (max-width: 992px){
+    .page-header {
+        font-size: 4rem;
+    }
+   }
+@media (max-width: 768px){
+    .page-header {
+        font-size: 3rem;
+    }
+   }
+@media (max-width: 576px){
+    .page-header {
+        font-size: 2rem;
+        text-align: center;
+    }
+   }
+
+.container-fluid {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 !important;
+    overflow: none;
+}
+
+@media (min-width: 1200px){
+    .container-fluid {
+     padding: none;
+    }
+   }
+
+@media (min-width: 992px){
+    .container-fluid {
+     padding: none;
+    }
+   }
+@media (min-width: 768px){
+    .container-fluid {
+     padding: none;
+    }
+   }
+@media (min-width: 576px){
+    .container-fluid {
+     padding: none;
+    }
+   }
+
+
+.card-text {
+    margin-bottom: 1rem;
+    text-align: center !important;
+    color: black;
+    ;
+}
+
+.footer-logo {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+@media (min-width: 1200px){
+    .footer-logo {
+     padding: none;
+    }
+   }
+
+@media (min-width: 992px){
+    .footer-logo {
+     padding: none;
+    }
+   }
+@media (min-width: 768px){
+    .footer-logo {
+     padding: none;
+    }
+   }
+@media (min-width: 576px){
+    .footer-logo {
+     padding: none;
+    }
+   }
+
+.footer-text {
+    padding-top: 2rem;
+}
+
+@media (max-width: 575.98px) {
+    .footer-text {
+        padding: none !important;
+    }
+
+.related-info {
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+}
+
+.footer-links {
+    color: black !important;
+}
+
+a.footer-links {
+    color: black !important;
+}
+
+a.custom-card,
+a.custom-card:hover {
+  color: inherit;
+}
