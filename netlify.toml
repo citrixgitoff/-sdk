@@ -844,3 +844,21 @@
   to = "https://developer-docs.citrix.com/citrix-workspace/index.html#citrix-virtual-apps-desktops"
   status = 301
   force = true
+
+ [[redirects]]
+  from = "https://developer-docs.citrix.com/storefront/"
+  to = "https://developer-docs.citrix.com/citrix-workspace/index.html#citrix-storefront"
+  status = 301
+  force = true
+  
+ [[redirects]]
+  from = "https://developer-docs.citrix.com/citrix-provisioning/"
+  to = "https://developer-docs.citrix.com/citrix-workspace/index.html#citrix-provisioning"
+  status = 301
+  force = true
+  
+ [[redirects]]
+  from = "https://developer-docs.citrix.com/citrix-endpoint-management/"
+  to = "https://developer-docs.citrix.com/citrix-workspace/index.html#endpoint-management"
+  status = 301
+  force = true
