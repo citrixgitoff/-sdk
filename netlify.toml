@@ -863,8 +863,15 @@
   status = 301
   force = true
 
-  [[redirects]]
+[[redirects]]
   from = "https://developer-docs.citrix.com/citrix-cloud/index.html"
   to = "https://developer.cloud.com/"
   status = 301
   force = true
+
+[[redirects]]
+  from = "/projects/citrix-virtual-apps-desktops-service-sdk/en/latest/*"
+  to = "https://cvad-service-sdk.netlify.app/:splat"
+  status = 200
+  
+  
