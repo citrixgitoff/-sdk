@@ -356,13 +356,15 @@
 
 [[redirects]]
   from = "/projects/citrix-mdx-android-sdk/en/latest/*"
-  to = "https://developer.cloud.com/device-management"
-  status = 200
+  to = "https://developer.cloud.com/device-management/:splat"
+  status = 301
+  force = true
 
 [[redirects]]
   from = "/projects/citrix-mdx-ios-sdk/en/latest/*"
-  to = "https://developer.cloud.com/device-management"
-  status = 200
+  to = "https://developer.cloud.com/device-management/:splat"
+  status = 301
+  force = true
 
 # Citrix Hypervisor
 
