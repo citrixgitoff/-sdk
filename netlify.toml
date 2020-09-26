@@ -875,9 +875,3 @@
   from = "/projects/citrix-virtual-apps-desktops-service-sdk/en/latest/*"
   to = "https://cvad-service-sdk.netlify.app/:splat"
   status = 200
-
-[[redirects]]
-  from = "https://developer-docs.citrix.com/citrix-workspace/index.html#endpoint-management"
-  to = "https://developer.cloud.com/device-management"
-  status = 301
-  force = true
