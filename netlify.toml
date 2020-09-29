@@ -355,13 +355,13 @@
   status = 200
 
 [[redirects]]
-  from = "/projects/citrix-mdx-android-sdk/en/latest/*"
+  from = "/projects/citrix-mdx-android-sdk/*"
   to = "https://developer.cloud.com/device-management/:splat"
   status = 301
   force = true
 
 [[redirects]]
-  from = "/projects/citrix-mdx-ios-sdk/en/latest/*"
+  from = "/projects/citrix-mdx-ios-sdk/*"
   to = "https://developer.cloud.com/device-management/:splat"
   status = 301
   force = true
@@ -842,13 +842,13 @@
   force = true
  
  [[redirects]]
-  from = "https://developer-docs.citrix.com/citrix-virtual-apps-desktops/index.html"
+  from = "https://developer-docs.citrix.com/citrix-virtual-apps-desktops/*"
   to = "https://developer-docs.citrix.com/citrix-workspace/index.html#citrix-virtual-apps-desktops"
   status = 301
   force = true
 
  [[redirects]]
-  from = "https://developer-docs.citrix.com/storefront/"
+  from = "https://developer-docs.citrix.com/storefront/*"
   to = "https://developer-docs.citrix.com/citrix-workspace/index.html#citrix-storefront"
   status = 301
   force = true
@@ -860,11 +860,23 @@
   force = true
   
  [[redirects]]
-  from = "https://developer-docs.citrix.com/citrix-endpoint-management/"
-  to = "https://developer-docs.citrix.com/citrix-workspace/index.html#endpoint-management"
+  from = "https://developer-docs.citrix.com/citrix-endpoint-management/*"
+  to = "https://developer.cloud.com/device-management:splat"
   status = 301
   force = true
 
+[[redirects]]
+  from = "https://developer-docs.citrix.com/citrix-cloud/index.html"
+  to = "https://developer.cloud.com/"
+  status = 301
+  force = true
+  
+[[redirects]]
+  from = "https://developer-docs.citrix.com/citrix-cloud/index.html"
+  to = "https://developer.cloud.com/"
+  status = 301
+  force = true
+  
 [[redirects]]
   from = "https://developer-docs.citrix.com/citrix-cloud/index.html"
   to = "https://developer.cloud.com/"
