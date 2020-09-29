@@ -355,13 +355,13 @@
   status = 200
 
 [[redirects]]
-  from = "/projects/citrix-mdx-android-sdk/*"
+  from = "https://developer-docs.citrix.com/projects/citrix-mdx-android-sdk/en/latest/*"
   to = "https://developer.cloud.com/device-management/:splat"
   status = 301
   force = true
 
 [[redirects]]
-  from = "/projects/citrix-mdx-ios-sdk/*"
+  from = "https://developer-docs.citrix.com/projects/citrix-mdx-ios-sdk/en/latest/*"
   to = "https://developer.cloud.com/device-management/:splat"
   status = 301
   force = true
