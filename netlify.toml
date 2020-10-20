@@ -828,10 +828,10 @@
   to = "https://citrix-observability-exporter.netlify.com/:splat"
   status = 200
 
-[[redirects]]
-  from = "/devdocs-feedback-devtest/*"
-  to = "https://devdocs-feedback-devtest.netlify.app/:splat"
-  status = 200
+#[[redirects]]
+#  from = "/devdocs-feedback-devtest/*"
+#  to = "https://devdocs-feedback-devtest.netlify.app/:splat"
+#  status = 200
 
 
 [[redirects]]
