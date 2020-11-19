@@ -315,34 +315,40 @@
 # Citrix SD-WAN
 
 [[redirects]]
-  from = "/projects/netscaler-sdwan-wanop-api-reference/en/latest/*"
-  to = "https://sd-wan-wanop-api-reference-latest.netlify.com/:splat"
-  status = 200
+  from = "https://developer-docs.citrix.com/projects/netscaler-sdwan-wanop-api-reference/en/latest/*"
+  to = "https://docs.citrix.com/en-us/citrix-sd-wan.html:splat"
+  status = 301
+  force = true
 
 [[redirects]]
-  from = "/projects/netscaler-sdwan-wanop-api-reference/en/10.1/*"
-  to = "https://sd-wan-wanop-api-reference-10-1.netlify.com/:splat"
-  status = 200
+  from = "https://developer-docs.citrix.com/projects/netscaler-sdwan-wanop-api-reference/en/10.1/*"
+  to = "https://docs.citrix.com/en-us/citrix-sd-wan.html:splat"
+  status = 301
+  force = true 
 
 [[redirects]]
-  from = "/projects/netscaler-sdwan-center-nitro-api/en/latest/*"
-  to = "https://netscaler-sdwan-center-nitro-api-reference-latest.netlify.com/:splat"
-  status = 200
+  from = "https://developer-docs.citrix.com/projects/netscaler-sdwan-center-nitro-api/en/latest/*"
+  to = "https://docs.citrix.com/en-us/citrix-sd-wan.html:splat"
+  status = 301
+  force = true
 
 [[redirects]]
-  from = "/projects/netscaler-sdwan-center-nitro-api/en/10.0/*"
-  to = "https://netscaler-sdwan-center-nitro-api-reference-10-0.netlify.com/:splat"
-  status = 200
+  from = "https://developer-docs.citrix.com/projects/netscaler-sdwan-center-nitro-api/en/10.0/*"
+  to = "https://docs.citrix.com/en-us/citrix-sd-wan.html:splat"
+  status = 301
+  force = true
 
 [[redirects]]
-  from = "/projects/netscaler-sdwan-nitro-api-reference/en/latest/*"
-  to = "https://netscaler-sdwan-nitro-api-reference-latest.netlify.com/:splat"
-  status = 200
+  from = "https://developer-docs.citrix.com/projects/netscaler-sdwan-nitro-api-reference/en/latest/*"
+  to = "https://docs.citrix.com/en-us/citrix-sd-wan.html:splat"
+  status = 301
+  force = true
 
 [[redirects]]
-  from = "/projects/netscaler-sdwan-nitro-api-reference/en/10.0/*"
-  to = "https://netscaler-sdwan-nitro-api-reference-10-0.netlify.com/:splat"
-  status = 200
+  from = "https://developer-docs.citrix.com/projects/netscaler-sdwan-nitro-api-reference/en/10.0/*"
+  to = "https://docs.citrix.com/en-us/citrix-sd-wan.html:splat"
+  status = 301
+  force = true
 
 [[redirects]]
   from = "/projects/appdna-sdk/en/latest/*"
