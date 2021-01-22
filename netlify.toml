@@ -898,3 +898,10 @@
   from = "/projects/citrix-virtual-apps-desktops-service-sdk/en/latest/*"
   to = "https://cvad-service-sdk.netlify.app/:splat"
   status = 200
+ 
+# DEMO SITE
+
+[[redirects]]
+  from = "/projects/devdocs-demo/en/latest/*"
+  to = "https://devdocs-demo.netlify.app/:splat"
+  status = 200
