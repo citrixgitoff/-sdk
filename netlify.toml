@@ -899,14 +899,3 @@
   to = "https://cvad-service-sdk.netlify.app/:splat"
   status = 200
  
-# DEMO SITE
-
-[[redirects]]
-  from = "/projects/devdocs-demo/en/latest/*"
-  to = "https://devdocs-demo.netlify.app/:splat"
-  status = 200
-
-[[redirects]]
-  from = "/projects/devdocs-demo/en/1.0/*"
-  to = "https://devdocs-demo-1-0.netlify.app/:splat"
-  status = 200
