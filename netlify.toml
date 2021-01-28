@@ -898,4 +898,9 @@
   from = "/projects/citrix-virtual-apps-desktops-service-sdk/en/latest/*"
   to = "https://cvad-service-sdk.netlify.app/:splat"
   status = 200
- 
+
+# ADC Counters Tool
+#[[redirects]]
+#  from = "/adc-counters-tool/*"
+#  to = "https://adc-counters-tool.netlify.app/:splat"
+#  status = 200
