@@ -362,13 +362,13 @@
 
 [[redirects]]
   from = "https://developer-docs.citrix.com/projects/citrix-mdx-android-sdk/en/latest/*"
-  to = "https://developer.cloud.com/mobile-application-integration/:splat"
+  to = "https://developer.cloud.com/citrixworkspace/mobile-application-integration/:splat"
   status = 301
   force = true
 
 [[redirects]]
   from = "https://developer-docs.citrix.com/projects/citrix-mdx-ios-sdk/en/latest/*"
-  to = "https://developer.cloud.com/mobile-application-integration/:splat"
+  to = "https://developer.cloud.com/citrixworkspace/mobile-application-integration/:splat"
   status = 301
   force = true
 
@@ -872,7 +872,7 @@
   
  [[redirects]]
   from = "https://developer-docs.citrix.com/citrix-endpoint-management/*"
-  to = "https://developer.cloud.com/mobile-application-integration/:splat"
+  to = "https://developer.cloud.com/citrixworkspace/mobile-application-integration/:splat"
   status = 301
   force = true
 
