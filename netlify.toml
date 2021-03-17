@@ -424,6 +424,11 @@
   status = 200
 
 [[redirects]]
+  from = "/projects/workspace-environment-management-sdk/en/1912/*"
+  to = "https://prod-workspace-environment-management-sdk-1912.netlify.com/:splat"
+  status = 200
+
+[[redirects]]
   from = "/projects/workspace-environment-management-sdk/en/4.7/*"
   to = "https://workspace-environment-management-sdk-4-7.netlify.com/:splat"
   status = 200
