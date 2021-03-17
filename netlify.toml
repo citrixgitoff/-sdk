@@ -312,6 +312,13 @@
   to = "https://citrix-adm-nitro-api-reference-12-1.netlify.app/:splat"
   status = 200
 
+# Citrix ADC SDX NITRO API Reference
+
+[[redirects]]
+  from = "/projects/citrix-adc-sdx-nitro-api-reference/en/latest/*"
+  to = "https://adc-sdx-nitro-api-reference-latest.netlify.app/:splat"
+  status = 200
+
 # Citrix SD-WAN
 
 [[redirects]]
