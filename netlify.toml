@@ -5,6 +5,11 @@
     X-XSS-Protection = "1; mode=block"
     Content-Security-Policy = "frame-ancestors https://developer-docs.citrix.com"
 
+[[redirects]]
+  from = "/"
+  to = "https://developer.cloud.com"
+  status = 301
+
   ####################
   ## Proxy Redirect ##
   ####################
