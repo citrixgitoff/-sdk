@@ -9,6 +9,8 @@
   from = "/"
   to = "https://developer.cloud.com"
   status = 301
+  force = true
+
 
   ####################
   ## Proxy Redirect ##
