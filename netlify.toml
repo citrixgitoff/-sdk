@@ -12,6 +12,11 @@
   force = true
 
 
+[[redirects]]
+  from = "/projects/access-monitor-service-data-citrix-cloud/en/latest/examples/"
+  to = "/projects/access-monitor-service-data-citrix-cloud/en/latest/"
+  status = 301
+
   ####################
   ## Proxy Redirect ##
   ####################
