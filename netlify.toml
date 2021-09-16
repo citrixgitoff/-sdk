@@ -25,7 +25,7 @@
 
 [[redirects]]
   from = "/projects/citrix-virtual-channel-sdk-for-linux-vda/en/latest/*"
-  to = "https://citrix-virtual-channel-sdk-for-linux-vda.netlify.app:splat"
+  to = "https://citrix-virtual-channel-sdk-for-linux-vda.netlify.app/:splat"
   status = 200
 
 [[redirects]]
