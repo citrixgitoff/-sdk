@@ -130,6 +130,11 @@
   status = 200
 
 [[redirects]]
+  from = "/projects/citrix-adc-nitro-api-reference/en/13.0/*"
+  to = "https://adc-nitro-api-13.netlify.com/:splat"
+  status = 200
+
+[[redirects]]
   from = "/projects/citrix-adc-nitro-api-reference/en/12.1/*"
   to = "https://adc-nitro-api-12-1.netlify.com/:splat"
   status = 200
@@ -167,6 +172,11 @@
   status = 200
 
 [[redirects]]
+  from = "/projects/citrix-adc-snmp-oid-reference/en/13.0/*"
+  to = "https://adc-snmp-oid-13-0.netlify.com/:splat"
+  status = 200
+
+[[redirects]]
   from = "/projects/citrix-adc-snmp-oid-reference/en/12.1/*"
   to = "https://adc-snmp-oid-12-1.netlify.com/:splat"
   status = 200
@@ -201,6 +211,11 @@
 [[redirects]]
   from = "/projects/citrix-adc-syslog-message-reference/en/latest/*"
   to = "https://adc-syslog-message-reference-latest.netlify.com/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/projects/citrix-adc-syslog-message-reference/en/13.0/*"
+  to = "https://adc-syslog-message-reference-13-0.netlify.com/:splat"
   status = 200
 
 [[redirects]]
