@@ -256,6 +256,11 @@
   status = 200
 
 [[redirects]]
+  from = "/projects/citrix-adc-command-reference/en/13/*"
+  to = "https://adc-command-reference-13.netlify.com/:splat"
+  status = 200
+
+[[redirects]]
   from = "/projects/citrix-adc-command-reference/en/12.1/*"
   to = "https://adc-command-reference-12-1.netlify.com/:splat"
   status = 200
@@ -290,6 +295,11 @@
 [[redirects]]
   from = "/projects/citrix-adc-advanced-policy-expression-reference/en/latest/*"
   to = "https://adc-advanced-policy-expression-reference-latest.netlify.com/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/projects/citrix-adc-advanced-policy-expression-reference/en/13/*"
+  to = "https://adc-advanced-policy-expression-reference-13.netlify.com/:splat"
   status = 200
 
 [[redirects]]
@@ -334,9 +344,16 @@
   to = "https://netscaler-ansible-docs.netlify.com/:splat"
   status = 200
 
+# Citrix ADM NITRO API Reference
+
 [[redirects]]
   from = "/projects/citrix-adm-nitro-api-reference/en/latest/*"
   to = "https://citrix-adm-nitro-api-reference-latest.netlify.app/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/projects/citrix-adm-nitro-api-reference/en/13/*"
+  to = "https://citrix-adm-nitro-api-reference-13.netlify.app/:splat"
   status = 200
 
 [[redirects]]
