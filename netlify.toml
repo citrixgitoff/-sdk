@@ -130,7 +130,7 @@
   status = 200
 
 [[redirects]]
-  from = "/projects/citrix-adc-nitro-api-reference/en/13.0/*"
+  from = "/projects/citrix-adc-nitro-api-reference/en/13/*"
   to = "https://adc-nitro-api-13.netlify.com/:splat"
   status = 200
 
