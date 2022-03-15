@@ -10,8 +10,19 @@
   to = "https://developer.cloud.com"
   status = 301
   force = true
+  
+[[redirects]]
+  from = "/projects/citrix-k8s-ingress-controller/en/latest/*"
+  to = "https://docs.citrix.com/en-us/citrix-k8s-ingress-controller/index.html"
+  status = 301
+  force = true
 
-
+[[redirects]]
+  from = "/projects/citrix-observability-exporter/en/latest/*"
+  to = "https://docs.citrix.com/en-us/citrix-observability-exporter/index.html"
+  status = 301
+  force = true
+  
 [[redirects]]
   from = "/projects/access-monitor-service-data-citrix-cloud/en/latest/examples/"
   to = "/projects/access-monitor-service-data-citrix-cloud/en/latest/"
