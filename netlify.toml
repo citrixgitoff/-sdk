@@ -28,6 +28,11 @@
   to = "/projects/access-monitor-service-data-citrix-cloud/en/latest/"
   status = 301
 
+[[redirects]]
+  from = "/projects/citrix-virtual-apps-desktops-service-sdk/en/latest/*"
+  to = "/projects/citrix-daas-sdk/en/latest/"
+  status = 301
+  
   ####################
   ## Proxy Redirect ##
   ####################
@@ -992,7 +997,7 @@
   force = true
 
 [[redirects]]
-  from = "/projects/citrix-virtual-apps-desktops-service-sdk/en/latest/*"
+  from = "/projects/citrix-daas-sdk/en/latest/*"
   to = "https://cvad-service-sdk.netlify.app/:splat"
   status = 200
 
