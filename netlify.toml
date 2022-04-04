@@ -32,6 +32,10 @@
   from = "/projects/citrix-virtual-apps-desktops-service-sdk/en/latest/*"
   to = "/projects/citrix-daas-sdk/en/latest/"
   status = 301
+[[redirects]]
+  from = "/projects/citrix-virtual-apps-desktops-service-sdk/en/latest*"
+  to = "/projects/citrix-daas-sdk/en/latest/"
+  status = 301
   
   ####################
   ## Proxy Redirect ##
