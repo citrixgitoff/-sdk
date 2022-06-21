@@ -1001,6 +1001,11 @@
   to = "https://cvad-service-sdk.netlify.app/:splat"
   status = 200
 
+[[redirects]]
+  from = "/projects/workspace-app-for-chrome-virtual-channel-sdk/en/latest/*"
+  to = "https://workspace-html5-vcsdk.netlify.app/:splat"
+  status = 200
+
 # ADC Counters Tool
 #[[redirects]]
 #  from = "/adc-counters-tool/*"
