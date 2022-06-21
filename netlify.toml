@@ -1002,7 +1002,7 @@
   status = 200
 
 [[redirects]]
-  from = "/projects/workspace-app-for-chrome-virtual-channel-sdk/en/latest/*"
+  from = "/projects/workspace-app-for-html5-virtual-channel-sdk/en/latest/*"
   to = "https://workspace-html5-vcsdk.netlify.app/:splat"
   status = 200
 
