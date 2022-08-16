@@ -24,6 +24,12 @@
   force = true
   
 [[redirects]]
+  from = "/projects/citrix-istio-adaptor/en/latest/*"
+  to = "https://docs.citrix.com/en-us/citrix-istio-adapter"
+  status = 301
+  force = true
+  
+[[redirects]]
   from = "/projects/access-monitor-service-data-citrix-cloud/en/latest/examples/"
   to = "/projects/access-monitor-service-data-citrix-cloud/en/latest/"
   status = 301
