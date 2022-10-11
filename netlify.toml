@@ -1013,7 +1013,23 @@
   to = "https://developer.cloud.com/"
   status = 301
   force = true
-
+  
+[[redirects]]
+  from = "https://developer-docs.citrix.com/projects/workspace-app-for-linux-storebrowse-classic-password-insertion/en/latest/"
+  to = "https://developer.cloud.com/citrixworkspace/storebrowse-classic-password-insertion/docs/overview"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://developer-docs.citrix.com/projects/workspace-app-for-linux-platform-optimization-sdk/en/latest/"
+  to = "https://developer.cloud.com/citrixworkspace/platform-optimization-sdk/docs/overview"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://developer-docs.citrix.com/projects/workspace-app-for-linux-certificate-identity-declaration-sdk/en/latest/"
+  to = "https://developer.cloud.com/citrixworkspace/certificate-identity-declaration-sdk/docs/overview"
+  status = 301
+  force = true
+      
 [[redirects]]
   from = "/projects/citrix-daas-sdk/en/latest/*"
   to = "https://cvad-service-sdk.netlify.app/:splat"
