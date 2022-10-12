@@ -56,6 +56,18 @@
   status = 301
   force = true
   
+[[redirects]]
+  from = "https://developer-docs.citrix.com/projects/workspace-app-for-linux-authentication-manager-configuration/en/latest/"
+  to = "https://developer.cloud.com/citrixworkspace/authentication-manager-configuration-for-fast-connect-use-cases/docs/overview"
+  status = 301
+  force = true
+  
+[[redirects]]
+  from = "https://developer-docs.citrix.com/projects/workspace-app-for-linux-command-reference/en/latest/"
+  to = "https://developer.cloud.com/citrixworkspace/citrix-workspace-app-for-linux-command-line-reference/docs/overview"
+  status = 301
+  force = true
+  
   ####################
   ## Proxy Redirect ##
   ####################
