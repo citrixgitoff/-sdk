@@ -76,8 +76,8 @@
 
 [[redirects]]
   from = "/projects/citrix-virtual-channel-sdk-for-linux-vda/en/latest/*"
-  to = "https://citrix-virtual-channel-sdk-for-linux-vda.netlify.app/:splat"
-  status = 200
+  to = "https://developer.cloud.com/citrixworkspace/citrix-virtual-channel-sdk-for-the-linux-vda/docs/overview"
+  status = 301
 
 [[redirects]]
   from = "/projects/workspace-app-for-android-virtual-channel-sdk/en/latest/*"
@@ -106,13 +106,13 @@
 
 [[redirects]]
   from = "/projects/workspace-app-for-linux-oem-guide/en/latest/*"
-  to = "https://workspace-linux-oem-guide-latest.netlify.com/:splat"
-  status = 200
+  to = "https://developer.cloud.com/citrixworkspace/citrix-workspace-app-for-linux-oem-reference-guide/docs/overview"
+  status = 301
 
 [[redirects]]
   from = "/projects/workspace-app-for-linux-virtual-channel-sdk/en/latest/*"
-  to = "https://workspace-linux-virtual-channel-sdk-latest.netlify.com/:splat"
-  status = 200
+  to = "https://developer.cloud.com/citrixworkspace/citrix-virtual-channel-sdk-for-citrix-workspace-app-for-linux/docs/overview"
+  status = 301
 
 [[redirects]]
   from = "/projects/workspace-app-for-linux-command-reference/en/latest/*"
@@ -131,8 +131,8 @@
 
 [[redirects]]
   from = "/projects/workspace-app-for-linux-fast-connect-credential-insertion-api/en/latest/*"
-  to = "https://workspace-linux-fast-connect-credential-insertion-api-latest.netlify.com/:splat"
-  status = 200
+  to = "https://developer.cloud.com/citrixworkspace/fast-connect-credential-insertion-api-for-citrix-workspace-app-for-linux/docs/overview"
+  status = 301
 
 [[redirects]]
   from = "/projects/workspace-app-for-linux-authentication-manager-configuration/en/latest/*"
@@ -146,8 +146,8 @@
 
 [[redirects]]
   from = "/projects/workspace-app-for-linux-domain-pass-through/en/latest/*"
-  to = "https://workspace-linux-domain-pass-through-latest.netlify.com/:splat"
-  status = 200
+  to = "https://developer.cloud.com/citrixworkspace/domain-pass-through-citrix-Workspace-app-for-linux/docs/overview"
+  status = 301
 
 # Citrix Workspace app for Windows
 
