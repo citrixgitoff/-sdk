@@ -81,18 +81,18 @@
 
 [[redirects]]
   from = "/projects/workspace-app-for-android-virtual-channel-sdk/en/latest/*"
-  to = "https://workspace-android-vcsdk-latest.netlify.com/:splat"
-  status = 200
+  to = "https://developer.cloud.com/citrixworkspace/citrix-virtual-channel-sdk-for-citrix-workspace-app-for-android/docs/overview"
+  status = 301
 
 [[redirects]]
   from = "/projects/workspace-app-for-chrome-hdx-sdk/en/latest/*"
-  to = "https://workspace-chrome-hdx-sdk-latest.netlify.com/:splat"
-  status = 200
+  to = "https://developer.cloud.com/citrixworkspace/citrix-workspace-app-1808-for-chrome-hdx-sdk/docs/overview"
+  status = 301
 
 [[redirects]]
   from = "/projects/workspace-app-for-chrome-virtual-channel-sdk/en/latest/*"
-  to = "https://workspace-chrome-vcsdk-latest.netlify.com/:splat"
-  status = 200
+  to = "https://developer.cloud.com/citrixworkspace/virtual-channel-sdk-for-citrix-workspace-app-1808-for-chrome/docs/overview"
+  status = 301
 
 [[redirects]]
   from = "/projects/workspace-app-for-html5-sdk/en/latest/*"
@@ -158,8 +158,8 @@
 
 [[redirects]]
   from = "/projects/workspace-app-for-windows-fast-connect-api/en/latest/*"
-  to = "https://workspace-windows-fast-connect-api-latest.netlify.com/:splat"
-  status = 200
+  to = "https://developer.cloud.com/citrixworkspace/fast-connect-3-credential-insertion-api-for-citrix-workspace-app-1808-for-windows/docs/overview"
+  status = 301
 
 [[redirects]]
   from = "/projects/workspace-app-for-windows-ccm-sdk/en/latest/*"
@@ -963,8 +963,8 @@
 
 [[redirects]]
   from = "/projects/citrix-workspace-app-for-android-oem-reference-guide/en/latest/*"
-  to = "https://cwa-android-oem-guide.netlify.com/:splat"
-  status = 200
+  to = "https://developer.cloud.com/citrixworkspace/citrix-workspace-app-for-android-oem-reference-guide/docs/overview"
+  status = 301
 
 # Opensource
 
@@ -1051,8 +1051,8 @@
 
 [[redirects]]
   from = "/projects/workspace-app-for-html5-virtual-channel-sdk/en/latest/*"
-  to = "https://workspace-html5-vcsdk.netlify.app/:splat"
-  status = 200
+  to = "https://developer.cloud.com/citrixworkspace/virtual-channel-sdk-for-citrix-workspace-app-2206-for-html5/docs/overview"
+  status = 301
 
 # ADC Counters Tool
 #[[redirects]]
