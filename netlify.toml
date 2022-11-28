@@ -81,8 +81,8 @@
 
 [[redirects]]
   from = "/projects/workspace-app-for-android-virtual-channel-sdk/en/latest/*"
-  to = "https://workspace-android-vcsdk-latest.netlify.com/:splat"
-  status = 200
+  to = "https://developer.cloud.com/citrixworkspace/citrix-virtual-channel-sdk-for-citrix-workspace-app-for-android/docs/overview"
+  status = 301
 
 [[redirects]]
   from = "/projects/workspace-app-for-chrome-hdx-sdk/en/latest/*"
