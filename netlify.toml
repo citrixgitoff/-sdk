@@ -489,13 +489,15 @@
 
 [[redirects]]
   from = "/projects/citrix-hypervisor-sdk/en/latest/*"
-  to = "https://citrix-hypervisor-sdk.netlify.com/:splat"
-  status = 200
+  to = "https://docs.citrix.com/en-us/citrix-hypervisor/developer/sdk-guide"
+  status = 301
+  force = true
 
 [[redirects]]
   from = "/projects/citrix-hypervisor-management-api/en/latest/*"
-  to = "https://citrix-hypervisor-management-api.netlify.com/:splat"
-  status = 200
+  to = "https://docs.citrix.com/en-us/citrix-hypervisor/developer/management-api"
+  status = 301
+  force = true
 
 [[redirects]]
   from = "/projects/citrix-hypervisor-management-api/en/8.1/*"
@@ -509,18 +511,21 @@
 
 [[redirects]]
   from = "/projects/citrix-hypervisor-changed-block-tracking-guide/en/latest/*"
-  to = "https://citrix-hypervisor-changed-block-tracking.netlify.com/:splat"
-  status = 200
+  to = "https://docs.citrix.com/en-us/citrix-hypervisor/developer/changed-block-tracking-guide"
+  status = 301
+  force = true
 
 [[redirects]]
   from = "/projects/citrix-hypervisor-ddk/en/latest/*"
-  to = "https://citrix-hypervisor-ddk.netlify.com/:splat"
-  status = 200
+  to = "https://docs.citrix.com/en-us/citrix-hypervisor/developer/ddk"
+  status = 301
+  force = true
 
 [[redirects]]
   from = "/projects/xencenter-plugin-specification/en/latest/*"
-  to = "https://xencenter-plugin-specification.netlify.com/:splat"
-  status = 200
+  to = "https://docs.citrix.com/en-us/citrix-hypervisor//developer/xencenter-plugin-specification"
+  status = 301
+  force = true
 
 # WEM
 
