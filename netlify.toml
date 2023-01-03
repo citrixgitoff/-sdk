@@ -153,8 +153,9 @@
 
 [[redirects]]
   from = "/projects/workspace-app-for-windows-virtual-channel-sdk/en/latest/*"
-  to = "https://workspace-windows-vcsdk-latest.netlify.com/:splat"
-  status = 200
+  to = "https://developer.cloud.com/citrixworkspace/citrix-virtual-channel-sdk-for-citrix-workspace-app-for-windows/docs/introduction"
+  status = 301
+  force = true
 
 [[redirects]]
   from = "/projects/workspace-app-for-windows-fast-connect-api/en/latest/*"
@@ -163,8 +164,9 @@
 
 [[redirects]]
   from = "/projects/workspace-app-for-windows-ccm-sdk/en/latest/*"
-  to = "https://workspace-windows-ccm-sdk-latest.netlify.com/:splat"
-  status = 200
+  to = "https://developer.cloud.com/citrixworkspace/citrix-common-connection-manager-sdk/docs/overview"
+  status = 301
+  force = true
 
 [[redirects]]
   from = "/projects/workspace-app-for-windows-certificate-identity-declaration-sdk/en/latest/*"
@@ -704,13 +706,15 @@
 
 [[redirects]]
   from = "/projects/storefront-authentication-sdk/en/latest/*"
-  to = "https://storefront-authentication-sdk-latest.netlify.com/:splat"
-  status = 200
+  to = "https://developer.cloud.com/citrixworkspace/citrix-storefront/citrix-storefront-1811-authentication-sdk/docs/storefront-services-authentication-sdk"
+  status = 301
+  force = true
 
 [[redirects]]
   from = "/projects/storefront-services-api/en/latest/*"
-  to = "https://storefront-store-services-api-latest.netlify.com/:splat"
-  status = 200
+  to = "https://developer.cloud.com/citrixworkspace/citrix-storefront/storefront-store-services-api-3.0/docs/overview"
+  status = 301
+  force = true
 
 [[redirects]]
   from = "/projects/storefront-powershell-sdk/en/latest/*"
