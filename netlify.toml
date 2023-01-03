@@ -550,7 +550,12 @@
   from = "/projects/citrix-virtual-apps-desktops-sdk/en/latest/*"
   to = "https://citrix-virtual-apps-desktops-sdk.netlify.com/:splat"
   status = 200
-    
+
+[[redirects]]
+  from = "/projects/citrix-virtual-apps-desktops-sdk/en/2209/*"
+  to = "https://citrix-virtual-apps-desktops-sdk-2209.netlify.app/:splat"
+  status = 200
+
 [[redirects]]
   from = "/projects/citrix-virtual-apps-desktops-sdk/en/2206/*"
   to = "https://citrix-virtual-apps-desktops-sdk-2206.netlify.app/:splat"
