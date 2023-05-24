@@ -732,6 +732,11 @@
   status = 200
 
 [[redirects]]
+  from = "/projects/storefront-powershell-sdk/en/1912/*"
+  to = "https://storefront-powershell-sdk-1912.netlify.com/:splat"
+  status = 200
+
+[[redirects]]
   from = "/projects/storefront-powershell-sdk/en/1909/*"
   to = "https://storefront-powershell-sdk-1909.netlify.com/:splat"
   status = 200
