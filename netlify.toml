@@ -530,7 +530,11 @@
   force = true
 
 # WEM
-
+[[redirects]]
+  from = "/en-us/workspace-environment-management-sdk/*"
+  to = "https://prod-ddc-en-us-citrix-sdk-apis.netlify.app/en-us/workspace-environment-management-sdk/:splat"
+  status = 200
+  
 [[redirects]]
   from = "/projects/workspace-environment-management-sdk/en/latest/*"
   to = "https://workspace-environment-management-sdk-latest.netlify.com/:splat"
@@ -623,6 +627,11 @@
   status = 200
 
 [[redirects]]
+  from = "/en-us/monitor-service-odata-api/*"
+  to = "https://prod-ddc-en-us-citrix-sdk-apis.netlify.app/en-us/monitor-service-odata-api/:splat"
+  status = 200
+  
+[[redirects]]
   from = "/projects/monitor-service-odata-api/en/latest/*"
   to = "https://monitoring-api.netlify.com/:splat"
   status = 200
@@ -682,6 +691,11 @@
   to = "https://provisioning-services-sdk-7-12.netlify.com/:splat"
   status = 200
 
+[[redirects]]
+  from = "/en-us/citrix-provisioning-powershell-guide/*"
+  to = "https://prod-ddc-en-us-citrix-sdk-apis.netlify.app/en-us/citrix-provisioning-powershell-guide/:splat"
+  status = 200
+  
 [[redirects]]
   from = "/projects/provisioning-services-powershell-object-programming-guide/en/latest/*"
   to = "https://provisioning-services-powershell-object-programming-guide.netlify.com/:splat"
