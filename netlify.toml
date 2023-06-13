@@ -1102,7 +1102,12 @@
   from = "/projects/workspace-app-for-html5-virtual-channel-sdk/en/latest/*"
   to = "https://developer.cloud.com/citrixworkspace/virtual-channel-sdk-for-citrix-workspace-app-2206-for-html5/docs/overview"
   status = 301
-
+  
+[[redirects]]
+  from = "/assets/*"
+  to = "https://developer-docs-citrix.netlify.app/assets/:splat"
+  status = 200
+  
 # ADC Counters Tool
 #[[redirects]]
 #  from = "/adc-counters-tool/*"
