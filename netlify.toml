@@ -95,6 +95,11 @@
   status = 301
 
 [[redirects]]
+  from = "/en-us/citrix-workspace-app-chrome-html5/*"
+  to = "https://prod-ddc-en-us-citrix-sdk-apis.netlify.app/en-us/citrix-workspace-app-chrome-html5/:splat"
+  status = 200
+
+[[redirects]]
   from = "/projects/workspace-app-for-html5-sdk/en/latest/*"
   to = "https://workspace-html5-hdx-sdk-latest.netlify.com/:splat"
   status = 200
@@ -660,6 +665,13 @@
   from = "/projects/federated-authentication-service-powershell-cmdlets/en/7.17/*"
   to = "https://fas-powershell-7-17.netlify.com/:splat"
   status = 200
+
+[[redirects]]
+  from = "/en-us/provisioning-services-sdk/*"
+  to = "https://prod-ddc-en-us-citrix-sdk-apis.netlify.app/en-us/provisioning-services-sdk/:splat"
+  status = 200
+
+
 
 [[redirects]]
   from = "/projects/provisioning-services-sdk/en/latest/*"
