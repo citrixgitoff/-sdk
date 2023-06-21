@@ -542,18 +542,23 @@
   
 [[redirects]]
   from = "/projects/workspace-environment-management-sdk/en/latest/*"
-  to = "https://workspace-environment-management-sdk-latest.netlify.com/:splat"
-  status = 200
-
+  to = "/en-us/workspace-environment-management-sdk/current-release/:splat"
+  status = 301
+  
 [[redirects]]
-  from = "/projects/workspace-environment-management-sdk/en/1912/*"
-  to = "https://prod-workspace-environment-management-sdk-1912.netlify.com/:splat"
-  status = 200
+  from = "/projects/workspace-environment-management-sdk/en/*"
+  to = "/en-us/workspace-environment-management-sdk/:splat"
+  status = 301
+  
+# [[redirects]]
+#  from = "/projects/workspace-environment-management-sdk/en/1912/*"
+#  to = "https://prod-workspace-environment-management-sdk-1912.netlify.com/:splat"
+# status = 200 //
 
-[[redirects]]
-  from = "/projects/workspace-environment-management-sdk/en/4.7/*"
-  to = "https://workspace-environment-management-sdk-4-7.netlify.com/:splat"
-  status = 200
+# [[redirects]]
+# from = "/projects/workspace-environment-management-sdk/en/4.7/*"
+# to = "https://workspace-environment-management-sdk-4-7.netlify.com/:splat"
+# status = 200
 
 [[redirects]]
   from = "/projects/citrix-virtual-apps-desktops-sdk/en/latest/*"
