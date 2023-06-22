@@ -680,28 +680,33 @@
 
 [[redirects]]
   from = "/projects/provisioning-services-sdk/en/latest/*"
-  to = "https://provisioning-services-sdk.netlify.com/:splat"
-  status = 200
-
+  to = "/en-us/provisioning-services-sdk/current-release/:splat"
+  status = 301
+  
 [[redirects]]
-  from = "/projects/provisioning-services-sdk/en/1912/*"
-  to = "https://provisioning-services-sdk-1912.netlify.com/:splat"
-  status = 200
+  from = "/projects/provisioning-services-sdk/en/*"
+  to = "/en-us/provisioning-services-sdk/:splat"
+  status = 301
+  
+#[[redirects]]
+#  from = "/projects/provisioning-services-sdk/en/1912/*"
+#  to = "https://provisioning-services-sdk-1912.netlify.com/:splat"
+#  status = 200
 
-[[redirects]]
-  from = "/projects/provisioning-services-sdk/en/1909/*"
-  to = "https://provisioning-services-sdk-1909.netlify.com/:splat"
-  status = 200
+#[[redirects]]
+# from = "/projects/provisioning-services-sdk/en/1909/*"
+#  to = "https://provisioning-services-sdk-1909.netlify.com/:splat"
+# status = 200
 
-[[redirects]]
-  from = "/projects/provisioning-services-sdk/en/1906/*"
-  to = "https://provisioning-services-sdk-1906.netlify.com/:splat"
-  status = 200
+#[[redirects]]
+# from = "/projects/provisioning-services-sdk/en/1906/*"
+# to = "https://provisioning-services-sdk-1906.netlify.com/:splat"
+#  status = 200
 
-[[redirects]]
-  from = "/projects/provisioning-services-sdk/en/1903/*"
-  to = "https://provisioning-services-sdk-1903.netlify.com/:splat"
-  status = 200
+#[[redirects]]
+# from = "/projects/provisioning-services-sdk/en/1903/*"
+#  to = "https://provisioning-services-sdk-1903.netlify.com/:splat"
+# status = 200
 
 [[redirects]]
   from = "/projects/provisioning-services-sdk/en/7.12/*"
@@ -715,23 +720,28 @@
   
 [[redirects]]
   from = "/projects/provisioning-services-powershell-object-programming-guide/en/latest/*"
-  to = "https://provisioning-services-powershell-object-programming-guide.netlify.com/:splat"
-  status = 200
-
+  to = "/en-us/citrix-provisioning-powershell-guide/current-release/:splat"
+  status = 301
+  
 [[redirects]]
-  from = "/projects/provisioning-services-powershell-object-programming-guide/en/1912/*"
-  to = "https://provisioning-services-powershell-object-programming-guide-1912.netlify.com/:splat"
-  status = 200
+  from = "/projects/provisioning-services-powershell-object-programming-guide/en/*"
+  to = "/en-us/citrix-provisioning-powershell-guide/:splat"
+  status = 301
+  
+#[[redirects]]
+ # from = "/projects/provisioning-services-powershell-object-programming-guide/en/1912/*"
+  #to = "https://provisioning-services-powershell-object-programming-guide-1912.netlify.com/:splat"
+  #status = 200
 
-[[redirects]]
-  from = "/projects/provisioning-services-powershell-object-programming-guide/en/1909/*"
-  to = "https://provisioning-services-powershell-object-programming-guide-1909.netlify.com/:splat"
-  status = 200
+#[[redirects]]
+ # from = "/projects/provisioning-services-powershell-object-programming-guide/en/1909/*"
+  #to = "https://provisioning-services-powershell-object-programming-guide-1909.netlify.com/:splat"
+  #status = 200
 
-[[redirects]]
-  from = "/projects/provisioning-services-powershell-object-programming-guide/en/1906/*"
-  to = "https://provisioning-services-powershell-object-programming-guide-1906.netlify.com/:splat"
-  status = 200
+#[[redirects]]
+ # from = "/projects/provisioning-services-powershell-object-programming-guide/en/1906/*"
+  #to = "https://provisioning-services-powershell-object-programming-guide-1906.netlify.com/:splat"
+  #status = 200
 
 [[redirects]]
   from = "/projects/provisioning-services-powershell-object-programming-guide/en/1903/*"
