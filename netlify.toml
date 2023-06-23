@@ -105,9 +105,14 @@
   status = 301
 
 [[redirects]]
-  from = "/projects/workspace-app-for-html5-sdk/en/latest/*"
-  to = "https://workspace-html5-hdx-sdk-latest.netlify.com/:splat"
-  status = 200
+  from = "/projects/workspace-app-for-html5-sdk/en/*"
+  to = "/en-us/citrix-workspace-app-chrome-html5/:splat"
+  status = 301
+
+#[[redirects]]
+#  from = "/projects/workspace-app-for-html5-sdk/en/latest/*"
+#  to = "https://workspace-html5-hdx-sdk-latest.netlify.com/:splat"
+#  status = 200
 
 [[redirects]]
   from = "/projects/workspace-app-for-linux-vcsdk-readme/en/latest/*"
