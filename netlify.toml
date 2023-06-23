@@ -98,7 +98,12 @@
   from = "/en-us/citrix-workspace-app-chrome-html5/*"
   to = "https://prod-ddc-en-us-ctw-app-ch.netlify.app/en-us/citrix-workspace-app-chrome-html5/:splat"
   status = 200
-
+  
+[[redirects]]
+  from = "/projects/citrix-workspace-app-chrome-html5/*"
+  to = "/en-us/citrix-workspace-app-chrome-html5/:splat"
+  status = 301
+  
 [[redirects]]
   from = "/projects/workspace-app-for-html5-sdk/en/latest/*"
   to = "https://workspace-html5-hdx-sdk-latest.netlify.com/:splat"
@@ -643,18 +648,23 @@
   
 [[redirects]]
   from = "/projects/monitor-service-odata-api/en/latest/*"
-  to = "https://monitoring-api.netlify.com/:splat"
-  status = 200
-
+  to = "/en-us/monitor-service-odata-api/current-release/:splat"
+  status = 301
+  
 [[redirects]]
-  from = "/projects/monitor-service-odata-api/en/7.16/*"
-  to = "https://monitoring-api.netlify.com/:splat"
-  status = 200
+  from = "/projects/monitor-service-odata-api/en/*"
+  to = "/en-us/monitor-service-odata-api/current-release/:splat"
+  status = 301
+  
+#[[redirects]]
+#  from = "/projects/monitor-service-odata-api/en/7.16/*"
+# to = "https://monitoring-api.netlify.com/:splat"
+# status = 200
 
-[[redirects]]
-  from = "/projects/monitor-service-odata-api/en/7.15-ltsr/*"
-  to = "https://monitoring-api-7-15.netlify.com/:splat"
-  status = 200
+#[[redirects]]
+#  from = "/projects/monitor-service-odata-api/en/7.15-ltsr/*"
+#  to = "https://monitoring-api-7-15.netlify.com/:splat"
+#  status = 200
 
 [[redirects]]
   from = "/projects/federated-authentication-service-powershell-cmdlets/en/latest/*"
