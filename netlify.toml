@@ -100,8 +100,8 @@
   status = 200
   
 [[redirects]]
-  from = "/projects/workspace-app-for-html5-sdk/en/latest/*"
-  to = "/en-us/citrix-workspace-app-chrome-html5/workspace-app-html5-hdx-sdx/:splat"
+  from = "/projects/workspace-app-for-html5-sdk/en/workspace-app-html5-hdx-sdx/*"
+  to = "/en-us/citrix-workspace-app-chrome-html5/:splat"
   status = 301
 
 #[[redirects]]
