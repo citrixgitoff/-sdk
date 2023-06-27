@@ -773,6 +773,16 @@
   to = "https://prod-ddc-en-us-ct-app-linux.netlify.app/en-us/citrix-workspace-for-linux/:splat"
   status = 200
 
+[[redirects]]
+  from = "/en-us/citrix-workspace-app-windows-mac/*"
+  to = "https://prod-ddc-en-us-ct-app-winmac.netlify.app/en-us/citrix-workspace-app-windows-mac/:splat"
+  status = 200  
+
+[[redirects]]
+  from = "/en-us/citrix-workspace-app-configuration/*"
+  to = "https://prod-ddc-en-us-ct-app-configure.netlify.app/en-us/citrix-workspace-app-configuration/:splat"
+  status = 200
+  
 # StoreFront
 
 [[redirects]]
