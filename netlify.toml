@@ -546,6 +546,11 @@
   status = 200
   
 [[redirects]]
+  from = "https://developer-docs.citrix.com/en-us/workspace-environment-management-sdk/sitemap.xml*"
+  to = "https://prod-ddc-en-us-citrix-sdk-apis.netlify.app/sitemap.xml:splat"
+  status = 200
+  
+[[redirects]]
   from = "/projects/workspace-environment-management-sdk/en/latest/*"
   to = "/en-us/workspace-environment-management-sdk/current-release/:splat"
   status = 301
