@@ -1165,9 +1165,14 @@
   status = 200
   
 [[redirects]]
-  from = "https://developer-docs.citrix.com/en-us/workspace-environment-management-sdk/sitemap.xml"
+  from = "/en-us/workspace-environment-management-sdk/sitemap.xml"
   to = "https://prod-ddc-en-us-citrix-sdk-apis.netlify.app/sitemap.xml"
   status = 200
+  
+#[[redirects]]
+#  from = "https://developer-docs.citrix.com/en-us/workspace-environment-management-sdk/sitemap.xml"
+#  to = "https://prod-ddc-en-us-citrix-sdk-apis.netlify.app/sitemap.xml"
+#  status = 200
   
 # ADC Counters Tool
 #[[redirects]]
