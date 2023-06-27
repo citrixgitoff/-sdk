@@ -1154,31 +1154,6 @@
   to = "https://prod-ddc-en-us-citrix-sdk-apis.netlify.app/sitemap.xml"
   status = 200
   
-[[redirects]]
-  from = "https://developer-docs.citrix.com/en-us/monitor-service-odata-api/sitemap.xml"
-  to = "https://prod-ddc-en-us-citrix-sdk-apis.netlify.app/sitemap.xml"
-  status = 200
-  
-[[redirects]]
-  from = "https://developer-docs.citrix.com/en-us/citrix-workspace-app-chrome-html5/workspace-app-html5-hdx-sdx/sitemap.xml"
-  to = "https://prod-ddc-en-us-ctw-app-ch.netlify.app/sitemap.xml"
-  status = 200
-  
-[[redirects]]
-  from = "https://developer-docs.citrix.com/en-us/provisioning-services-sdk/sitemap.xml"
-  to = "https://prod-ddc-en-us-citrix-sdk-apis.netlify.app/sitemap.xml"
-  status = 200
-  
-[[redirects]]
-  from = "https://developer-docs.citrix.com/en-us/citrix-provisioning-powershell-guide/sitemap.xml"
-  to = "https://prod-ddc-en-us-citrix-sdk-apis.netlify.app/sitemap.xml"
-  status = 200
-  
-[[redirects]]
-  from = "https://developer-docs.citrix.com/en-us/citrix-daas-sdk/sitemap.xml"
-  to = "https://prod-ddc-en-us-ct-daas-sdk.netlify.app/sitemap.xml"
-  status = 200
-  
 # ADC Counters Tool
 #[[redirects]]
 #  from = "/adc-counters-tool/*"
