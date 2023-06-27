@@ -767,6 +767,11 @@
   from = "/projects/provisioning-services-mcli-programmers-guide/en/latest/*"
   to = "https://pvs-mcli-programmers-guide-latest.netlify.com/:splat"
   status = 200
+  
+[[redirects]]
+  from = "/en-us/citrix-workspace-for-linux/*"
+  to = "https://prod-ddc-en-us-ct-app-linux.netlify.app/en-us/citrix-workspace-for-linux/:splat"
+  status = 200
 
 # StoreFront
 
