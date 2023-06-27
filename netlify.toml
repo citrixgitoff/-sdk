@@ -541,15 +541,15 @@
 
 # WEM
 [[redirects]]
-  from = "/en-us/workspace-environment-management-sdk/*"
-  to = "https://prod-ddc-en-us-citrix-sdk-apis.netlify.app/en-us/workspace-environment-management-sdk/:splat"
-  status = 200
-  
-[[redirects]]
   from = "https://developer-docs.citrix.com/en-us/workspace-environment-management-sdk/sitemap.xml"
   to = "https://prod-ddc-en-us-citrix-sdk-apis.netlify.app/sitemap.xml"
   status = 200
   
+[[redirects]]
+  from = "/en-us/workspace-environment-management-sdk/*"
+  to = "https://prod-ddc-en-us-citrix-sdk-apis.netlify.app/en-us/workspace-environment-management-sdk/:splat"
+  status = 200
+    
 [[redirects]]
   from = "/projects/workspace-environment-management-sdk/en/latest/*"
   to = "/en-us/workspace-environment-management-sdk/current-release/:splat"
