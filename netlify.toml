@@ -100,6 +100,26 @@
   status = 200
   
 [[redirects]]
+  from = "/en-us/citrix-workspace-app-chrome-html5/workspace-app-2206-chrome/sitemap.xml"
+  to = "https://prod-ddc-en-us-ctw-app-ch.netlify.app/sitemap.xml"
+  status = 200
+  
+[[redirects]]
+  from = "/en-us/citrix-workspace-app-chrome-html5/workspace-app-1808-chrome-hdx-sdk/sitemap.xml"
+  to = "https://prod-ddc-en-us-ctw-app-ch.netlify.app/sitemap.xml"
+  status = 200
+  
+[[redirects]]
+  from = "/en-us/citrix-workspace-app-chrome-html5/workspace-app-2206-html5/sitemap.xml"
+  to = "https://prod-ddc-en-us-ctw-app-ch.netlify.app/sitemap.xml"
+  status = 200
+  
+[[redirects]]
+  from = "/en-us/citrix-workspace-app-chrome-html5/sitemap.xml"
+  to = "https://prod-ddc-en-us-ctw-app-ch.netlify.app/sitemap.xml"
+  status = 200
+  
+[[redirects]]
   from = "/en-us/citrix-workspace-app-chrome-html5/*"
   to = "https://prod-ddc-en-us-ctw-app-ch.netlify.app/en-us/citrix-workspace-app-chrome-html5/:splat"
   status = 200
