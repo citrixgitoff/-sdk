@@ -792,15 +792,50 @@
   status = 200
   
 [[redirects]]
+  from = "/en-us/citrix-workspace-for-linux/citrix-virtual-channel-sdk-for-citrix-workspace-app-for-linux/sitemap.xml"
+  to = "https://prod-ddc-en-us-ct-app-linux.netlify.app/sitemap.xml"
+  status = 200
+  
+[[redirects]]
+  from = "/en-us/citrix-workspace-for-linux/sitemap.xml"
+  to = "https://prod-ddc-en-us-ct-app-linux.netlify.app/sitemap.xml"
+  status = 200
+  
+[[redirects]]
   from = "/en-us/citrix-workspace-for-linux/*"
   to = "https://prod-ddc-en-us-ct-app-linux.netlify.app/en-us/citrix-workspace-for-linux/:splat"
   status = 200
-
+  
+[[redirects]]
+  from = "/en-us/citrix-workspace-app-windows-mac/citrix-common-connection-manager-sdk/sitemap.xml"
+  to = "https://prod-ddc-en-us-ct-app-winmac.netlify.app/sitemap.xml"
+  status = 200
+  
+[[redirects]]
+  from = "/en-us/citrix-workspace-app-windows-mac/citrix-virtual-channel-sdk-for-citrix-workspace-app-for-windows/sitemap.xml"
+  to = "https://prod-ddc-en-us-ct-app-winmac.netlify.app/sitemap.xml"
+  status = 200
+  
+[[redirects]]
+  from = "/en-us/citrix-workspace-app-windows-mac/sitemap.xml"
+  to = "https://prod-ddc-en-us-ct-app-winmac.netlify.app/sitemap.xml"
+  status = 200
+  
 [[redirects]]
   from = "/en-us/citrix-workspace-app-windows-mac/*"
   to = "https://prod-ddc-en-us-ct-app-winmac.netlify.app/en-us/citrix-workspace-app-windows-mac/:splat"
-  status = 200  
-
+  status = 200
+  
+[[redirects]]
+  from = "/en-us/citrix-workspace-app-configuration/configuring-citrix-workspace-using-powershell-module/sitemap.xml"
+  to = "https://prod-ddc-en-us-ct-app-configure.netlify.app/sitemap.xml"
+  status = 200
+  
+[[redirects]]
+  from = "/en-us/citrix-workspace-app-configuration/sitemap.xml"
+  to = "https://prod-ddc-en-us-ct-app-configure.netlify.app/sitemap.xml"
+  status = 200
+  
 [[redirects]]
   from = "/en-us/citrix-workspace-app-configuration/*"
   to = "https://prod-ddc-en-us-ct-app-configure.netlify.app/en-us/citrix-workspace-app-configuration/:splat"
