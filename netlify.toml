@@ -259,10 +259,10 @@
 
 # Citrix ADC SNMP OID Reference
 
-[[redirects]]
-  from = "/projects/citrix-adc-snmp-oid-reference/en/latest/*"
-  to = "https://adc-snmp-oid-latest.netlify.com/:splat"
-  status = 200
+#[[redirects]]
+#  from = "/projects/citrix-adc-snmp-oid-reference/en/latest/*"
+#  to = "https://adc-snmp-oid-latest.netlify.com/:splat"
+#  status = 200
   
 [[redirects]]
   from = "/projects/citrix-adc-snmp-oid-reference/en/latest/*"
@@ -311,10 +311,10 @@
 
 # Citrix ADC Syslog Message Reference
 
-[[redirects]]
-  from = "/projects/citrix-adc-syslog-message-reference/en/latest/*"
-  to = "https://adc-syslog-message-reference-latest.netlify.com/:splat"
-  status = 200
+#[[redirects]]
+#  from = "/projects/citrix-adc-syslog-message-reference/en/latest/*"
+#  to = "https://adc-syslog-message-reference-latest.netlify.com/:splat"
+#  status = 200
   
 [[redirects]]
   from = "/projects/citrix-adc-syslog-message-reference/en/latest/*"
