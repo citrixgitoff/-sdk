@@ -221,7 +221,12 @@
   from = "/projects/citrix-adc-nitro-api-reference/en/latest/*"
   to = "https://developer-docs.netscaler.com/en-us/adc-nitro-api/current-release/:splat"
   status = 301
-    
+  
+[[redirects]]
+  from = "/projects/citrix-adc-nitro-api-reference/en/*"
+  to = "https://developer-docs.netscaler.com/en-us/adc-nitro-api/:splat"
+  status = 301
+  
 #[[redirects]]
 #  from = "/projects/citrix-adc-nitro-api-reference/en/13/*"
 #  to = "https://adc-nitro-api-13.netlify.com/:splat"
@@ -269,6 +274,11 @@
   to = "https://developer-docs.netscaler.com/en-us/adc-snmp-oid-reference/current-release/:splat"
   status = 301
   
+[[redirects]]
+  from = "/projects/citrix-adc-snmp-oid-reference/en/*"
+  to = "https://developer-docs.netscaler.com/en-us/adc-snmp-oid-reference/:splat"
+  status = 301  
+  
 #[[redirects]]
 #  from = "/projects/citrix-adc-snmp-oid-reference/en/13/*"
 #  to = "https://adc-snmp-oid-13-0.netlify.com/:splat"
@@ -315,7 +325,12 @@
   from = "/projects/citrix-adc-syslog-message-reference/en/latest/*"
   to = "https://developer-docs.netscaler.com/en-us/netscaler-syslog-message-reference/current-release/:splat"
   status = 301
-    
+  
+[[redirects]]
+  from = "/projects/citrix-adc-syslog-message-reference/en/*"
+  to = "https://developer-docs.netscaler.com/en-us/netscaler-syslog-message-reference/:splat"
+  status = 301
+  
 #[[redirects]]
 #  from = "/projects/citrix-adc-syslog-message-reference/en/13/*"
 #  to = "https://adc-syslog-message-reference-13-0.netlify.com/:splat"
