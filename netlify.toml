@@ -314,7 +314,7 @@
 [[redirects]]
   from = "/projects/citrix-adc-syslog-message-reference/en/latest/*"
   to = "https://developer-docs.netscaler.com/en-us/netscaler-syslog-message-reference"
-  status = 200
+  status = 301
   
 #[[redirects]]
 #  from = "/projects/citrix-adc-syslog-message-reference/en/13/*"
