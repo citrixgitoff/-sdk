@@ -212,10 +212,10 @@
 
 # Citrix ADC Nitro API
 
-[[redirects]]
-  from = "/projects/citrix-adc-nitro-api-reference/en/latest/*"
-  to = "https://adc-nitro-api-latest.netlify.com/:splat"
-  status = 200
+#[[redirects]]
+#  from = "/projects/citrix-adc-nitro-api-reference/en/latest/*"
+#  to = "https://adc-nitro-api-latest.netlify.com/:splat"
+# status = 200
   
 [[redirects]]
   from = "/projects/citrix-adc-nitro-api-reference/*"
