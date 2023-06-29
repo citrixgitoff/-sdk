@@ -307,7 +307,7 @@
 # Citrix ADC Syslog Message Reference
 
 [[redirects]]
-  from = "/projects/citrix-adc-syslog-message-reference/en/*"
+  from = "/projects/citrix-adc-syslog-message-reference/en/latest/*"
   to = "https://adc-syslog-message-reference-latest.netlify.com/:splat"
   status = 200
     
