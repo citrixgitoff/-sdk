@@ -263,16 +263,21 @@
   from = "/projects/citrix-adc-snmp-oid-reference/en/latest/*"
   to = "https://adc-snmp-oid-latest.netlify.com/:splat"
   status = 200
-
+  
 [[redirects]]
-  from = "/projects/citrix-adc-snmp-oid-reference/en/13/*"
-  to = "https://adc-snmp-oid-13-0.netlify.com/:splat"
-  status = 200
+  from = "/projects/citrix-adc-snmp-oid-reference/en/*"
+  to = "https://developer-docs.netscaler.com/en-us/adc-snmp-oid-reference"
+  status = 301
+  
+#[[redirects]]
+#  from = "/projects/citrix-adc-snmp-oid-reference/en/13/*"
+#  to = "https://adc-snmp-oid-13-0.netlify.com/:splat"
+#  status = 200
 
-[[redirects]]
-  from = "/projects/citrix-adc-snmp-oid-reference/en/12.1/*"
-  to = "https://adc-snmp-oid-12-1.netlify.com/:splat"
-  status = 200
+#[[redirects]]
+#  from = "/projects/citrix-adc-snmp-oid-reference/en/12.1/*"
+#  to = "https://adc-snmp-oid-12-1.netlify.com/:splat"
+#  status = 200
 
 [[redirects]]
   from = "/projects/netscaler-snmp-oid-reference/en/latest/*"
@@ -302,19 +307,24 @@
 # Citrix ADC Syslog Message Reference
 
 [[redirects]]
-  from = "/projects/citrix-adc-syslog-message-reference/en/latest/*"
+  from = "/projects/citrix-adc-syslog-message-reference/en/*"
   to = "https://adc-syslog-message-reference-latest.netlify.com/:splat"
   status = 200
-
+  
 [[redirects]]
-  from = "/projects/citrix-adc-syslog-message-reference/en/13/*"
-  to = "https://adc-syslog-message-reference-13-0.netlify.com/:splat"
+  from = "/projects/citrix-adc-syslog-message-reference/en/latest/*"
+  to = "https://developer-docs.netscaler.com/en-us/netscaler-syslog-message-reference"
   status = 200
+  
+#[[redirects]]
+#  from = "/projects/citrix-adc-syslog-message-reference/en/13/*"
+#  to = "https://adc-syslog-message-reference-13-0.netlify.com/:splat"
+#  status = 200
 
-[[redirects]]
-  from = "/projects/citrix-adc-syslog-message-reference/en/12.1/*"
-  to = "https://adc-syslog-message-reference-12-1.netlify.com/:splat"
-  status = 200
+#[[redirects]]
+#  from = "/projects/citrix-adc-syslog-message-reference/en/12.1/*"
+#  to = "https://adc-syslog-message-reference-12-1.netlify.com/:splat"
+# status = 200
 
 [[redirects]]
   from = "/projects/netscaler-syslog-message-reference/en/latest/*"
