@@ -219,7 +219,7 @@
   
 [[redirects]]
   from = "/projects/citrix-adc-nitro-api-reference/en/latest/*"
-  to = "https://developer-docs.netscaler.com/en-us/adc-nitro-api/current-release.html:splat"
+  to = "https://developer-docs.netscaler.com/en-us/adc-nitro-api/current-release/:splat"
   status = 301
    
 [[redirects]]
