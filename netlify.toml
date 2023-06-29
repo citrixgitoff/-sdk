@@ -216,16 +216,21 @@
   from = "/projects/citrix-adc-nitro-api-reference/en/latest/*"
   to = "https://adc-nitro-api-latest.netlify.com/:splat"
   status = 200
-
+  
 [[redirects]]
-  from = "/projects/citrix-adc-nitro-api-reference/en/13/*"
-  to = "https://adc-nitro-api-13.netlify.com/:splat"
-  status = 200
+  from = "/projects/citrix-adc-nitro-api-reference/en/*"
+  to = "https://developer-docs.netscaler.com/en-us/adc-nitro-api/current-release"
+  status = 301
 
-[[redirects]]
-  from = "/projects/citrix-adc-nitro-api-reference/en/12.1/*"
-  to = "https://adc-nitro-api-12-1.netlify.com/:splat"
-  status = 200
+#[[redirects]]
+#  from = "/projects/citrix-adc-nitro-api-reference/en/13/*"
+#  to = "https://adc-nitro-api-13.netlify.com/:splat"
+#  status = 200
+
+#[[redirects]]
+#  from = "/projects/citrix-adc-nitro-api-reference/en/12.1/*"
+#  to = "https://adc-nitro-api-12-1.netlify.com/:splat"
+#  status = 200
 
 [[redirects]]
   from = "/projects/netscaler-nitro-api/en/latest/*"
