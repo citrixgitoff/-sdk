@@ -310,21 +310,16 @@
   from = "/projects/citrix-adc-syslog-message-reference/en/*"
   to = "https://adc-syslog-message-reference-latest.netlify.com/:splat"
   status = 200
-  
+    
 [[redirects]]
-  from = "/projects/citrix-adc-syslog-message-reference/en/latest/*"
-  to = "https://developer-docs.netscaler.com/en-us/netscaler-syslog-message-reference"
-  status = 301
-  
-#[[redirects]]
-#  from = "/projects/citrix-adc-syslog-message-reference/en/13/*"
-#  to = "https://adc-syslog-message-reference-13-0.netlify.com/:splat"
-#  status = 200
+  from = "/projects/citrix-adc-syslog-message-reference/en/13/*"
+  to = "https://adc-syslog-message-reference-13-0.netlify.com/:splat"
+  status = 200
 
-#[[redirects]]
-#  from = "/projects/citrix-adc-syslog-message-reference/en/12.1/*"
-#  to = "https://adc-syslog-message-reference-12-1.netlify.com/:splat"
-# status = 200
+[[redirects]]
+  from = "/projects/citrix-adc-syslog-message-reference/en/12.1/*"
+  to = "https://adc-syslog-message-reference-12-1.netlify.com/:splat"
+ status = 200
 
 [[redirects]]
   from = "/projects/netscaler-syslog-message-reference/en/latest/*"
