@@ -266,7 +266,7 @@
   
 [[redirects]]
   from = "/projects/citrix-adc-snmp-oid-reference/en/latest/*"
-  to = "https://developer-docs.netscaler.com/en-us/adc-snmp-oid-reference/current-release/:splat"
+  to = "https://developer-docs.netscaler.com/en-us/adc-snmp-oid-reference/current-release.html"
   status = 301
   
 [[redirects]]
@@ -318,7 +318,7 @@
   
 [[redirects]]
   from = "/projects/citrix-adc-syslog-message-reference/en/latest/*"
-  to = "https://developer-docs.netscaler.com/en-us/netscaler-syslog-message-reference/current-release/:splat"
+  to = "https://developer-docs.netscaler.com/en-us/netscaler-syslog-message-reference/current-release.html"
   status = 301
   
 [[redirects]]
