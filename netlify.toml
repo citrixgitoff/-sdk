@@ -1258,7 +1258,7 @@
   status = 200
     
 [[redirects]]
-  from = "/projects/citrix-daas-sdk/en/*"
+  from = "/projects/citrix-daas-sdk/en/latest/*"
   to = "/en-us/citrix-daas-sdk/:splat"
   status = 301
   
