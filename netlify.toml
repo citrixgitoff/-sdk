@@ -1256,12 +1256,7 @@
   from = "/en-us/citrix-daas-sdk/*"
   to = "https://prod-ddc-en-us-ct-daas-sdk.netlify.app/en-us/citrix-daas-sdk/:splat"
   status = 200
-  
-[[redirects]]
-  from = "/projects/citrix-daas-sdk/en/latest/*"
-  to = "/en-us/citrix-daas-sdk/current-release/:splat"
-  status = 301
-  
+    
 [[redirects]]
   from = "/projects/citrix-daas-sdk/en/*"
   to = "/en-us/citrix-daas-sdk/:splat"
