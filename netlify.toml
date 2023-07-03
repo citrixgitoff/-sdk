@@ -1259,9 +1259,14 @@
   
 [[redirects]]
   from = "/projects/citrix-daas-sdk/en/latest/*"
-  to = "https://cvad-service-sdk.netlify.app/:splat"
-  status = 200
-
+  to = "/en-us/citrix-daas-sdk/current-release/:splat"
+  status = 301
+  
+[[redirects]]
+  from = "/projects/citrix-daas-sdk/en/*"
+  to = "/en-us/citrix-daas-sdk/:splat"
+  status = 301
+  
 [[redirects]]
   from = "/projects/workspace-app-for-html5-virtual-channel-sdk/en/latest/*"
   to = "https://developer.cloud.com/citrixworkspace/virtual-channel-sdk-for-citrix-workspace-app-2206-for-html5/docs/overview"
