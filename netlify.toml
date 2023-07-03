@@ -1258,8 +1258,8 @@
   status = 200
     
 [[redirects]]
-  from = "/projects/citrix-daas-sdk/en/latest/*"
-  to = "/en-us/citrix-daas-sdk/:splat"
+  from = "/projects/citrix-daas-sdk/*"
+  to = "/en-us/citrix-daas-sdk"
   status = 301
   
 [[redirects]]
