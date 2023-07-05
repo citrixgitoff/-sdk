@@ -887,11 +887,6 @@
   status = 200
   
 # StoreFront
-
-[[redirects]]
-  from = "/en-us/storefront/*"
-  to = "https://prod-ddc-en-us-storefront-sdk.netlify.app/en-us/storefront/:splat"
-  status = 200
   
 [[redirects]]
   from = "/projects/storefront-authentication-sdk/en/latest/*"
@@ -904,7 +899,12 @@
   to = "https://developer.cloud.com/citrixworkspace/citrix-storefront/storefront-store-services-api-3.0/docs/overview"
   status = 301
   force = true
-
+  
+[[redirects]]
+  from = "/en-us/storefront-powershell-sdk/*"
+  to = "https://prod-ddc-en-us-storefront-sdk.netlify.app/en-us/storefront-powershell-sdk/:splat"
+  status = 200
+  
 [[redirects]]
   from = "/projects/storefront-powershell-sdk/en/latest/*"
   to = "https://storefront-powershell-sdk-latest.netlify.com/:splat"
