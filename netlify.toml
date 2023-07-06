@@ -901,6 +901,11 @@
   force = true
   
 [[redirects]]
+  from = "/en-us/storefront-powershell-sdk/sitemap.xml"
+  to = "https://prod-ddc-en-us-storefront-sdk.netlify.app/sitemap.xml"
+  status = 200
+  
+[[redirects]]
   from = "/en-us/storefront-powershell-sdk/*"
   to = "https://prod-ddc-en-us-storefront-sdk.netlify.app/en-us/storefront-powershell-sdk/:splat"
   status = 200
