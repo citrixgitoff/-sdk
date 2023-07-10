@@ -534,7 +534,32 @@
   to = "https://developer.cloud.com/citrixworkspace/citrix-daas/accessing-monitor-service-data-in-citrix-cloud/docs/overview"
   status = 301
   force = true
-
+  
+[[redirects]]
+  from = "/en-us/citrix-workspace-app-mobile-application-integration/sitemap.xml*"
+  to = "https://prod-ddc-en-us-ct-work-app-mob.netlify.app/sitemap.xml"
+  status = 200
+  
+[[redirects]]
+  from = "/en-us/citrix-workspace-app-mobile-application-integration/android-native/*"
+  to = "https://prod-ddc-en-us-ct-work-app-mob.netlify.app/en-us/citrix-workspace-app-mobile-application-integration/android-native/:splat"
+  status = 200
+  
+[[redirects]]
+  from = "/en-us/citrix-workspace-app-mobile-application-integration/cordova-android/*"
+  to = "https://prod-ddc-en-us-ct-work-app-mob.netlify.app/en-us/citrix-workspace-app-mobile-application-integration/cordova-android/:splat"
+  status = 200
+  
+[[redirects]]
+  from = "/en-us/citrix-workspace-app-mobile-application-integration/xamarin-android/*"
+  to = "https://prod-ddc-en-us-ct-work-app-mob.netlify.app/en-us/citrix-workspace-app-mobile-application-integration/xamarin-android/:splat"
+  status = 200
+  
+[[redirects]]
+  from = "/en-us/citrix-workspace-app-mobile-application-integration/mam-sdk-for-ios-and-ipads/*"
+  to = "https://prod-ddc-en-us-ct-work-app-mob.netlify.app/en-us/citrix-workspace-app-mobile-application-integration/mam-sdk-for-ios-and-ipads/:splat"
+  status = 200
+  
 [[redirects]]
   from = "https://developer-docs.citrix.com/projects/citrix-mdx-android-sdk/en/latest/*"
   to = "https://developer.cloud.com/citrixworkspace/mobile-application-integration/:splat"
