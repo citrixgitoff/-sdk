@@ -541,6 +541,11 @@
   status = 200
   
 [[redirects]]
+  from = "/en-us/citrix-workspace-app-mobile-application-integration/*"
+  to = "https://prod-ddc-en-us-ct-work-app-mob.netlify.app/en-us/citrix-workspace-app-mobile-application-integration/:splat"
+  status = 200
+  
+[[redirects]]
   from = "/en-us/citrix-workspace-app-mobile-application-integration/android-native/*"
   to = "https://prod-ddc-en-us-ct-work-app-mob.netlify.app/en-us/citrix-workspace-app-mobile-application-integration/android-native/:splat"
   status = 200
