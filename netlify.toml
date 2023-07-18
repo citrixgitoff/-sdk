@@ -949,8 +949,8 @@
 # StoreFront
 
 [[redirects]]
-  from = "/en-us/storefront/storefront-client-ui-customization-api/overview/*"
-  to = "https://prod-ddc-en-us-storefront-sdk.netlify.app/en-us/storefront/storefront-client-ui-customization-api/overview/:splat"
+  from = "/en-us/storefront/storefront-client-ui-customization-api/overview"
+  to = "https://prod-ddc-en-us-storefront-sdk.netlify.app/en-us/storefront/storefront-client-ui-customization-api/overview"
   status = 200
   
 [[redirects]]
