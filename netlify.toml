@@ -561,6 +561,16 @@
   force = true
   
 [[redirects]]
+  from = "/en-us/citrix-workspace-app-itsm-adapter-service/sitemap.xml"
+  to = "https://prod-ddc-en-us-ct-work-app-itsm.netlify.app/sitemap.xml"
+  status = 200
+  
+[[redirects]]
+  from = "/en-us/citrix-workspace-app-itsm-adapter-service/*"
+  to = "https://prod-ddc-en-us-ct-work-app-itsm.netlify.app/en-us/citrix-workspace-app-itsm-adapter-service/:splat"
+  status = 200
+  
+[[redirects]]
   from = "/en-us/citrix-workspace-app-mobile-application-integration/sitemap.xml*"
   to = "https://prod-ddc-en-us-ct-work-app-mob.netlify.app/sitemap.xml"
   status = 200
@@ -601,17 +611,7 @@
   to = "https://developer.cloud.com/citrixworkspace/mobile-application-integration/:splat"
   status = 301
   force = true
-  
-[[redirects]]
-  from = "/en-us/citrix-workspace-app-itsm-adapter-service/sitemap.xml"
-  to = "https://prod-ddc-en-us-ct-work-app-itsm.netlify.app/sitemap.xml"
-  status = 200
-  
-[[redirects]]
-  from = "/en-us/citrix-workspace-app-itsm-adapter-service/overview/*"
-  to = "https://prod-ddc-en-us-ct-work-app-itsm.netlify.app/en-us/citrix-workspace-app-itsm-adapter-service/overview/:splat"
-  status = 200
-  
+    
 # Citrix Hypervisor
 
 [[redirects]]
