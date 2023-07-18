@@ -952,6 +952,7 @@
   from = "/en-us/storefront/storefront-client-ui-customization-api/*"
   to = "https://prod-ddc-en-us-storefront-sdk.netlify.app/en-us/storefront/storefront-client-ui-customization-api/:splat"
   status = 200
+  force = true
   
 [[redirects]]
   from = "/projects/storefront-authentication-sdk/en/latest/*"
