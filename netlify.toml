@@ -948,12 +948,12 @@
   
 [[redirects]]
   from = "/en-us/workspace-platform/configuring-citrix-workspace-using-powershell-module/sitemap.xml"
-  to = "https://prod-ddc-en-us-ct-app-configure.netlify.app/sitemap.xml"
+  to = "https://https://prod-ddc-en-us-ct-work-platform.netlify.app/sitemap.xml"
   status = 200
   
 [[redirects]]
   from = "/en-us/workspace-platform/configuring-citrix-workspace-using-powershell-module/*"
-  to = "https://prod-ddc-en-us-ct-app-configure.netlify.app/en-us/workspace-platform/configuring-citrix-workspace-using-powershell-module/overview/:splat"
+  to = "https://https://prod-ddc-en-us-ct-work-platform.netlify.app/en-us/workspace-platform/configuring-citrix-workspace-using-powershell-module/overview/:splat"
   status = 200
   
 # StoreFront
