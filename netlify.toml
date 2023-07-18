@@ -601,7 +601,17 @@
   to = "https://developer.cloud.com/citrixworkspace/mobile-application-integration/:splat"
   status = 301
   force = true
-
+  
+[[redirects]]
+  from = "/en-us/citrix-workspace-app-itsm-adapter-service/sitemap.xml"
+  to = "https://prod-ddc-en-us-ct-work-app-itsm.netlify.app/sitemap.xml"
+  status = 200
+  
+[[redirects]]
+  from = "/en-us/citrix-workspace-app-itsm-adapter-service/overview/*"
+  to = "https://prod-ddc-en-us-ct-work-app-itsm.netlify.app/en-us/citrix-workspace-app-itsm-adapter-service/overview/:splat"
+  status = 200
+  
 # Citrix Hypervisor
 
 [[redirects]]
@@ -937,6 +947,11 @@
   status = 200
   
 # StoreFront
+
+[[redirects]]
+  from = "/en-us/storefront/storefront-client-ui-customization-api/overview/*"
+  to = "https://prod-ddc-en-us-storefront-sdk.netlify.app/en-us/storefront/storefront-client-ui-customization-api/overview/:splat"
+  status = 200
   
 [[redirects]]
   from = "/projects/storefront-authentication-sdk/en/latest/*"
