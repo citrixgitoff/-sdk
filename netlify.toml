@@ -953,7 +953,7 @@
   
 [[redirects]]
   from = "/en-us/workspace-platform/configuring-citrix-workspace-using-powershell-module/*"
-  to = "https://prod-ddc-en-us-ct-work-platform.netlify.app/en-us/workspace-platform/configuring-citrix-workspace-using-powershell-module/overview/:splat"
+  to = "https://prod-ddc-en-us-ct-work-platform.netlify.app/en-us/workspace-platform/configuring-citrix-workspace-using-powershell-module/overview"
   status = 200
   
 # StoreFront
