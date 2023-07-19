@@ -1366,7 +1366,12 @@
   from = "/assets/*"
   to = "https://developer-docs-citrix.netlify.app/assets/:splat"
   status = 200
-    
+  
+[[redirects]]
+  from = "https://developer-docs.citrix.com/en-us"
+  to = "https://developer-docs.citrix.com"
+  status = 200
+  
 # ADC Counters Tool
 #[[redirects]]
 #  from = "/adc-counters-tool/*"
