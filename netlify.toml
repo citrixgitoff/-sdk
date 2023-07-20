@@ -412,18 +412,18 @@
 
 [[redirects]]
   from = "/projects/citrix-adc-advanced-policy-expression-reference/en/latest/*"
-  to = "https://adc-advanced-policy-expression-reference-latest.netlify.com/:splat"
-  status = 200
+  to = "https://developer-docs.netscaler.com/en-us/adc-advanced-policy-expression-reference/current-release/:splat"
+  status = 301
 
 [[redirects]]
-  from = "/projects/citrix-adc-advanced-policy-expression-reference/en/13/*"
-  to = "https://adc-advanced-policy-expression-reference-13.netlify.com/:splat"
-  status = 200
+  from = "/projects/citrix-adc-advanced-policy-expression-reference/en/*"
+  to = "https://developer-docs.netscaler.com/en-us/adc-advanced-policy-expression-reference/:splat"
+  status = 301
 
-[[redirects]]
-  from = "/projects/citrix-adc-advanced-policy-expression-reference/en/12.1/*"
-  to = "https://adc-advanced-policy-expression-reference-12-1.netlify.com/:splat"
-  status = 200
+#[[redirects]]
+#  from = "/projects/citrix-adc-advanced-policy-expression-reference/en/12.1/*"
+#  to = "https://adc-advanced-policy-expression-reference-12-1.netlify.com/:splat"
+#  status = 200
 
 [[redirects]]
   from = "/projects/netscaler-advanced-policy-expression-reference/en/latest/*"
