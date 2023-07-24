@@ -959,6 +959,21 @@
 # StoreFront
 
 [[redirects]]
+  from = "/en-us/storefront/sitemap.xml"
+  to = ""https://prod-ddc-en-us-storefront-sdk.netlify.app/sitemap.xml"
+  status = 200
+  
+[[redirects]]
+  from = "/en-us/storefront/citrix-storefront-authentication-sdk/*"
+  to = ""https://prod-ddc-en-us-storefront-sdk.netlify.app/en-us/storefront/citrix-storefront-authentication-sdk/overview"
+  status = 200
+  
+[[redirects]]
+  from = "/en-us/storefront/storefront-store-services-api/*"
+  to = ""https://prod-ddc-en-us-storefront-sdk.netlify.app/en-us/storefront/storefront-store-services-api/overview"
+  status = 200
+  
+[[redirects]]
   from = "/en-us/storefront/storefront-client-ui-customization-api/*"
   to = "https://prod-ddc-en-us-storefront-sdk.netlify.app/en-us/storefront/storefront-client-ui-customization-api/:splat"
   status = 200
@@ -1050,7 +1065,7 @@
 #  from = "/projects/storefront-powershell-sdk/en/3.9/*"
 #  to = "https://storefront-powershell-sdk-3-9.netlify.com/:splat/:splat"
 #  status = 200
-
+  
 # Receiver
 
 [[redirects]]
