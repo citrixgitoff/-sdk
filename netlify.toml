@@ -960,17 +960,17 @@
 
 [[redirects]]
   from = "/en-us/storefront/sitemap.xml"
-  to = ""https://prod-ddc-en-us-storefront-sdk.netlify.app/sitemap.xml"
+  to = "https://prod-ddc-en-us-storefront-sdk.netlify.app/sitemap.xml"
   status = 200
   
 [[redirects]]
   from = "/en-us/storefront/citrix-storefront-authentication-sdk/*"
-  to = ""https://prod-ddc-en-us-storefront-sdk.netlify.app/en-us/storefront/citrix-storefront-authentication-sdk/overview"
+  to = "https://prod-ddc-en-us-storefront-sdk.netlify.app/en-us/storefront/citrix-storefront-authentication-sdk/overview"
   status = 200
   
 [[redirects]]
   from = "/en-us/storefront/storefront-store-services-api/*"
-  to = ""https://prod-ddc-en-us-storefront-sdk.netlify.app/en-us/storefront/storefront-store-services-api/overview"
+  to = "https://prod-ddc-en-us-storefront-sdk.netlify.app/en-us/storefront/storefront-store-services-api/overview"
   status = 200
   
 [[redirects]]
