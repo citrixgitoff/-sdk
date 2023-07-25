@@ -1333,7 +1333,12 @@
   to = "https://developer.cloud.com/citrixworkspace/mobile-application-integration/:splat"
   status = 301
   force = true
-
+  
+[[redirects]]
+  from = "/en-us/citrix-cloud/citrix-cloud-notifications/*"
+  to = "https://prod-ddc-en-us-ct-cloud.netlify.app/en-us/citrix-cloud/citrix-cloud-notifications/:splat"
+  status = 200
+  
 [[redirects]]
   from = "https://developer-docs.citrix.com/citrix-cloud/index.html"
   to = "https://developer.cloud.com/"
