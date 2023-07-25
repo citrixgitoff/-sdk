@@ -965,12 +965,12 @@
   
 [[redirects]]
   from = "/en-us/storefront/citrix-storefront-authentication-sdk/*"
-  to = "https://prod-ddc-en-us-storefront-sdk.netlify.app/en-us/storefront/citrix-storefront-authentication-sdk/overview"
+  to = "https://prod-ddc-en-us-storefront-sdk.netlify.app/en-us/storefront/citrix-storefront-authentication-sdk/:splat"
   status = 200
   
 [[redirects]]
   from = "/en-us/storefront/storefront-store-services-api/*"
-  to = "https://prod-ddc-en-us-storefront-sdk.netlify.app/en-us/storefront/storefront-store-services-api/overview"
+  to = "https://prod-ddc-en-us-storefront-sdk.netlify.app/en-us/storefront/storefront-store-services-api/:splat"
   status = 200
   
 [[redirects]]
