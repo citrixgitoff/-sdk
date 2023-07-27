@@ -1340,6 +1340,11 @@
   status = 200
   
 [[redirects]]
+  from = "/en-us/citrix-cloud/apis-to-manage-citrix-cloud-licensing/*"
+  to = "https://prod-ddc-en-us-ct-cloud.netlify.app/en-us/citrix-cloud/apis-to-manage-citrix-cloud-licensing/:splat"
+  status = 200
+  
+[[redirects]]
   from = "https://developer-docs.citrix.com/citrix-cloud/index.html"
   to = "https://developer.cloud.com/"
   status = 301
