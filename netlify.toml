@@ -1335,6 +1335,21 @@
   force = true
   
 [[redirects]]
+  from = "/en-us/server-integration/*"
+  to = "https://prod-ddc-en-us-ct-work-app-server.netlify.app/en-us/server-integration/:splat"
+  status = 200
+  
+[[redirects]]
+  from = "/en-us/citrix-cloud/citrix-cloud-resource-locations/*"
+  to = "https://prod-ddc-en-us-ct-cloud.netlify.app/en-us/citrix-cloud/citrix-cloud-resource-locations/:splat"
+  status = 200
+  
+[[redirects]]
+  from = "/en-us/citrix-cloud/citrix-cloud-webhook/*"
+  to = "https://prod-ddc-en-us-ct-cloud.netlify.app/en-us/citrix-cloud/citrix-cloud-webhook/:splat"
+  status = 200
+  
+[[redirects]]
   from = "/en-us/citrix-cloud/citrix-cloud-notifications/*"
   to = "https://prod-ddc-en-us-ct-cloud.netlify.app/en-us/citrix-cloud/citrix-cloud-notifications/:splat"
   status = 200
