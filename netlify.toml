@@ -115,6 +115,11 @@
 #  status = 200
 
 [[redirects]]
+  from = "/en-us/citrix-workspace-app-for-chrome/*"
+  to = "https://prod-ddc-en-us-ctw-app-ch.netlify.app/en-us/citrix-workspace-app-for-chrome/:splat"
+  status = 200
+  
+[[redirects]]
   from = "/projects/workspace-app-for-linux-vcsdk-readme/en/latest/*"
   to = "https://workspace-linux-vcsdk-readme.netlify.com/:splat"
   status = 200
