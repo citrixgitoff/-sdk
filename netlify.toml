@@ -566,13 +566,13 @@
   status = 200
   
 [[redirects]]
-  from = "/en-us/citrix-workspace-app-itsm-adapter-service/sitemap.xml"
+  from = "/en-us/citrix-itsm-adapter-service/sitemap.xml"
   to = "https://prod-ddc-en-us-ct-work-app-itsm.netlify.app/sitemap.xml"
   status = 200
   
 [[redirects]]
-  from = "/en-us/citrix-workspace-app-itsm-adapter-service/*"
-  to = "https://prod-ddc-en-us-ct-work-app-itsm.netlify.app/en-us/citrix-workspace-app-itsm-adapter-service/:splat"
+  from = "/en-us/citrix-itsm-adapter-service/*"
+  to = "https://prod-ddc-en-us-ct-work-app-itsm.netlify.app/en-us/citrix-itsm-adapter-service/:splat"
   status = 200
   
 [[redirects]]
