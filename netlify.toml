@@ -93,40 +93,20 @@
   from = "/projects/workspace-app-for-chrome-virtual-channel-sdk/en/latest/*"
   to = "https://developer.cloud.com/citrixworkspace/virtual-channel-sdk-for-citrix-workspace-app-1808-for-chrome/docs/overview"
   status = 301
-  
-[[redirects]]
-  from = "/en-us/citrix-workspace-app-chrome-html5/workspace-app-html5-hdx-sdx/sitemap.xml"
-  to = "https://prod-ddc-en-us-ctw-app-ch.netlify.app/sitemap.xml"
-  status = 200
-  
-[[redirects]]
-  from = "/en-us/citrix-workspace-app-chrome-html5/workspace-app-2206-chrome/sitemap.xml"
-  to = "https://prod-ddc-en-us-ctw-app-ch.netlify.app/sitemap.xml"
-  status = 200
-  
-[[redirects]]
-  from = "/en-us/citrix-workspace-app-chrome-html5/workspace-app-1808-chrome-hdx-sdk/sitemap.xml"
-  to = "https://prod-ddc-en-us-ctw-app-ch.netlify.app/sitemap.xml"
-  status = 200
-  
-[[redirects]]
-  from = "/en-us/citrix-workspace-app-chrome-html5/workspace-app-2206-html5/sitemap.xml"
-  to = "https://prod-ddc-en-us-ctw-app-ch.netlify.app/sitemap.xml"
-  status = 200
-  
+      
 [[redirects]]
   from = "/en-us/citrix-workspace-app-chrome-html5/sitemap.xml"
   to = "https://prod-ddc-en-us-ctw-app-ch.netlify.app/sitemap.xml"
   status = 200
   
 [[redirects]]
-  from = "/en-us/citrix-workspace-app-chrome-html5/*"
-  to = "https://prod-ddc-en-us-ctw-app-ch.netlify.app/en-us/citrix-workspace-app-chrome-html5/:splat"
+  from = "/en-us/citrix-workspace-app-for-html5/*"
+  to = "https://prod-ddc-en-us-ctw-app-ch.netlify.app/en-us/citrix-workspace-app-for-html5/:splat"
   status = 200
   
 [[redirects]]
   from = "/projects/workspace-app-for-html5-sdk/en/latest/*"
-  to = "/en-us/citrix-workspace-app-chrome-html5/:splat"
+  to = "/en-us/citrix-workspace-app-for-html5/:splat"
   status = 301
 
 #[[redirects]]
@@ -553,7 +533,12 @@
   from = "/projects/appdna-sdk/en/latest/*"
   to = "https://appdna-sdk.netlify.com/:splat"
   status = 200
-
+  
+[[redirects]]
+  from = "/en-us/citrix-daas-service-apis/sitemap.xml"
+  to = "https://prod-ddc-en-us-ct-daas-apis.netlify.app/sitemap.xml"
+  status = 200
+  
 [[redirects]]
   from = "/projects/access-monitor-service-data-citrix-cloud/en/latest/*"
   to = "https://developer.cloud.com/citrixworkspace/citrix-daas/accessing-monitor-service-data-in-citrix-cloud/docs/overview"
@@ -1350,6 +1335,11 @@
   status = 200
   
 [[redirects]]
+  from = "/en-us/citrix-cloud/sitemap.xml"
+  to = "https://prod-ddc-en-us-ct-cloud.netlify.app/en-us/citrix-cloud/sitemap.xml"
+  status = 200
+  
+[[redirects]]
   from = "/en-us/citrix-cloud/citrix-cloud-service-entitlement/*"
   to = "https://prod-ddc-en-us-ct-cloud.netlify.app/en-us/citrix-cloud/citrix-cloud-service-entitlement/:splat"
   status = 200
@@ -1382,6 +1372,11 @@
 [[redirects]]
   from = "/en-us/citrix-cloud/connector-appliance-apis/*"
   to = "https://prod-ddc-en-us-ct-cloud.netlify.app/en-us/citrix-cloud/connector-appliance-apis/:splat"
+  status = 200
+  
+[[redirects]]
+  from = "/en-us/citrix-cloud/*"
+  to = "https://prod-ddc-en-us-ct-cloud.netlify.app/en-us/citrix-cloud/:splat"
   status = 200
   
 [[redirects]]
