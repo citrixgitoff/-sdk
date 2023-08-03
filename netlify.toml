@@ -566,6 +566,11 @@
   status = 200
   
 [[redirects]]
+  from = "/en-us/citrix-daas-service-apis/*"
+  to = "https://prod-ddc-en-us-ct-daas-apis.netlify.app/en-us/citrix-daas-service-apis/:splat"
+  status = 200
+  
+[[redirects]]
   from = "/en-us/citrix-workspace-app-itsm-adapter-service/sitemap.xml"
   to = "https://prod-ddc-en-us-ct-work-app-itsm.netlify.app/sitemap.xml"
   status = 200
