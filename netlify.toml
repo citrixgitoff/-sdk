@@ -559,6 +559,11 @@
   to = "https://developer.cloud.com/citrixworkspace/citrix-daas/accessing-monitor-service-data-in-citrix-cloud/docs/overview"
   status = 301
   force = true
+    
+[[redirects]]
+  from = "/en-us/citrix-daas-service-apis/catalog-service-quick-deploy-apis/*"
+  to = "https://prod-ddc-en-us-ct-daas-apis.netlify.app/en-us/citrix-daas-service-apis/catalog-service-quick-deploy-apis/:splat"
+  status = 200
   
 [[redirects]]
   from = "/en-us/citrix-workspace-app-itsm-adapter-service/sitemap.xml"
@@ -1337,6 +1342,11 @@
 [[redirects]]
   from = "/en-us/server-integration/*"
   to = "https://prod-ddc-en-us-ct-work-app-server.netlify.app/en-us/server-integration/:splat"
+  status = 200
+  
+[[redirects]]
+  from = "/en-us/citrix-cloud/citrix-cloud-service-entitlement/*"
+  to = "https://prod-ddc-en-us-ct-cloud.netlify.app/en-us/citrix-cloud/citrix-cloud-service-entitlement/:splat"
   status = 200
   
 [[redirects]]
