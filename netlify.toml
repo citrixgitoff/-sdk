@@ -95,7 +95,7 @@
   status = 301
       
 [[redirects]]
-  from = "/en-us/citrix-workspace-app-chrome-html5/sitemap.xml"
+  from = "/en-us/citrix-workspace-app-for-html5/sitemap.xml"
   to = "https://prod-ddc-en-us-ctw-app-ch.netlify.app/sitemap.xml"
   status = 200
   
