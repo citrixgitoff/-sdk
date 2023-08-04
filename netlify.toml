@@ -101,7 +101,12 @@
   
 [[redirects]]
   from = "/en-us/citrix-workspace-app-for-html5/*"
-  to = "https://prod-ddc-en-us-ctw-app-ch.netlify.app/en-us/citrix-workspace-app-for-html5.html:splat"
+  to = "https://prod-ddc-en-us-ctw-app-ch.netlify.app/en-us/citrix-workspace-app-for-html5/:splat"
+  status = 200
+  
+[[redirects]]
+  from = "/en-us/citrix-workspace-app-for-html5*"
+  to = "https://prod-ddc-en-us-ctw-app-ch.netlify.app/en-us/citrix-workspace-app-for-html5:splat"
   status = 200
   
 [[redirects]]
