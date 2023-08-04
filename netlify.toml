@@ -101,7 +101,7 @@
   
 [[redirects]]
   from = "/en-us/citrix-workspace-app-for-html5/*"
-  to = "https://prod-ddc-en-us-ctw-app-ch.netlify.app/en-us/citrix-workspace-app-for-html5/:splat"
+  to = "https://prod-ddc-en-us-ctw-app-ch.netlify.app/en-us/citrix-workspace-app-for-html5.html"
   status = 200
   
 [[redirects]]
@@ -928,7 +928,7 @@
   
 [[redirects]]
   from = "/en-us/citrix-workspace-app-for-linux/*"
-  to = "https://prod-ddc-en-us-ct-app-linux.netlify.app/en-us/citrix-workspace-app-for-linux/:splat"
+  to = "https://prod-ddc-en-us-ct-app-linux.netlify.app/en-us/citrix-workspace-app-for-linux.html"
   status = 200
     
 [[redirects]]
@@ -938,17 +938,17 @@
   
 [[redirects]]
   from = "/en-us/citrix-workspace-app-for-windows/*"
-  to = "https://prod-ddc-en-us-ct-app-winmac.netlify.app/en-us/citrix-workspace-app-for-windows/:splat"
+  to = "https://prod-ddc-en-us-ct-app-winmac.netlify.app/en-us/citrix-workspace-app-for-windows.html"
   status = 200
   
 [[redirects]]
   from = "/en-us/citrix-workspace-app-for-mac/*"
-  to = "https://prod-ddc-en-us-ct-app-winmac.netlify.app/en-us/citrix-workspace-app-for-mac/:splat"
+  to = "https://prod-ddc-en-us-ct-app-winmac.netlify.app/en-us/citrix-workspace-app-for-mac.html"
   status = 200
 [[redirects]]
 
   from = "/en-us/citrix-workspace-app/*"
-  to = "https://prod-ddc-en-us-ct-works-app.netlify.app//en-us/citrix-workspace-app/:splat"
+  to = "https://prod-ddc-en-us-ct-works-app.netlify.app/en-us/citrix-workspace-app.html"
   status = 200
   
 [[redirects]]
