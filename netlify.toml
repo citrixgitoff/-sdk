@@ -581,6 +581,11 @@
   status = 200
   
 [[redirects]]
+  from = "/en-us/citrix-remote-browser-isolation/*"
+  to = "https://prod-ddc-en-us-ct-work-app-remote.netlify.app/en-us/citrix-remote-browser-isolation/:splat"
+  status = 200
+  
+[[redirects]]
   from = "/en-us/mobile-application-integration/sitemap.xml*"
   to = "https://prod-ddc-en-us-ct-work-app-mob.netlify.app/sitemap.xml"
   status = 200
@@ -1367,6 +1372,11 @@
 [[redirects]]
   from = "/en-us/citrix-cloud/citrix-cloud-service-entitlement/*"
   to = "https://prod-ddc-en-us-ct-cloud.netlify.app/en-us/citrix-cloud/citrix-cloud-service-entitlement/:splat"
+  status = 200
+  
+[[redirects]]
+  from = "/en-us/citrix-cloud/accessing-monitor-service-data-citrix-cloud-external/*"
+  to = "https://prod-ddc-en-us-ct-cloud.netlify.app/en-us/citrix-cloud/accessing-monitor-service-data-citrix-cloud-external/:splat"
   status = 200
   
 [[redirects]]
