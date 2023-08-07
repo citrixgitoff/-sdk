@@ -953,12 +953,12 @@
   
 [[redirects]]
   from = "/en-us/citrix-workspace-app-for-mac/*"
-  to = "https://prod-ddc-en-us-ct-app-winmac.netlify.app/en-us/citrix-workspace-app-for-mac.html:splat"
+  to = "https://prod-ddc-en-us-ct-app-winmac.netlify.app/en-us/citrix-workspace-app-for-mac/:splat"
   status = 200
 [[redirects]]
 
   from = "/en-us/citrix-workspace-app/*"
-  to = "https://prod-ddc-en-us-ct-works-app.netlify.app/en-us/citrix-workspace-app.html:splat"
+  to = "https://prod-ddc-en-us-ct-works-app.netlify.app/en-us/citrix-workspace-app/:splat"
   status = 200
   
 [[redirects]]
