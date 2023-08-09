@@ -701,6 +701,16 @@
 # status = 200
 
 [[redirects]]
+  from = "/en-us/workspace-environment-management/sitemap.xml"
+  to = "https://prod-ddc-en-us-workspace-en-mgmt.netlify.app/sitemap.xml"
+  status = 200
+  
+[[redirects]]
+  from = "/en-us/workspace-environment-management/*"
+  to = "https://prod-ddc-en-us-workspace-en-mgmt.netlify.app/en-us/workspace-environment-management/:splat"
+  status = 200
+  
+[[redirects]]
   from = "/en-us/citrix-virtual-apps-desktops-sdk/sitemap.xml"
   to = "https://prod-ddc-en-us-cvad-sdk.netlify.app/sitemap.xml"
   status = 200
