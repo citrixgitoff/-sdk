@@ -75,6 +75,16 @@
 # Citrix Workspace App
 
 [[redirects]]
+  from = "/en-us/citrix-workspace-app-for-android/sitemap.xml"
+  to = "https://prod-ddc-en-us-workspace-android.netlify.app/sitemap.xml"
+  status = 200
+  
+[[redirects]]
+  from = "/en-us/citrix-workspace-app-for-android/*"
+  to = "https://prod-ddc-en-us-workspace-android.netlify.app/en-us/citrix-workspace-app-for-android/:splat"
+  status = 200
+  
+[[redirects]]
   from = "/projects/citrix-virtual-channel-sdk-for-linux-vda/en/latest/*"
   to = "https://developer.cloud.com/citrixworkspace/citrix-virtual-channel-sdk-for-the-linux-vda/docs/overview"
   status = 301
@@ -849,6 +859,16 @@
 [[redirects]]
   from = "/projects/federated-authentication-service-powershell-cmdlets/en/7.17/*"
   to = "https://fas-powershell-7-17.netlify.com/:splat"
+  status = 200
+  
+[[redirects]]
+  from = "/en-us/federated-authentication-service-powershell-cmdlets/sitemap.xml"
+  to = "https://prod-ddc-en-us-fas-powershell.netlify.app/sitemap.xml"
+  status = 200
+  
+[[redirects]]
+  from = "/en-us/federated-authentication-service-powershell-cmdlets/*"
+  to = "https://prod-ddc-en-us-fas-powershell.netlify.app/en-us/federated-authentication-service-powershell-cmdlets/:splat"
   status = 200
   
 [[redirects]]
