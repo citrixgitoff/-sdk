@@ -581,6 +581,11 @@
   status = 200
   
 [[redirects]]
+  from = "/en-us/citrix-daas-service-apis/image-portability-service/*"
+  to = "https://prod-ddc-en-us-ct-daas-apis.netlify.app/en-us/citrix-daas-service-apis/image-portability-service/:splat"
+  status = 200
+  
+[[redirects]]
   from = "/en-us/citrix-daas-service-apis/*"
   to = "https://prod-ddc-en-us-ct-daas-apis.netlify.app/en-us/citrix-daas-service-apis/:splat"
   status = 200
@@ -979,6 +984,11 @@
 [[redirects]]
   from = "/en-us/citrix-workspace-app-for-windows/sitemap.xml"
   to = "https://prod-ddc-en-us-ct-app-winmac.netlify.app/sitemap.xml"
+  status = 200
+  
+[[redirects]]
+  from = "/en-us/citrix-workspace-app-for-windows*"
+  to = "https://prod-ddc-en-us-ct-app-winmac.netlify.app/en-us/citrix-workspace-app-for-windows:splat"
   status = 200
   
 [[redirects]]
@@ -1442,6 +1452,11 @@
 [[redirects]]
   from = "/en-us/citrix-cloud/connector-appliance-apis/*"
   to = "https://prod-ddc-en-us-ct-cloud.netlify.app/en-us/citrix-cloud/connector-appliance-apis/:splat"
+  status = 200
+  
+[[redirects]]
+  from = "/en-us/citrix-cloud/citrix-cloud-maintenance-schedules/*"
+  to = "https://prod-ddc-en-us-ct-cloud.netlify.app/en-us/citrix-cloud/citrix-cloud-maintenance-schedules/:splat"
   status = 200
   
 [[redirects]]
