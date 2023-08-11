@@ -1,4 +1,4 @@
-[[headers]]
+[[[headers]]
   for = "/*"       #This defines which paths this specific [[headers]] block will cover.
   [headers.values]
     X-Frame-Options = "DENY"
@@ -985,16 +985,16 @@
   from = "/en-us/citrix-workspace-app-for-windows/sitemap.xml"
   to = "https://prod-ddc-en-us-ct-app-winmac.netlify.app/sitemap.xml"
   status = 200
-  
-[[redirects]]
-  from = "/en-us/citrix-workspace-app-for-windows*"
-  to = "https://prod-ddc-en-us-ct-app-winmac.netlify.app/en-us/citrix-workspace-app-for-windows:splat"
-  status = 200
-  
+    
 [[redirects]]
   from = "/en-us/citrix-workspace-app-for-windows/*"
   to = "https://prod-ddc-en-us-ct-app-winmac.netlify.app/en-us/citrix-workspace-app-for-windows/:splat"
   status = 200
+  
+[[redirects]]
+  from = "/en-us/citrix-workspace-app-for-windows*"
+  to = "https://prod-ddc-en-us-ct-app-winmac.netlify.app/en-us/citrix-workspace-app-for-windows:splat"
+  status = 200  
   
 [[redirects]]
   from = "/en-us/citrix-workspace-app-for-mac/*"
