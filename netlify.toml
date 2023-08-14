@@ -1055,6 +1055,16 @@
   force = true
   
 [[redirects]]
+  from = "/en-us/storefront/storefront-web-api/*"
+  to = "https://prod-ddc-en-us-storefront-sdk.netlify.app/en-us/storefront/storefront-web-api/:splat"
+  status = 200
+  
+[[redirects]]
+  from = "/en-us/storefront/*"
+  to = "https://prod-ddc-en-us-storefront-sdk.netlify.app/en-us/storefront/:splat"
+  status = 200
+  
+[[redirects]]
   from = "/projects/storefront-authentication-sdk/en/latest/*"
   to = "https://developer.cloud.com/citrixworkspace/citrix-storefront/citrix-storefront-1811-authentication-sdk/docs/storefront-services-authentication-sdk"
   status = 301
