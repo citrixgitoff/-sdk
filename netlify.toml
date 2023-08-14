@@ -1022,6 +1022,11 @@
   status = 200
   
 [[redirects]]
+  from = "/en-us/workspace-platform/sitemap.xml"
+  to = "https://prod-ddc-en-us-ct-work-platform.netlify.app/sitemap.xml"
+  status = 200
+  
+[[redirects]]
   from = "/en-us/workspace-platform/configuring-citrix-workspace-using-powershell-module/sitemap.xml"
   to = "https://prod-ddc-en-us-ct-work-platform.netlify.app/sitemap.xml"
   status = 200
@@ -1029,6 +1034,16 @@
 [[redirects]]
   from = "/en-us/workspace-platform/configuring-citrix-workspace-using-powershell-module/*"
   to = "https://prod-ddc-en-us-ct-work-platform.netlify.app/en-us/workspace-platform/configuring-citrix-workspace-using-powershell-module/overview"
+  status = 200
+  
+[[redirects]]
+  from = "/en-us/workspace-platform/app-personalizatio/*"
+  to = "https://prod-ddc-en-us-ct-work-platform.netlify.app/en-us/workspace-platform/app-personalization/:splat"
+  status = 200
+  
+[[redirects]]
+  from = "/en-us/workspace-platform/app-personalization*"
+  to = "https://prod-ddc-en-us-ct-work-platform.netlify.app/en-us/workspace-platform/app-personalization:splat"
   status = 200
   
 # StoreFront
