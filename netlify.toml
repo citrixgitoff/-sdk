@@ -1037,7 +1037,7 @@
   status = 200
   
 [[redirects]]
-  from = "/en-us/workspace-platform/app-personalizatio/*"
+  from = "/en-us/workspace-platform/app-personalization/*"
   to = "https://prod-ddc-en-us-ct-work-platform.netlify.app/en-us/workspace-platform/app-personalization/:splat"
   status = 200
   
