@@ -995,7 +995,17 @@
   from = "/projects/provisioning-services-mcli-programmers-guide/en/latest/*"
   to = "https://pvs-mcli-programmers-guide-latest.netlify.com/:splat"
   status = 200
-    
+  
+[[redirects]]
+  from = "/en-us/citrix-provisioning/sitemap.xml"
+  to = "https://prod-ddc-en-us-citrix-provisioning.netlify.app/sitemap.xml"
+  status = 200
+  
+[[redirects]]
+  from = "/en-us/citrix-provisioning/*"
+  to = "https://prod-ddc-en-us-citrix-provisioning.netlify.app/en-us/citrix-provisioning/:splat"
+  status = 200
+  
 [[redirects]]
   from = "/en-us/citrix-workspace-app-for-linux/sitemap.xml"
   to = "https://prod-ddc-en-us-ct-app-linux.netlify.app/sitemap.xml"
