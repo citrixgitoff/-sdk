@@ -817,6 +817,21 @@
 #  status = 200
 
 [[redirects]]
+  from = "/en-us/citrix-virtual-apps-desktops/sitemap.xml"
+  to = "https://prod-ddc-en-us-ct-virtual-apps.netlify.app/sitemap.xml"
+  status = 200
+  
+[[redirects]]
+  from = "/en-us/citrix-virtual-apps-desktops/citrix-virtual-apps-essentials/*"
+  to = "https://prod-ddc-en-us-ct-virtual-apps.netlify.app/en-us/citrix-virtual-apps-desktops/citrix-virtual-apps-essentials/:splat"
+  status = 200
+  
+[[redirects]]
+  from = "/en-us/citrix-virtual-apps-desktops/*"
+  to = "https://prod-ddc-en-us-ct-virtual-apps.netlify.app/en-us/citrix-virtual-apps-desktops/:splat"
+  status = 200
+  
+[[redirects]]
   from = "/projects/delivery-controller-sdk/en/latest/*"
   to = "https://ddc-sdk.netlify.com/:splat"
   status = 200
@@ -1530,6 +1545,16 @@
 [[redirects]]
   from = "/en-us/citrix-daas-sdk/*"
   to = "https://prod-ddc-en-us-ct-daas-sdk.netlify.app/en-us/citrix-daas-sdk/:splat"
+  status = 200
+  
+[[redirects]]
+  from = "/en-us/secure-private-access/sitemap.xml"
+  to = "https://prod-ddc-en-us-sec-pvt-access.netlify.app/sitemap.xml"
+  status = 200
+  
+[[redirects]]
+  from = "/en-us/secure-private-access/access-security/*"
+  to = "https://prod-ddc-en-us-sec-pvt-access.netlify.app/en-us/secure-private-access/access-security/:splat"
   status = 200
   
 [[redirects]]
