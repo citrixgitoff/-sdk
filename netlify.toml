@@ -965,7 +965,17 @@
   from = "/projects/provisioning-services-powershell-object-programming-guide/en/7.12/*"
   to = "https://provisioning-services-powershell-object-programming-guide-7-12.netlify.com/:splat"
   status = 200
-
+  
+[[redirects]]
+  from = "/en-us/provisioning-mcli-programmers-guide/sitemap.xml"
+  to = "https://prod-ddc-en-us-provisioning-mcli.netlify.app/sitemap.xml"
+  status = 200
+  
+[[redirects]]
+  from = "/en-us/provisioning-mcli-programmers-guide/*"
+  to = "https://prod-ddc-en-us-provisioning-mcli.netlify.app/en-us/provisioning-mcli-programmers-guide/:splat"
+  status = 200
+  
 [[redirects]]
   from = "/projects/provisioning-services-mcli-programmers-guide/en/latest/*"
   to = "https://pvs-mcli-programmers-guide-latest.netlify.com/:splat"
