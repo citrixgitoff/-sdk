@@ -750,6 +750,11 @@
   to = "/en-us/citrix-virtual-apps-desktops-sdk/:splat"
   status = 301
   
+[[redirects]]
+  from = "/projects/citrix-virtual-apps-desktops-sdk/*"
+  to = "/en-us/citrix-virtual-apps-desktops-sdk/:splat"
+  status = 301
+  
 #[[redirects]]
 #  from = "/projects/citrix-virtual-apps-desktops-sdk/en/2303/*"
 #  to = "https://citrix-virtual-apps-desktops-sdk-2303.netlify.app/:splat"
