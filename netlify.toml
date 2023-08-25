@@ -314,6 +314,11 @@
   to = "https://adc-snmp-oid-10-5.netlify.com/:splat"
   status = 200
 
+[[redirects]]
+  from = "/citrix-networking/downloads/citrix-adm-nitro-api-getting-started-guide.pdf*"
+  to = "https://developer-docs.netscaler.com/en-us/citrix-adm-nitro-api-reference/citrix-adm-nitro-api-reference.html"
+  status = 200
+  
 # Citrix ADC Syslog Message Reference
 
 #[[redirects]]
